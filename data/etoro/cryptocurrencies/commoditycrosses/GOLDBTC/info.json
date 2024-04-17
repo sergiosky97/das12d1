@@ -1,0 +1,8 @@
+{
+    "carpeta": "GOLDBTC",
+    "siglas": "GOLDBTC",
+    "nombre": "GOLDBTC",
+    "link": "https://www.etoro.com/markets/goldbtc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100263",
+    "estado": true
+}
