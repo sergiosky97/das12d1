@@ -1,0 +1,8 @@
+{
+    "carpeta": "ANKR",
+    "siglas": "ANKR",
+    "nombre": "Ankr",
+    "link": "https://www.etoro.com/markets/ankr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100069",
+    "estado": true
+}

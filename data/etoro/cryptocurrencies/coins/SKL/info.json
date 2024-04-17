@@ -1,0 +1,8 @@
+{
+    "carpeta": "SKL",
+    "siglas": "SKL",
+    "nombre": "Skale Network",
+    "link": "https://www.etoro.com/markets/skl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100011",
+    "estado": true
+}

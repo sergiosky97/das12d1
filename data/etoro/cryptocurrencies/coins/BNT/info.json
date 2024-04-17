@@ -1,0 +1,8 @@
+{
+    "carpeta": "BNT",
+    "siglas": "BNT",
+    "nombre": "Bancor",
+    "link": "https://www.etoro.com/markets/bnt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100054",
+    "estado": true
+}

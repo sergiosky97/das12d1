@@ -1,0 +1,8 @@
+{
+    "carpeta": "REN",
+    "siglas": "REN",
+    "nombre": "REN",
+    "link": "https://www.etoro.com/markets/ren",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100071",
+    "estado": true
+}

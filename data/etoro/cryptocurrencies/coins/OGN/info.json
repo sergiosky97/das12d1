@@ -1,0 +1,8 @@
+{
+    "carpeta": "OGN",
+    "siglas": "OGN",
+    "nombre": "Origin Protocol",
+    "link": "https://www.etoro.com/markets/ogn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100055",
+    "estado": true
+}

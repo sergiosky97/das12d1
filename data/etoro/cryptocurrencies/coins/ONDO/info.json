@@ -1,0 +1,8 @@
+{
+    "carpeta": "ONDO",
+    "siglas": "ONDO",
+    "nombre": "Ondo Finance",
+    "link": "https://www.etoro.com/markets/ondo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100323",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "TRX",
+    "siglas": "TRX",
+    "nombre": "TRON",
+    "link": "https://www.etoro.com/markets/trx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100026",
+    "estado": true
+}

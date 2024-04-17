@@ -1,0 +1,8 @@
+{
+    "carpeta": "YFI",
+    "siglas": "YFI",
+    "nombre": "Yearn.finance",
+    "link": "https://www.etoro.com/markets/yfi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100042",
+    "estado": true
+}

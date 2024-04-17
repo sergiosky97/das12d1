@@ -1,0 +1,8 @@
+{
+    "carpeta": "DYDX",
+    "siglas": "DYDX",
+    "nombre": "dYdX",
+    "link": "https://www.etoro.com/markets/dydx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100062",
+    "estado": true
+}

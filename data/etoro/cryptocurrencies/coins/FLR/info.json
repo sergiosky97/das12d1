@@ -1,0 +1,8 @@
+{
+    "carpeta": "FLR",
+    "siglas": "FLR",
+    "nombre": "Flare",
+    "link": "https://www.etoro.com/markets/flr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100057",
+    "estado": true
+}

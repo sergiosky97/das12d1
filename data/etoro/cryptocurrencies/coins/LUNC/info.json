@@ -1,0 +1,8 @@
+{
+    "carpeta": "LUNC",
+    "siglas": "LUNC",
+    "nombre": "Terra Classic",
+    "link": "https://www.etoro.com/markets/lunc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/100090",
+    "estado": true
+}

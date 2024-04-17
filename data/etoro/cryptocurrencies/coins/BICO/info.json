@@ -1,0 +1,8 @@
+{
+    "carpeta": "BICO",
+    "siglas": "BICO",
+    "nombre": "Biconomy",
+    "link": "https://www.etoro.com/markets/bico",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100052",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "SEI",
+    "siglas": "SEI",
+    "nombre": "Sei",
+    "link": "https://www.etoro.com/markets/sei",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100326",
+    "estado": true
+}

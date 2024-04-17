@@ -1,0 +1,8 @@
+{
+    "carpeta": "RNDR",
+    "siglas": "RNDR",
+    "nombre": "Render Token",
+    "link": "https://www.etoro.com/markets/rndr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100334",
+    "estado": true
+}

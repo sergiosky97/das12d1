@@ -1,0 +1,8 @@
+{
+    "carpeta": "AMP",
+    "siglas": "AMP",
+    "nombre": "Amp",
+    "link": "https://www.etoro.com/markets/amp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100081",
+    "estado": true
+}

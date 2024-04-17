@@ -1,0 +1,8 @@
+{
+    "carpeta": "COMP",
+    "siglas": "COMP",
+    "nombre": "Compound",
+    "link": "https://www.etoro.com/markets/comp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100039",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "OP",
+    "siglas": "OP",
+    "nombre": "Optimism",
+    "link": "https://www.etoro.com/markets/op",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100335",
+    "estado": true
+}

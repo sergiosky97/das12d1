@@ -1,0 +1,8 @@
+{
+    "carpeta": "NEAR",
+    "siglas": "NEAR",
+    "nombre": "Near Protocol",
+    "link": "https://www.etoro.com/markets/near",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100337",
+    "estado": true
+}

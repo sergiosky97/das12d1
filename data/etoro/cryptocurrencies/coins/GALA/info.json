@@ -1,0 +1,8 @@
+{
+    "carpeta": "GALA",
+    "siglas": "GALA",
+    "nombre": "Gala V2",
+    "link": "https://www.etoro.com/markets/gala",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100058",
+    "estado": true
+}

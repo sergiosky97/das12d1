@@ -1,0 +1,8 @@
+{
+    "carpeta": "SUI",
+    "siglas": "SUI",
+    "nombre": "Sui",
+    "link": "https://www.etoro.com/markets/sui",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100340",
+    "estado": true
+}

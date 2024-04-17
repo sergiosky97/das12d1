@@ -1,0 +1,8 @@
+{
+    "carpeta": "FTT",
+    "siglas": "FTT",
+    "nombre": "FTX Token",
+    "link": "https://www.etoro.com/markets/ftt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100092",
+    "estado": true
+}

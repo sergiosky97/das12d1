@@ -1,0 +1,8 @@
+{
+    "carpeta": "BCH",
+    "siglas": "BCH",
+    "nombre": "Bitcoin Cash",
+    "link": "https://www.etoro.com/markets/bch",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100002",
+    "estado": true
+}

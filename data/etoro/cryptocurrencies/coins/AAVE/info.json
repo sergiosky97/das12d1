@@ -1,0 +1,8 @@
+{
+    "carpeta": "AAVE",
+    "siglas": "AAVE",
+    "nombre": "Aave",
+    "link": "https://www.etoro.com/markets/aave",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100044",
+    "estado": true
+}

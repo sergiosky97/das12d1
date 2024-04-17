@@ -1,0 +1,8 @@
+{
+    "carpeta": "SRM",
+    "siglas": "SRM",
+    "nombre": "Serum",
+    "link": "https://www.etoro.com/markets/srm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100093",
+    "estado": true
+}

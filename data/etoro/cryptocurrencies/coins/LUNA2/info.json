@@ -1,0 +1,8 @@
+{
+    "carpeta": "LUNA2",
+    "siglas": "LUNA2",
+    "nombre": "Terra 2.0",
+    "link": "https://www.etoro.com/markets/luna2",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100086",
+    "estado": true
+}

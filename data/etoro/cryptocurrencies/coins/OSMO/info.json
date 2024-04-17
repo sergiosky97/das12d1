@@ -1,0 +1,8 @@
+{
+    "carpeta": "OSMO",
+    "siglas": "OSMO",
+    "nombre": "Osmosis",
+    "link": "https://www.etoro.com/markets/osmo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100343",
+    "estado": true
+}

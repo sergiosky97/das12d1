@@ -1,0 +1,8 @@
+{
+    "carpeta": "TIA",
+    "siglas": "TIA",
+    "nombre": "Celestia",
+    "link": "https://www.etoro.com/markets/tia",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100338",
+    "estado": true
+}

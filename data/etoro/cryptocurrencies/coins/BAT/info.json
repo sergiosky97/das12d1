@@ -1,0 +1,8 @@
+{
+    "carpeta": "BAT",
+    "siglas": "BAT",
+    "nombre": "Basic Attention Token",
+    "link": "https://www.etoro.com/markets/bat",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100053",
+    "estado": true
+}

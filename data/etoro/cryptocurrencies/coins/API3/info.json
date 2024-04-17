@@ -1,0 +1,8 @@
+{
+    "carpeta": "API3",
+    "siglas": "API3",
+    "nombre": "API3",
+    "link": "https://www.etoro.com/markets/api3",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100008",
+    "estado": true
+}

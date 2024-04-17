@@ -1,0 +1,8 @@
+{
+    "carpeta": "CHZ",
+    "siglas": "CHZ",
+    "nombre": "Chiliz",
+    "link": "https://www.etoro.com/markets/chz",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100060",
+    "estado": true
+}

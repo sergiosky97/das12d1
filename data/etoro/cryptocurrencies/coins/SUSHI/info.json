@@ -1,0 +1,8 @@
+{
+    "carpeta": "SUSHI",
+    "siglas": "SUSHI",
+    "nombre": "SushiSwap",
+    "link": "https://www.etoro.com/markets/sushi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100076",
+    "estado": true
+}

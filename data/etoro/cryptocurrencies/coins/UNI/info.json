@@ -1,0 +1,8 @@
+{
+    "carpeta": "UNI",
+    "siglas": "UNI",
+    "nombre": "Uniswap",
+    "link": "https://www.etoro.com/markets/uni",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100041",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "MATIC",
+    "siglas": "MATIC",
+    "nombre": "Polygon",
+    "link": "https://www.etoro.com/markets/matic",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100056",
+    "estado": true
+}

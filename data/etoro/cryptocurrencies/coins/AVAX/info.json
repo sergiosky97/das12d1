@@ -1,0 +1,8 @@
+{
+    "carpeta": "AVAX",
+    "siglas": "AVAX",
+    "nombre": "Avalanche",
+    "link": "https://www.etoro.com/markets/avax",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100085",
+    "estado": true
+}

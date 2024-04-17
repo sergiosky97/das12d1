@@ -1,0 +1,8 @@
+{
+    "carpeta": "ALGO",
+    "siglas": "ALGO",
+    "nombre": "Algorand",
+    "link": "https://www.etoro.com/markets/algo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100046",
+    "estado": true
+}

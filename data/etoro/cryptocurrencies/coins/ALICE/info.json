@@ -1,0 +1,8 @@
+{
+    "carpeta": "ALICE",
+    "siglas": "ALICE",
+    "nombre": "My Neighbor Alice",
+    "link": "https://www.etoro.com/markets/alice",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100059",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "THETA",
+    "siglas": "THETA",
+    "nombre": "Theta",
+    "link": "https://www.etoro.com/markets/theta",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100064",
+    "estado": true
+}

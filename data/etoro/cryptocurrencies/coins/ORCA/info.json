@@ -1,0 +1,8 @@
+{
+    "carpeta": "ORCA",
+    "siglas": "ORCA",
+    "nombre": "Orca",
+    "link": "https://www.etoro.com/markets/orca",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100342",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "RONIN",
+    "siglas": "RONIN",
+    "nombre": "Ronin",
+    "link": "https://www.etoro.com/markets/ronin",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100321",
+    "estado": true
+}

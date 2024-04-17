@@ -1,0 +1,8 @@
+{
+    "carpeta": "LRC",
+    "siglas": "LRC",
+    "nombre": "Loopring",
+    "link": "https://www.etoro.com/markets/lrc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100050",
+    "estado": true
+}

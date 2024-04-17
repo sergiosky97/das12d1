@@ -1,0 +1,8 @@
+{
+    "carpeta": "APE",
+    "siglas": "APE",
+    "nombre": "ApeCoin",
+    "link": "https://www.etoro.com/markets/ape",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100049",
+    "estado": true
+}

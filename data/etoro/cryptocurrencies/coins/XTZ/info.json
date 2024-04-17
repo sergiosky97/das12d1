@@ -1,0 +1,8 @@
+{
+    "carpeta": "XTZ",
+    "siglas": "XTZ",
+    "nombre": "Tezos",
+    "link": "https://www.etoro.com/markets/xtz",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100032",
+    "estado": true
+}

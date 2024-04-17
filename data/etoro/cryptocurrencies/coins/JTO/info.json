@@ -1,0 +1,8 @@
+{
+    "carpeta": "JTO",
+    "siglas": "JTO",
+    "nombre": "Jito",
+    "link": "https://www.etoro.com/markets/jto",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100339",
+    "estado": true
+}

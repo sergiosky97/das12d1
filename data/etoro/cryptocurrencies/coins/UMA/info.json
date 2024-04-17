@@ -1,0 +1,8 @@
+{
+    "carpeta": "UMA",
+    "siglas": "UMA",
+    "nombre": "Universal Market Access",
+    "link": "https://www.etoro.com/markets/uma",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100090",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "LPT",
+    "siglas": "LPT",
+    "nombre": "Livepeer",
+    "link": "https://www.etoro.com/markets/lpt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100094",
+    "estado": true
+}

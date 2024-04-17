@@ -1,0 +1,8 @@
+{
+    "carpeta": "FTM",
+    "siglas": "FTM",
+    "nombre": "Fantom",
+    "link": "https://www.etoro.com/markets/ftm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100065",
+    "estado": true
+}

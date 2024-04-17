@@ -1,0 +1,8 @@
+{
+    "carpeta": "SNX",
+    "siglas": "SNX",
+    "nombre": "Synthetix",
+    "link": "https://www.etoro.com/markets/snx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100072",
+    "estado": true
+}

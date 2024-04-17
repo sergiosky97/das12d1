@@ -1,0 +1,8 @@
+{
+    "carpeta": "GRT",
+    "siglas": "GRT",
+    "nombre": "The Graph",
+    "link": "https://www.etoro.com/markets/grt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100066",
+    "estado": true
+}

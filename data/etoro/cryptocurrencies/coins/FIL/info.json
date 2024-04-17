@@ -1,0 +1,8 @@
+{
+    "carpeta": "FIL",
+    "siglas": "FIL",
+    "nombre": "Filecoin",
+    "link": "https://www.etoro.com/markets/fil",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100045",
+    "estado": true
+}

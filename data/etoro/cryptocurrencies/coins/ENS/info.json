@@ -1,0 +1,8 @@
+{
+    "carpeta": "ENS",
+    "siglas": "ENS",
+    "nombre": "Ethereum Name Service",
+    "link": "https://www.etoro.com/markets/ens",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100089",
+    "estado": true
+}

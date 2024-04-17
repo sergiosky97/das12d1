@@ -1,0 +1,8 @@
+{
+    "carpeta": "HBAR",
+    "siglas": "HBAR",
+    "nombre": "Hedera Hashgraph",
+    "link": "https://www.etoro.com/markets/hbar",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100061",
+    "estado": true
+}

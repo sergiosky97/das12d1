@@ -1,0 +1,8 @@
+{
+    "carpeta": "ETC",
+    "siglas": "ETC",
+    "nombre": "Ethereum Classic",
+    "link": "https://www.etoro.com/markets/etc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/100005",
+    "estado": true
+}

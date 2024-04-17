@@ -1,0 +1,8 @@
+{
+    "carpeta": "NEO",
+    "siglas": "NEO",
+    "nombre": "NEO",
+    "link": "https://www.etoro.com/markets/neo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100023",
+    "estado": true
+}

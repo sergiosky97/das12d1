@@ -1,0 +1,8 @@
+{
+    "carpeta": "ZEC",
+    "siglas": "ZEC",
+    "nombre": "ZCASH",
+    "link": "https://www.etoro.com/markets/zec",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100028",
+    "estado": true
+}

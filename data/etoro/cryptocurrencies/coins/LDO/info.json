@@ -1,0 +1,8 @@
+{
+    "carpeta": "LDO",
+    "siglas": "LDO",
+    "nombre": "Lido DAO",
+    "link": "https://www.etoro.com/markets/ldo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100336",
+    "estado": true
+}

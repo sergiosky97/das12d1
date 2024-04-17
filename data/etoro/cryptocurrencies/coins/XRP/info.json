@@ -1,0 +1,8 @@
+{
+    "carpeta": "XRP",
+    "siglas": "XRP",
+    "nombre": "XRP",
+    "link": "https://www.etoro.com/markets/xrp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100003",
+    "estado": true
+}

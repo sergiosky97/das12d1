@@ -1,0 +1,8 @@
+{
+    "carpeta": "SGB",
+    "siglas": "SGB",
+    "nombre": "Songbird",
+    "link": "https://www.etoro.com/markets/sgb",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100083",
+    "estado": true
+}

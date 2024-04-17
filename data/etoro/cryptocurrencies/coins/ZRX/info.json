@@ -1,0 +1,8 @@
+{
+    "carpeta": "ZRX",
+    "siglas": "ZRX",
+    "nombre": "0x",
+    "link": "https://www.etoro.com/markets/zrx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100074",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "ENJ",
+    "siglas": "ENJ",
+    "nombre": "Enjin",
+    "link": "https://www.etoro.com/markets/enj",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100051",
+    "estado": true
+}
