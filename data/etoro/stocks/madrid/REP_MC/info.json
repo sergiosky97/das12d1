@@ -1,0 +1,8 @@
+{
+    "carpeta": "REP_MC",
+    "siglas": "REP.MC",
+    "nombre": "Repsol",
+    "link": "https://www.etoro.com/markets/rep.mc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1339",
+    "estado": true
+}

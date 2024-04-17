@@ -1,0 +1,8 @@
+{
+    "carpeta": "ELE_MC",
+    "siglas": "ELE.MC",
+    "nombre": "Endesa",
+    "link": "https://www.etoro.com/markets/ele.mc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1322",
+    "estado": true
+}

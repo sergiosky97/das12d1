@@ -1,0 +1,8 @@
+{
+    "carpeta": "AAL_L",
+    "siglas": "AAL.L",
+    "nombre": "Anglo American",
+    "link": "https://www.etoro.com/markets/aal.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2000",
+    "estado": true
+}

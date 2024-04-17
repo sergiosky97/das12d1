@@ -1,0 +1,8 @@
+{
+    "carpeta": "ITRK_L",
+    "siglas": "ITRK.L",
+    "nombre": "Intertek Group",
+    "link": "https://www.etoro.com/markets/itrk.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2044",
+    "estado": true
+}

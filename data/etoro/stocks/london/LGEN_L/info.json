@@ -1,0 +1,8 @@
+{
+    "carpeta": "LGEN_L",
+    "siglas": "LGEN.L",
+    "nombre": "Legal & General",
+    "link": "https://www.etoro.com/markets/lgen.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2049",
+    "estado": true
+}

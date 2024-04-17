@@ -1,0 +1,8 @@
+{
+    "carpeta": "BHP_L",
+    "siglas": "BHP.L",
+    "nombre": "BHP Group Ltd",
+    "link": "https://www.etoro.com/markets/bhp.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2017",
+    "estado": true
+}

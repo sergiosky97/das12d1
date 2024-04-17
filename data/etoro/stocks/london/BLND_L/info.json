@@ -1,0 +1,8 @@
+{
+    "carpeta": "BLND_L",
+    "siglas": "BLND.L",
+    "nombre": "British Land",
+    "link": "https://www.etoro.com/markets/blnd.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2016",
+    "estado": true
+}

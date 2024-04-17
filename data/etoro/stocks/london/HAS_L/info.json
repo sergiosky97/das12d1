@@ -1,0 +1,8 @@
+{
+    "carpeta": "HAS_L",
+    "siglas": "HAS.L",
+    "nombre": "Hays PLC",
+    "link": "https://www.etoro.com/markets/has.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2619",
+    "estado": true
+}

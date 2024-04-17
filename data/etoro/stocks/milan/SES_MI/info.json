@@ -1,0 +1,8 @@
+{
+    "carpeta": "SES_MI",
+    "siglas": "SES.MI",
+    "nombre": "SeSa S.p.A",
+    "link": "https://www.etoro.com/markets/ses.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3544",
+    "estado": true
+}

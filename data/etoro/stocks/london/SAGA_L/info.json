@@ -1,0 +1,8 @@
+{
+    "carpeta": "SAGA_L",
+    "siglas": "SAGA.L",
+    "nombre": "Saga PLC",
+    "link": "https://www.etoro.com/markets/saga.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2781",
+    "estado": true
+}

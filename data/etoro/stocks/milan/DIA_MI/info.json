@@ -1,0 +1,8 @@
+{
+    "carpeta": "DIA_MI",
+    "siglas": "DIA.MI",
+    "nombre": "Diasorin",
+    "link": "https://www.etoro.com/markets/dia.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4222",
+    "estado": true
+}

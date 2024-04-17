@@ -1,0 +1,8 @@
+{
+    "carpeta": "FUTR_L",
+    "siglas": "FUTR.L",
+    "nombre": "plc",
+    "link": "https://www.etoro.com/markets/futr.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2119",
+    "estado": true
+}

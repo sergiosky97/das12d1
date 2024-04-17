@@ -1,0 +1,8 @@
+{
+    "carpeta": "SBER_MOEX",
+    "siglas": "SBER.MOEX",
+    "nombre": "Sberbank Moscow",
+    "link": "https://www.etoro.com/markets/sber.moex",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8620",
+    "estado": true
+}

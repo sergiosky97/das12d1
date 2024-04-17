@@ -1,0 +1,8 @@
+{
+    "carpeta": "BRE_MI",
+    "siglas": "BRE.MI",
+    "nombre": "Brembo",
+    "link": "https://www.etoro.com/markets/bre.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4221",
+    "estado": true
+}

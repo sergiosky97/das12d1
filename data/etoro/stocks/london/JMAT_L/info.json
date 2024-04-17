@@ -1,0 +1,8 @@
+{
+    "carpeta": "JMAT_L",
+    "siglas": "JMAT.L",
+    "nombre": "Johnson Matthey",
+    "link": "https://www.etoro.com/markets/jmat.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2046",
+    "estado": true
+}

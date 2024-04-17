@@ -1,0 +1,8 @@
+{
+    "carpeta": "A_MC",
+    "siglas": "A.MC",
+    "nombre": "OHL",
+    "link": "https://www.etoro.com/markets/ohla.mc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1336",
+    "estado": true
+}

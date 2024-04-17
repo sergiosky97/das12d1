@@ -1,0 +1,8 @@
+{
+    "carpeta": "LMP_L",
+    "siglas": "LMP.L",
+    "nombre": "LondonMetric Property PLC",
+    "link": "https://www.etoro.com/markets/lmp.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2665",
+    "estado": true
+}

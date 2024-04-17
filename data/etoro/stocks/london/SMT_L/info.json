@@ -1,0 +1,8 @@
+{
+    "carpeta": "SMT_L",
+    "siglas": "SMT.L",
+    "nombre": "Scottish Mortgage Investment Trust",
+    "link": "https://www.etoro.com/markets/smt.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2161",
+    "estado": true
+}

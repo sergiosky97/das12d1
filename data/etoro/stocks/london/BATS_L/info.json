@@ -1,0 +1,8 @@
+{
+    "carpeta": "BATS_L",
+    "siglas": "BATS.L",
+    "nombre": "British American Tobacco",
+    "link": "https://www.etoro.com/markets/bats.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2014",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "TRN_MI",
+    "siglas": "TRN.MI",
+    "nombre": "Terna SPA",
+    "link": "https://www.etoro.com/markets/trn.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1305",
+    "estado": true
+}

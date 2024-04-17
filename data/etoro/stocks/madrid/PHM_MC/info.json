@@ -1,0 +1,8 @@
+{
+    "carpeta": "PHM_MC",
+    "siglas": "PHM.MC",
+    "nombre": "Pharma Mar SA",
+    "link": "https://www.etoro.com/markets/phm.mc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5533",
+    "estado": true
+}

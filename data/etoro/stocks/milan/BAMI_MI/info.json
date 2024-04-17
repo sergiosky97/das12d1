@@ -1,0 +1,8 @@
+{
+    "carpeta": "BAMI_MI",
+    "siglas": "BAMI.MI",
+    "nombre": "Banco Bpm",
+    "link": "https://www.etoro.com/markets/bami.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4220",
+    "estado": true
+}

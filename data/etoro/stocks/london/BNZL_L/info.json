@@ -1,0 +1,8 @@
+{
+    "carpeta": "BNZL_L",
+    "siglas": "BNZL.L",
+    "nombre": "Bunzl",
+    "link": "https://www.etoro.com/markets/bnzl.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2018",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "GNS_L",
+    "siglas": "GNS.L",
+    "nombre": "Genus PLC",
+    "link": "https://www.etoro.com/markets/gns.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2803",
+    "estado": true
+}
