@@ -1,0 +1,8 @@
+{
+    "carpeta": "WHEAT",
+    "siglas": "WHEAT",
+    "nombre": "Wheat",
+    "link": "https://www.etoro.com/markets/wheat",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/97",
+    "estado": true
+}

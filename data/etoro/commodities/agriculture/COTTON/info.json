@@ -1,0 +1,8 @@
+{
+    "carpeta": "COTTON",
+    "siglas": "COTTON",
+    "nombre": "Cotton",
+    "link": "https://www.etoro.com/markets/cotton",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/93",
+    "estado": true
+}

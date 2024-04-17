@@ -1,0 +1,8 @@
+{
+    "carpeta": "OrangeJuice",
+    "siglas": "OrangeJuice",
+    "nombre": "Orange Juice",
+    "link": "https://www.etoro.com/markets/orangejuice",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/311",
+    "estado": true
+}

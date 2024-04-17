@@ -1,0 +1,8 @@
+{
+    "carpeta": "PLATINUM",
+    "siglas": "PLATINUM",
+    "nombre": "Platinum",
+    "link": "https://www.etoro.com/markets/platinum",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/40",
+    "estado": true
+}

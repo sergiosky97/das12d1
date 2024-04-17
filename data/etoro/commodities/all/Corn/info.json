@@ -1,0 +1,8 @@
+{
+    "carpeta": "Corn",
+    "siglas": "Corn",
+    "nombre": "Corn",
+    "link": "https://www.etoro.com/markets/corn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/331",
+    "estado": true
+}

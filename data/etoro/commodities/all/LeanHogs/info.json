@@ -1,0 +1,8 @@
+{
+    "carpeta": "LeanHogs",
+    "siglas": "LeanHogs",
+    "nombre": "Lean Hogs",
+    "link": "https://www.etoro.com/markets/leanhogs",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/338",
+    "estado": true
+}

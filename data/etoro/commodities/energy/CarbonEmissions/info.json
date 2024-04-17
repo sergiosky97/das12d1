@@ -1,0 +1,8 @@
+{
+    "carpeta": "CarbonEmissions",
+    "siglas": "CarbonEmissions",
+    "nombre": "Carbon Emissions",
+    "link": "https://www.etoro.com/markets/carbonemissions",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/333",
+    "estado": true
+}

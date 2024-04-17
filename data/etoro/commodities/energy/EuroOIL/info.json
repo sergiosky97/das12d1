@@ -1,0 +1,8 @@
+{
+    "carpeta": "EuroOIL",
+    "siglas": "EuroOIL",
+    "nombre": "Brent Oil",
+    "link": "https://www.etoro.com/markets/eurooil",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/341",
+    "estado": true
+}

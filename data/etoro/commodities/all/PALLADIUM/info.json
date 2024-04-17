@@ -1,0 +1,8 @@
+{
+    "carpeta": "PALLADIUM",
+    "siglas": "PALLADIUM",
+    "nombre": "Palladium",
+    "link": "https://www.etoro.com/markets/palladium",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/91",
+    "estado": true
+}

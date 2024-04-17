@@ -1,0 +1,8 @@
+{
+    "carpeta": "Gasoline",
+    "siglas": "Gasoline",
+    "nombre": "Gasoline",
+    "link": "https://www.etoro.com/markets/gasoline",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/335",
+    "estado": true
+}

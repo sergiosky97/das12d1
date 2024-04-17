@@ -1,0 +1,8 @@
+{
+    "carpeta": "RICE",
+    "siglas": "RICE",
+    "nombre": "Rough Rice",
+    "link": "https://www.etoro.com/markets/rice",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/325",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "SoyOil",
+    "siglas": "SoyOil",
+    "nombre": "Soybeans Oil",
+    "link": "https://www.etoro.com/markets/soyoil",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/317",
+    "estado": true
+}

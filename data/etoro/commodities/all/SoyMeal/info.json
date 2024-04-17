@@ -1,0 +1,8 @@
+{
+    "carpeta": "SoyMeal",
+    "siglas": "SoyMeal",
+    "nombre": "Soybeans Meal",
+    "link": "https://www.etoro.com/markets/soymeal",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/318",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "OATS",
+    "siglas": "OATS",
+    "nombre": "Oats",
+    "link": "https://www.etoro.com/markets/oats",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/324",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "HeatingOil",
+    "siglas": "HeatingOil",
+    "nombre": "Heating Oil",
+    "link": "https://www.etoro.com/markets/heatingoil",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/336",
+    "estado": true
+}
