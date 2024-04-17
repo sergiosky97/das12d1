@@ -3,6 +3,6 @@
     "siglas": "HDV",
     "nombre": "iShares Core High Dividend ETF",
     "link": "https://www.etoro.com/markets/hdv",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/3213",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3146",
     "estado": true
 }

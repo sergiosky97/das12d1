@@ -3,6 +3,6 @@
     "siglas": "EOS",
     "nombre": "EOS",
     "link": "https://www.etoro.com/markets/eos",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100022",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/100021",
     "estado": true
 }

@@ -3,6 +3,6 @@
     "siglas": "IMX",
     "nombre": "Immutable X",
     "link": "https://www.etoro.com/markets/imx",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100016",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/100011",
     "estado": true
 }

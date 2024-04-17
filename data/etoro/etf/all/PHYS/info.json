@@ -3,6 +3,6 @@
     "siglas": "PHYS",
     "nombre": "Sprott Physical Gold Trust",
     "link": "https://www.etoro.com/markets/phys",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/3142",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3210",
     "estado": true
 }

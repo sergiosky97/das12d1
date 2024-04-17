@@ -3,6 +3,6 @@
     "siglas": "TIP",
     "nombre": "iShares TIPS Bond ETF",
     "link": "https://www.etoro.com/markets/tip",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/3176",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4311",
     "estado": true
 }

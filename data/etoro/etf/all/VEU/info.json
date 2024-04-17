@@ -3,6 +3,6 @@
     "siglas": "VEU",
     "nombre": "Vanguard FTSE All-World ex-US",
     "link": "https://www.etoro.com/markets/veu",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/3004",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4298",
     "estado": true
 }

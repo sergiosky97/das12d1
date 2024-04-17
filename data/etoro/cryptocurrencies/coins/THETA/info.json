@@ -3,6 +3,6 @@
     "siglas": "THETA",
     "nombre": "Theta",
     "link": "https://www.etoro.com/markets/theta",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100064",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/100063",
     "estado": true
 }

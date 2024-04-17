@@ -3,6 +3,6 @@
     "siglas": "WEAT",
     "nombre": "Teucrium Wheat Fund",
     "link": "https://www.etoro.com/markets/weat",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/3007",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3104",
     "estado": true
 }

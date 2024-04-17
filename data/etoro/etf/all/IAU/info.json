@@ -3,6 +3,6 @@
     "siglas": "IAU",
     "nombre": "iShares Gold Trust",
     "link": "https://www.etoro.com/markets/iau",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/4258",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4365",
     "estado": true
 }

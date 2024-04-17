@@ -3,6 +3,6 @@
     "siglas": "EURILS",
     "nombre": "EUR/ILS",
     "link": "https://www.etoro.com/markets/eurils",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/82",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/425",
     "estado": true
 }

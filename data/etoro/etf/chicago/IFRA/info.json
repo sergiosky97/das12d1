@@ -3,6 +3,6 @@
     "siglas": "IFRA",
     "nombre": "iShares U.S. Infrastructure ETF",
     "link": "https://www.etoro.com/markets/ifra",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/1434",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1435",
     "estado": true
 }

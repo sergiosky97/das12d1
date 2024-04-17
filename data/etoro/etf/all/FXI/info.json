@@ -3,6 +3,6 @@
     "siglas": "FXI",
     "nombre": "iShares China Large-Cap ETF",
     "link": "https://www.etoro.com/markets/fxi",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/3005",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3010",
     "estado": true
 }

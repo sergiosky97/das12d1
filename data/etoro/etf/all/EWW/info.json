@@ -3,6 +3,6 @@
     "siglas": "EWW",
     "nombre": "iShares MSCI Mexico ETF",
     "link": "https://www.etoro.com/markets/eww",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/4446",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3121",
     "estado": true
 }

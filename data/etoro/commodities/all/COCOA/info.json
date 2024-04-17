@@ -3,6 +3,6 @@
     "siglas": "COCOA",
     "nombre": "Cocoa",
     "link": "https://www.etoro.com/markets/cocoa",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/21",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/96",
     "estado": true
 }

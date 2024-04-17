@@ -3,6 +3,6 @@
     "siglas": "STORJ",
     "nombre": "Storj",
     "link": "https://www.etoro.com/markets/storj",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/100072",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100073",
     "estado": true
 }

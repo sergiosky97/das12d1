@@ -3,6 +3,6 @@
     "siglas": "Nickel",
     "nombre": "Nickel",
     "link": "https://www.etoro.com/markets/nickel",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/21",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/343",
     "estado": true
 }

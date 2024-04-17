@@ -3,6 +3,6 @@
     "siglas": "XLP",
     "nombre": "Consumer Staples Select Sector SPDR",
     "link": "https://www.etoro.com/markets/xlp",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/3014",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3022",
     "estado": true
 }

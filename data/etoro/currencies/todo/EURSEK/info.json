@@ -3,6 +3,6 @@
     "siglas": "EURSEK",
     "nombre": "EUR/SEK",
     "link": "https://www.etoro.com/markets/eursek",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/66",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/61",
     "estado": true
 }

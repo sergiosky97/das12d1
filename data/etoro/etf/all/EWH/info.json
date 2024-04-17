@@ -3,6 +3,6 @@
     "siglas": "EWH",
     "nombre": "iShares MSCI Hong Kong ETF",
     "link": "https://www.etoro.com/markets/ewh",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/3144",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4441",
     "estado": true
 }

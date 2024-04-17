@@ -3,6 +3,6 @@
     "siglas": "XOP",
     "nombre": "SPDR S&P Oil & Gas Exploration & Prod",
     "link": "https://www.etoro.com/markets/xop",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/3012",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3016",
     "estado": true
 }

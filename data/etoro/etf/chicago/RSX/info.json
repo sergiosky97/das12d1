@@ -3,6 +3,6 @@
     "siglas": "RSX",
     "nombre": "VanEck Vectors Russia ETF",
     "link": "https://www.etoro.com/markets/rsx",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/6960",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3011",
     "estado": true
 }

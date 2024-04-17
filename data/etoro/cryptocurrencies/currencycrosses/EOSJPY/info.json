@@ -3,6 +3,6 @@
     "siglas": "EOSJPY",
     "nombre": "EOS / Japanese Yen",
     "link": "https://www.etoro.com/markets/eosjpy",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/100122",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100123",
     "estado": true
 }

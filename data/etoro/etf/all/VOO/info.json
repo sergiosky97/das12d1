@@ -3,6 +3,6 @@
     "siglas": "VOO",
     "nombre": "Vanguard S&P 500 ETF",
     "link": "https://www.etoro.com/markets/voo",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/3000",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4238",
     "estado": true
 }

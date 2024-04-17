@@ -3,6 +3,6 @@
     "siglas": "USDCHF",
     "nombre": "USD/CHF",
     "link": "https://www.etoro.com/markets/usdchf",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/1",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6",
     "estado": true
 }

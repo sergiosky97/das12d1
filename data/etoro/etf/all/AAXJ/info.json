@@ -3,6 +3,6 @@
     "siglas": "AAXJ",
     "nombre": "iShares MSCI All Country Asia ex Japan ETF",
     "link": "https://www.etoro.com/markets/aaxj",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/3102",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4433",
     "estado": true
 }

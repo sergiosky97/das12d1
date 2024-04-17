@@ -3,6 +3,6 @@
     "siglas": "IBTF",
     "nombre": "iShares iBonds Dec 2025 Term Treasury ETF",
     "link": "https://www.etoro.com/markets/ibtf",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/6365",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3358",
     "estado": true
 }

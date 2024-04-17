@@ -3,6 +3,6 @@
     "siglas": "CHFJPY",
     "nombre": "CHF/JPY",
     "link": "https://www.etoro.com/markets/chfjpy",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/49",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/16",
     "estado": true
 }

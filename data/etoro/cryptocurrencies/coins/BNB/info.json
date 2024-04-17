@@ -3,6 +3,6 @@
     "siglas": "BNB",
     "nombre": "Build and Build",
     "link": "https://www.etoro.com/markets/bnb",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/100028",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100030",
     "estado": true
 }
