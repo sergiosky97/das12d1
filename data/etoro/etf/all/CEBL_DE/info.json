@@ -1,0 +1,8 @@
+{
+    "carpeta": "CEBL_DE",
+    "siglas": "CEBL.DE",
+    "nombre": "iShares MSCI EM Asia UCITS ETF",
+    "link": "https://www.etoro.com/markets/cebl.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3960",
+    "estado": true
+}

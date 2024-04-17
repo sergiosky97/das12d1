@@ -1,0 +1,8 @@
+{
+    "carpeta": "XBI",
+    "siglas": "XBI",
+    "nombre": "SPDR S&P Biotech ETF",
+    "link": "https://www.etoro.com/markets/xbi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4431",
+    "estado": true
+}

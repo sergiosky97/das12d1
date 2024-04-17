@@ -1,0 +1,8 @@
+{
+    "carpeta": "INDUEX_DE",
+    "siglas": "INDUEX.DE",
+    "nombre": "iShares Dow Jones Industrial Average UCITS ETF",
+    "link": "https://www.etoro.com/markets/induex.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2926",
+    "estado": true
+}

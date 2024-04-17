@@ -1,0 +1,8 @@
+{
+    "carpeta": "GC40_DE",
+    "siglas": "GC40.DE",
+    "nombre": "Amundi CAC 40",
+    "link": "https://www.etoro.com/markets/gc40.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2919",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "SHV",
+    "siglas": "SHV",
+    "nombre": "iShares Short Treasury Bond ETF",
+    "link": "https://www.etoro.com/markets/shv",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4321",
+    "estado": true
+}

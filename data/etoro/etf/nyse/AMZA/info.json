@@ -1,0 +1,8 @@
+{
+    "carpeta": "AMZA",
+    "siglas": "AMZA",
+    "nombre": "InfraCap MLP ETF",
+    "link": "https://www.etoro.com/markets/amza",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3164",
+    "estado": true
+}

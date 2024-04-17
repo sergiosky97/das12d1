@@ -1,0 +1,8 @@
+{
+    "carpeta": "MDY",
+    "siglas": "MDY",
+    "nombre": "SPDR S&P Midcap 400",
+    "link": "https://www.etoro.com/markets/mdy",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3029",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "SQQQ",
+    "siglas": "SQQQ",
+    "nombre": "ProShares UltraPro Short QQQ",
+    "link": "https://www.etoro.com/markets/sqqq",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4459",
+    "estado": true
+}

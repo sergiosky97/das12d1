@@ -1,0 +1,8 @@
+{
+    "carpeta": "EFV",
+    "siglas": "EFV",
+    "nombre": "iShares MSCI EAFE Value ETF",
+    "link": "https://www.etoro.com/markets/efv",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1085",
+    "estado": true
+}

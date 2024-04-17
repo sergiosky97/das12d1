@@ -1,0 +1,8 @@
+{
+    "carpeta": "GOVT",
+    "siglas": "GOVT",
+    "nombre": "iShares US Treasury Bond ETF",
+    "link": "https://www.etoro.com/markets/govt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6960",
+    "estado": true
+}

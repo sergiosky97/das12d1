@@ -1,0 +1,8 @@
+{
+    "carpeta": "EWA",
+    "siglas": "EWA",
+    "nombre": "Ishares MSCI Australia ETF",
+    "link": "https://www.etoro.com/markets/ewa",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1427",
+    "estado": true
+}

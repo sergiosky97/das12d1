@@ -1,0 +1,8 @@
+{
+    "carpeta": "UDOW",
+    "siglas": "UDOW",
+    "nombre": "ProShares UltraPro Dow30",
+    "link": "https://www.etoro.com/markets/udow",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3243",
+    "estado": true
+}

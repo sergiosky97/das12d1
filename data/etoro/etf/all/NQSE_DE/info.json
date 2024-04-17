@@ -1,0 +1,8 @@
+{
+    "carpeta": "NQSE_DE",
+    "siglas": "NQSE.DE",
+    "nombre": "iShares NASDAQ 100 UCITS ETF EUR Hedged",
+    "link": "https://www.etoro.com/markets/nqse.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/1096",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "EWI",
+    "siglas": "EWI",
+    "nombre": "IShares MSCI Italy ETF",
+    "link": "https://www.etoro.com/markets/ewi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3416",
+    "estado": true
+}

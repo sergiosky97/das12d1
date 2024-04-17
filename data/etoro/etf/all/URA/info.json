@@ -1,0 +1,8 @@
+{
+    "carpeta": "URA",
+    "siglas": "URA",
+    "nombre": "Global X Uranium ETF",
+    "link": "https://www.etoro.com/markets/ura",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8748",
+    "estado": true
+}

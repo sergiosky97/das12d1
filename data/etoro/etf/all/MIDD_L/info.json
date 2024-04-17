@@ -1,0 +1,8 @@
+{
+    "carpeta": "MIDD_L",
+    "siglas": "MIDD.L",
+    "nombre": "iShares FTSE 250 UCITS ETF",
+    "link": "https://www.etoro.com/markets/midd.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6466",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "XLY",
+    "siglas": "XLY",
+    "nombre": "Consumer Discret Select Sector SPDR",
+    "link": "https://www.etoro.com/markets/xly",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3024",
+    "estado": true
+}

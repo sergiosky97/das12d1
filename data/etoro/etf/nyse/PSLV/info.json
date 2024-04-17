@@ -1,0 +1,8 @@
+{
+    "carpeta": "PSLV",
+    "siglas": "PSLV",
+    "nombre": "Sprott Physical Silver Trust",
+    "link": "https://www.etoro.com/markets/pslv",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3213",
+    "estado": true
+}

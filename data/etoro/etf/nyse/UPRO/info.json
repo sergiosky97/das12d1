@@ -1,0 +1,8 @@
+{
+    "carpeta": "UPRO",
+    "siglas": "UPRO",
+    "nombre": "ProShares UltraPro S&P 500",
+    "link": "https://www.etoro.com/markets/upro",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3244",
+    "estado": true
+}

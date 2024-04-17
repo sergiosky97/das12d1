@@ -1,0 +1,8 @@
+{
+    "carpeta": "SCHD",
+    "siglas": "SCHD",
+    "nombre": "Schwab US Dividend Equity ETF",
+    "link": "https://www.etoro.com/markets/schd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3217",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "EWU",
+    "siglas": "EWU",
+    "nombre": "iShares MSCI United Kingdom ETF",
+    "link": "https://www.etoro.com/markets/ewu",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1426",
+    "estado": true
+}

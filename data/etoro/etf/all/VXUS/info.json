@@ -1,0 +1,8 @@
+{
+    "carpeta": "VXUS",
+    "siglas": "VXUS",
+    "nombre": "Vanguard Total International Stock ETF",
+    "link": "https://www.etoro.com/markets/vxus",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6368",
+    "estado": true
+}

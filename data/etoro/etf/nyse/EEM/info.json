@@ -1,0 +1,8 @@
+{
+    "carpeta": "EEM",
+    "siglas": "EEM",
+    "nombre": "iShares MSCI Emerging Markets ETF",
+    "link": "https://www.etoro.com/markets/eem",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3001",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "IWO",
+    "siglas": "IWO",
+    "nombre": "iShares Russell 2000 Growth ETF",
+    "link": "https://www.etoro.com/markets/iwo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4394",
+    "estado": true
+}

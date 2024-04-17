@@ -1,0 +1,8 @@
+{
+    "carpeta": "DBO",
+    "siglas": "DBO",
+    "nombre": "Invesco DB Oil Fund",
+    "link": "https://www.etoro.com/markets/dbo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3174",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "VT_US",
+    "siglas": "VT.US",
+    "nombre": "Vanguard Total World Stock ETF",
+    "link": "https://www.etoro.com/markets/vt.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3257",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "XLE",
+    "siglas": "XLE",
+    "nombre": "Energy Select Sector SPDR",
+    "link": "https://www.etoro.com/markets/xle",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/4237",
+    "estado": true
+}

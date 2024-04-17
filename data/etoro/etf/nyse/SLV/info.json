@@ -1,0 +1,8 @@
+{
+    "carpeta": "SLV",
+    "siglas": "SLV",
+    "nombre": "iShares Silver Trust",
+    "link": "https://www.etoro.com/markets/slv",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4430",
+    "estado": true
+}

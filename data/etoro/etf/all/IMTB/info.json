@@ -1,0 +1,8 @@
+{
+    "carpeta": "IMTB",
+    "siglas": "IMTB",
+    "nombre": "iShares Core 5-10 Year USD Bond ETF",
+    "link": "https://www.etoro.com/markets/imtb",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3162",
+    "estado": true
+}

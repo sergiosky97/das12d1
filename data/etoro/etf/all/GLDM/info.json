@@ -1,0 +1,8 @@
+{
+    "carpeta": "GLDM",
+    "siglas": "GLDM",
+    "nombre": "SPDR Gold MiniShares Trust",
+    "link": "https://www.etoro.com/markets/gldm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3190",
+    "estado": true
+}

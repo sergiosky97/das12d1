@@ -1,0 +1,8 @@
+{
+    "carpeta": "UNG",
+    "siglas": "UNG",
+    "nombre": "US Natural Gas",
+    "link": "https://www.etoro.com/markets/ung",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3018",
+    "estado": true
+}

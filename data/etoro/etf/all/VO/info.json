@@ -1,0 +1,8 @@
+{
+    "carpeta": "VO",
+    "siglas": "VO",
+    "nombre": "Vanguard Mid-Cap ETF",
+    "link": "https://www.etoro.com/markets/vo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3253",
+    "estado": true
+}

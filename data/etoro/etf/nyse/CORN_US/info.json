@@ -1,0 +1,8 @@
+{
+    "carpeta": "CORN_US",
+    "siglas": "CORN.US",
+    "nombre": "Teucrium Corn Fund",
+    "link": "https://www.etoro.com/markets/corn.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3103",
+    "estado": true
+}

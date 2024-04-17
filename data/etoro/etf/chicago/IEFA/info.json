@@ -1,0 +1,8 @@
+{
+    "carpeta": "IEFA",
+    "siglas": "IEFA",
+    "nombre": "iShares Core MSCI EAFE ETF",
+    "link": "https://www.etoro.com/markets/iefa",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3139",
+    "estado": true
+}

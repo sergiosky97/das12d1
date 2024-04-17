@@ -1,0 +1,8 @@
+{
+    "carpeta": "ESGU",
+    "siglas": "ESGU",
+    "nombre": "iShares ESG Aware MSCI USA ETF",
+    "link": "https://www.etoro.com/markets/esgu",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1079",
+    "estado": true
+}

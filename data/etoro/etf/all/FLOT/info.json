@@ -1,0 +1,8 @@
+{
+    "carpeta": "FLOT",
+    "siglas": "FLOT",
+    "nombre": "iShares Floating Rate Bond ETF",
+    "link": "https://www.etoro.com/markets/flot",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1098",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "UCO",
+    "siglas": "UCO",
+    "nombre": "ProShares Ultra Bloomberg Crude Oil",
+    "link": "https://www.etoro.com/markets/uco",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3242",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "EWT",
+    "siglas": "EWT",
+    "nombre": "iShares MSCI Taiwan ETF",
+    "link": "https://www.etoro.com/markets/ewt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3122",
+    "estado": true
+}

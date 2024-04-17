@@ -1,0 +1,8 @@
+{
+    "carpeta": "IUSB",
+    "siglas": "IUSB",
+    "nombre": "iShares Core Total USD Bond Market ETF",
+    "link": "https://www.etoro.com/markets/iusb",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3151",
+    "estado": true
+}

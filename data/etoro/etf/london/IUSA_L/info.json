@@ -1,0 +1,8 @@
+{
+    "carpeta": "IUSA_L",
+    "siglas": "IUSA.L",
+    "nombre": "iShares S&P 500 UCITS ETF (Dist)",
+    "link": "https://www.etoro.com/markets/iusa.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3075",
+    "estado": true
+}

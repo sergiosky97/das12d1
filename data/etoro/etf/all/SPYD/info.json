@@ -1,0 +1,8 @@
+{
+    "carpeta": "SPYD",
+    "siglas": "SPYD",
+    "nombre": "SPDR Portfolio S&P 500 High Dividend ETF",
+    "link": "https://www.etoro.com/markets/spyd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3233",
+    "estado": true
+}

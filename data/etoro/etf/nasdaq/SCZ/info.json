@@ -1,0 +1,8 @@
+{
+    "carpeta": "SCZ",
+    "siglas": "SCZ",
+    "nombre": "iShares MSCI EAFE Small-Cap ETF",
+    "link": "https://www.etoro.com/markets/scz",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1094",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "FAS",
+    "siglas": "FAS",
+    "nombre": "Direxion Daily Financial Bull 3X Shares",
+    "link": "https://www.etoro.com/markets/fas",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3183",
+    "estado": true
+}

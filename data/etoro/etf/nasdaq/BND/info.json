@@ -1,0 +1,8 @@
+{
+    "carpeta": "BND",
+    "siglas": "BND",
+    "nombre": "Vanguard Total Bond Market ETF",
+    "link": "https://www.etoro.com/markets/bnd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4271",
+    "estado": true
+}

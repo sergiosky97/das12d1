@@ -1,0 +1,8 @@
+{
+    "carpeta": "IUSV",
+    "siglas": "IUSV",
+    "nombre": "iShares Core S&P US Value",
+    "link": "https://www.etoro.com/markets/iusv",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3148",
+    "estado": true
+}

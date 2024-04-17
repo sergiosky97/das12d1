@@ -1,0 +1,8 @@
+{
+    "carpeta": "EWJ",
+    "siglas": "EWJ",
+    "nombre": "Ishares MSCI JAPAN ETF",
+    "link": "https://www.etoro.com/markets/ewj",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3003",
+    "estado": true
+}

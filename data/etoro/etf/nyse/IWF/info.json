@@ -1,0 +1,8 @@
+{
+    "carpeta": "IWF",
+    "siglas": "IWF",
+    "nombre": "iShares Russell 1000 Growth ETF",
+    "link": "https://www.etoro.com/markets/iwf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4262",
+    "estado": true
+}

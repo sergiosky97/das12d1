@@ -1,0 +1,8 @@
+{
+    "carpeta": "SPYG",
+    "siglas": "SPYG",
+    "nombre": "SPDR Portfolio S&P 500 Growth ETF",
+    "link": "https://www.etoro.com/markets/spyg",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3234",
+    "estado": true
+}
