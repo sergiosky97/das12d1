@@ -1,0 +1,8 @@
+{
+    "carpeta": "GOOG_EXT",
+    "siglas": "GOOG.EXT",
+    "nombre": "Alphabet",
+    "link": "https://www.etoro.com/markets/goog.ext",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8758",
+    "estado": true
+}

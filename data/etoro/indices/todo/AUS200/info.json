@@ -1,0 +1,8 @@
+{
+    "carpeta": "AUS200",
+    "siglas": "AUS200",
+    "nombre": "AUS200 Index",
+    "link": "https://www.etoro.com/markets/aus200",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/33",
+    "estado": true
+}

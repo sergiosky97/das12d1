@@ -1,0 +1,8 @@
+{
+    "carpeta": "MBB_DE",
+    "siglas": "MBB.DE",
+    "nombre": "MBB SE",
+    "link": "https://www.etoro.com/markets/mbb.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3691",
+    "estado": true
+}

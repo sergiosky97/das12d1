@@ -1,0 +1,8 @@
+{
+    "carpeta": "CHINA50",
+    "siglas": "CHINA50",
+    "nombre": "ChinaA50 Index",
+    "link": "https://www.etoro.com/markets/china50",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/253",
+    "estado": true
+}

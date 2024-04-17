@@ -1,0 +1,8 @@
+{
+    "carpeta": "JYSK_CO",
+    "siglas": "JYSK.CO",
+    "nombre": "Jyske Bank A/S",
+    "link": "https://www.etoro.com/markets/jysk.co",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5728",
+    "estado": true
+}

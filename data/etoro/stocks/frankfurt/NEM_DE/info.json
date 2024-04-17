@@ -1,0 +1,8 @@
+{
+    "carpeta": "NEM_DE",
+    "siglas": "NEM.DE",
+    "nombre": "Nemetschek SE",
+    "link": "https://www.etoro.com/markets/nem.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2566",
+    "estado": true
+}

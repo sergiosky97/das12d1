@@ -1,0 +1,8 @@
+{
+    "carpeta": "FIE_DE",
+    "siglas": "FIE.DE",
+    "nombre": "Fielmann AG",
+    "link": "https://www.etoro.com/markets/fie.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2568",
+    "estado": true
+}

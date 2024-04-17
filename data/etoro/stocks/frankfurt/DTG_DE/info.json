@@ -1,0 +1,8 @@
+{
+    "carpeta": "DTG_DE",
+    "siglas": "DTG.DE",
+    "nombre": "Daimler Truck Holding AG",
+    "link": "https://www.etoro.com/markets/dtg.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2203",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "ADN1_DE",
+    "siglas": "ADN1.DE",
+    "nombre": "ADESSO SE",
+    "link": "https://www.etoro.com/markets/adn1.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3700",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "BAYN_DE",
+    "siglas": "BAYN.DE",
+    "nombre": "Bayer AG",
+    "link": "https://www.etoro.com/markets/bayn.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1203",
+    "estado": true
+}

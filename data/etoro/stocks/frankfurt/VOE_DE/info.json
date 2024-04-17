@@ -1,0 +1,8 @@
+{
+    "carpeta": "VOE_DE",
+    "siglas": "VOE.DE",
+    "nombre": "Voestalpine AG",
+    "link": "https://www.etoro.com/markets/voe.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2588",
+    "estado": true
+}

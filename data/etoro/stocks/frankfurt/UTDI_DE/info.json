@@ -1,0 +1,8 @@
+{
+    "carpeta": "UTDI_DE",
+    "siglas": "UTDI.DE",
+    "nombre": "United Internet",
+    "link": "https://www.etoro.com/markets/utdi.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2533",
+    "estado": true
+}

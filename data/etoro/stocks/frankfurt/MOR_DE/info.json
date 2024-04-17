@@ -1,0 +1,8 @@
+{
+    "carpeta": "MOR_DE",
+    "siglas": "MOR.DE",
+    "nombre": "MorphoSys",
+    "link": "https://www.etoro.com/markets/mor.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2546",
+    "estado": true
+}

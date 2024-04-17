@@ -1,0 +1,8 @@
+{
+    "carpeta": "1COV_DE",
+    "siglas": "1COV.DE",
+    "nombre": "Covestro",
+    "link": "https://www.etoro.com/markets/1cov.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2516",
+    "estado": true
+}

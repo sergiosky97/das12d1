@@ -1,0 +1,8 @@
+{
+    "carpeta": "DWS_DE",
+    "siglas": "DWS.DE",
+    "nombre": "DWS Group GmbH & Co KGaA",
+    "link": "https://www.etoro.com/markets/dws.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2565",
+    "estado": true
+}

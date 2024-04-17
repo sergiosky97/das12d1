@@ -1,0 +1,8 @@
+{
+    "carpeta": "DSV_CO",
+    "siglas": "DSV.CO",
+    "nombre": "DSV A/S",
+    "link": "https://www.etoro.com/markets/dsv.co",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2267",
+    "estado": true
+}

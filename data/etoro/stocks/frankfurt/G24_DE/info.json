@@ -1,0 +1,8 @@
+{
+    "carpeta": "G24_DE",
+    "siglas": "G24.DE",
+    "nombre": "Scout24 AG",
+    "link": "https://www.etoro.com/markets/g24.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2569",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "INTC_EXT",
+    "siglas": "INTC.EXT",
+    "nombre": "Intel",
+    "link": "https://www.etoro.com/markets/intc.ext",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2495",
+    "estado": true
+}

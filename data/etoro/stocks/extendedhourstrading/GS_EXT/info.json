@@ -1,0 +1,8 @@
+{
+    "carpeta": "GS_EXT",
+    "siglas": "GS.EXT",
+    "nombre": "Goldman Sachs Group Inc",
+    "link": "https://www.etoro.com/markets/gs.ext",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8771",
+    "estado": true
+}

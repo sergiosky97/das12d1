@@ -1,0 +1,8 @@
+{
+    "carpeta": "BNR_DE",
+    "siglas": "BNR.DE",
+    "nombre": "Brenntag",
+    "link": "https://www.etoro.com/markets/bnr.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2530",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "LIGHT_NV",
+    "siglas": "LIGHT.NV",
+    "nombre": "Signify NV",
+    "link": "https://www.etoro.com/markets/light.nv",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4535",
+    "estado": true
+}

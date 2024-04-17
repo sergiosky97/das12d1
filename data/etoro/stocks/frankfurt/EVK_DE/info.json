@@ -1,0 +1,8 @@
+{
+    "carpeta": "EVK_DE",
+    "siglas": "EVK.DE",
+    "nombre": "Evonik",
+    "link": "https://www.etoro.com/markets/evk.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2511",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "HYQ_DE",
+    "siglas": "HYQ.DE",
+    "nombre": "HYPOPORT SE",
+    "link": "https://www.etoro.com/markets/hyq.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3670",
+    "estado": true
+}

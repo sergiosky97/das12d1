@@ -1,0 +1,8 @@
+{
+    "carpeta": "JPN225",
+    "siglas": "JPN225",
+    "nombre": "JPN225 Index",
+    "link": "https://www.etoro.com/markets/jpn225",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/36",
+    "estado": true
+}

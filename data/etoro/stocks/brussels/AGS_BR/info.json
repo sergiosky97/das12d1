@@ -1,0 +1,8 @@
+{
+    "carpeta": "AGS_BR",
+    "siglas": "AGS.BR",
+    "nombre": "Ageas NV",
+    "link": "https://www.etoro.com/markets/ags.br",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5736",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "BC8_DE",
+    "siglas": "BC8.DE",
+    "nombre": "Bechtle AG",
+    "link": "https://www.etoro.com/markets/bc8.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2575",
+    "estado": true
+}

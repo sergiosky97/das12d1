@@ -1,0 +1,8 @@
+{
+    "carpeta": "EBAY_EXT",
+    "siglas": "EBAY.EXT",
+    "nombre": "eBay",
+    "link": "https://www.etoro.com/markets/ebay.ext",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8944",
+    "estado": true
+}

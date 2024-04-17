@@ -1,0 +1,8 @@
+{
+    "carpeta": "SIE_DE",
+    "siglas": "SIE.DE",
+    "nombre": "Siemens Aktiengesellschaft",
+    "link": "https://www.etoro.com/markets/sie.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1200",
+    "estado": true
+}

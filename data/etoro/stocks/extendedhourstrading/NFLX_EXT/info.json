@@ -1,0 +1,8 @@
+{
+    "carpeta": "NFLX_EXT",
+    "siglas": "NFLX.EXT",
+    "nombre": "Netflix, Inc.",
+    "link": "https://www.etoro.com/markets/nflx.ext",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8762",
+    "estado": true
+}

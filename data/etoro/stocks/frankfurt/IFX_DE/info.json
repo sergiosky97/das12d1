@@ -1,0 +1,8 @@
+{
+    "carpeta": "IFX_DE",
+    "siglas": "IFX.DE",
+    "nombre": "Infineon Technologies AG",
+    "link": "https://www.etoro.com/markets/ifx.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1221",
+    "estado": true
+}
