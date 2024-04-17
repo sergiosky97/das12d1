@@ -1,0 +1,8 @@
+{
+    "carpeta": "GBPILS",
+    "siglas": "GBPILS",
+    "nombre": "GBP/ILS",
+    "link": "https://www.etoro.com/markets/gbpils",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/39",
+    "estado": true
+}

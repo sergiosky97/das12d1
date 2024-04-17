@@ -1,0 +1,8 @@
+{
+    "carpeta": "GBPJPY",
+    "siglas": "GBPJPY",
+    "nombre": "GBP/JPY",
+    "link": "https://www.etoro.com/markets/gbpjpy",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/11",
+    "estado": true
+}

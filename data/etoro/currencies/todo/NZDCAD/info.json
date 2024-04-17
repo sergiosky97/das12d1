@@ -1,0 +1,8 @@
+{
+    "carpeta": "NZDCAD",
+    "siglas": "NZDCAD",
+    "nombre": "NZD/CAD",
+    "link": "https://www.etoro.com/markets/nzdcad",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/53",
+    "estado": true
+}

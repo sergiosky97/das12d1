@@ -1,0 +1,8 @@
+{
+    "carpeta": "EURAUD",
+    "siglas": "EURAUD",
+    "nombre": "EUR/AUD",
+    "link": "https://www.etoro.com/markets/euraud",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/12",
+    "estado": true
+}

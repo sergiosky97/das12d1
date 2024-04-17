@@ -1,0 +1,8 @@
+{
+    "carpeta": "GBPAUD",
+    "siglas": "GBPAUD",
+    "nombre": "GBP/AUD",
+    "link": "https://www.etoro.com/markets/gbpaud",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/50",
+    "estado": true
+}

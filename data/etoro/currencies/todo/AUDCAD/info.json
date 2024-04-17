@@ -1,0 +1,8 @@
+{
+    "carpeta": "AUDCAD",
+    "siglas": "AUDCAD",
+    "nombre": "AUD/CAD",
+    "link": "https://www.etoro.com/markets/audcad",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/47",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "AUDNZD",
+    "siglas": "AUDNZD",
+    "nombre": "AUD/NZD",
+    "link": "https://www.etoro.com/markets/audnzd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/48",
+    "estado": true
+}

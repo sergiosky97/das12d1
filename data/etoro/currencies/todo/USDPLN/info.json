@@ -1,0 +1,8 @@
+{
+    "carpeta": "USDPLN",
+    "siglas": "USDPLN",
+    "nombre": "USD/PLN",
+    "link": "https://www.etoro.com/markets/usdpln",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/73",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "EURPLN",
+    "siglas": "EURPLN",
+    "nombre": "EUR/PLN",
+    "link": "https://www.etoro.com/markets/eurpln",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/68",
+    "estado": true
+}

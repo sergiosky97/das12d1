@@ -1,0 +1,8 @@
+{
+    "carpeta": "GBPHUF",
+    "siglas": "GBPHUF",
+    "nombre": "GBP/HUF",
+    "link": "https://www.etoro.com/markets/gbphuf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/71",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "USDBRL",
+    "siglas": "USDBRL",
+    "nombre": "USD/BRL",
+    "link": "https://www.etoro.com/markets/usdbrl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/429",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "USDCZK",
+    "siglas": "USDCZK",
+    "nombre": "USD/CZK",
+    "link": "https://www.etoro.com/markets/usdczk",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/61",
+    "estado": true
+}

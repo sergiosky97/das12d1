@@ -1,0 +1,8 @@
+{
+    "carpeta": "USDCOP",
+    "siglas": "USDCOP",
+    "nombre": "USD/COP",
+    "link": "https://www.etoro.com/markets/usdcop",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/428",
+    "estado": true
+}

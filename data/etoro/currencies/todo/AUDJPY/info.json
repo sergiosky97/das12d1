@@ -1,0 +1,8 @@
+{
+    "carpeta": "AUDJPY",
+    "siglas": "AUDJPY",
+    "nombre": "AUD/JPY",
+    "link": "https://www.etoro.com/markets/audjpy",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/14",
+    "estado": true
+}

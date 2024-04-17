@@ -1,0 +1,8 @@
+{
+    "carpeta": "USDSGD",
+    "siglas": "USDSGD",
+    "nombre": "USD/SGD",
+    "link": "https://www.etoro.com/markets/usdsgd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/64",
+    "estado": true
+}

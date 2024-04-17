@@ -1,0 +1,8 @@
+{
+    "carpeta": "USDSEK",
+    "siglas": "USDSEK",
+    "nombre": "USD/SEK",
+    "link": "https://www.etoro.com/markets/usdsek",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/58",
+    "estado": true
+}

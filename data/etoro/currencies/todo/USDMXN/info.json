@@ -1,0 +1,8 @@
+{
+    "carpeta": "USDMXN",
+    "siglas": "USDMXN",
+    "nombre": "USD/MXN",
+    "link": "https://www.etoro.com/markets/usdmxn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/63",
+    "estado": true
+}

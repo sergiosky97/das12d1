@@ -1,0 +1,8 @@
+{
+    "carpeta": "USDCLP",
+    "siglas": "USDCLP",
+    "nombre": "USD/CLP",
+    "link": "https://www.etoro.com/markets/usdclp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/427",
+    "estado": true
+}

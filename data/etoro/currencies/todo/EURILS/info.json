@@ -1,0 +1,8 @@
+{
+    "carpeta": "EURILS",
+    "siglas": "EURILS",
+    "nombre": "EUR/ILS",
+    "link": "https://www.etoro.com/markets/eurils",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/82",
+    "estado": true
+}

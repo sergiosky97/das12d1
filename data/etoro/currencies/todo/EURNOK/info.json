@@ -1,0 +1,8 @@
+{
+    "carpeta": "EURNOK",
+    "siglas": "EURNOK",
+    "nombre": "EUR/NOK",
+    "link": "https://www.etoro.com/markets/eurnok",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/60",
+    "estado": true
+}

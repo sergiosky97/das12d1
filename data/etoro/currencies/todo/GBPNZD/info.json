@@ -1,0 +1,8 @@
+{
+    "carpeta": "GBPNZD",
+    "siglas": "GBPNZD",
+    "nombre": "GBP/NZD",
+    "link": "https://www.etoro.com/markets/gbpnzd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/52",
+    "estado": true
+}

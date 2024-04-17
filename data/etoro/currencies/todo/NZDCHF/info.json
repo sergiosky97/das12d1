@@ -1,0 +1,8 @@
+{
+    "carpeta": "NZDCHF",
+    "siglas": "NZDCHF",
+    "nombre": "NZD/CHF",
+    "link": "https://www.etoro.com/markets/nzdchf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/54",
+    "estado": true
+}

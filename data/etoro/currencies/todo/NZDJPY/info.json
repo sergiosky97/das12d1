@@ -1,0 +1,8 @@
+{
+    "carpeta": "NZDJPY",
+    "siglas": "NZDJPY",
+    "nombre": "NZD/JPY",
+    "link": "https://www.etoro.com/markets/nzdjpy",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/55",
+    "estado": true
+}

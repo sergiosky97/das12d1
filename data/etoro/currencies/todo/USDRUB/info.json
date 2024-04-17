@@ -1,0 +1,8 @@
+{
+    "carpeta": "USDRUB",
+    "siglas": "USDRUB",
+    "nombre": "USD/RUB",
+    "link": "https://www.etoro.com/markets/usdrub",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/44",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "CADCHF",
+    "siglas": "CADCHF",
+    "nombre": "CAD/CHF",
+    "link": "https://www.etoro.com/markets/cadchf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/56",
+    "estado": true
+}

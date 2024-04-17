@@ -1,0 +1,8 @@
+{
+    "carpeta": "CADJPY",
+    "siglas": "CADJPY",
+    "nombre": "CAD/JPY",
+    "link": "https://www.etoro.com/markets/cadjpy",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/15",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "USDNOK",
+    "siglas": "USDNOK",
+    "nombre": "USD/NOK",
+    "link": "https://www.etoro.com/markets/usdnok",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/57",
+    "estado": true
+}

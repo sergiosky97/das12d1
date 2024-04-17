@@ -1,0 +1,8 @@
+{
+    "carpeta": "EURCAD",
+    "siglas": "EURCAD",
+    "nombre": "EUR/CAD",
+    "link": "https://www.etoro.com/markets/eurcad",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/13",
+    "estado": true
+}

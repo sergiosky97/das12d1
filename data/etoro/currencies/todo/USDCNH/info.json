@@ -1,0 +1,8 @@
+{
+    "carpeta": "USDCNH",
+    "siglas": "USDCNH",
+    "nombre": "USD/CNH",
+    "link": "https://www.etoro.com/markets/usdcnh",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/45",
+    "estado": true
+}

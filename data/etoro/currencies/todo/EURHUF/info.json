@@ -1,0 +1,8 @@
+{
+    "carpeta": "EURHUF",
+    "siglas": "EURHUF",
+    "nombre": "EUR/HUF",
+    "link": "https://www.etoro.com/markets/eurhuf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/70",
+    "estado": true
+}

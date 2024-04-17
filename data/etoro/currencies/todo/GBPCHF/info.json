@@ -1,0 +1,8 @@
+{
+    "carpeta": "GBPCHF",
+    "siglas": "GBPCHF",
+    "nombre": "GBP/CHF",
+    "link": "https://www.etoro.com/markets/gbpchf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/51",
+    "estado": true
+}

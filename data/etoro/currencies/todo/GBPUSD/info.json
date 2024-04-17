@@ -1,0 +1,8 @@
+{
+    "carpeta": "GBPUSD",
+    "siglas": "GBPUSD",
+    "nombre": "GBP/USD",
+    "link": "https://www.etoro.com/markets/gbpusd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2",
+    "estado": true
+}

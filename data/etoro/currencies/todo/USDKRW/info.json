@@ -1,0 +1,8 @@
+{
+    "carpeta": "USDKRW",
+    "siglas": "USDKRW",
+    "nombre": "USD/KRW",
+    "link": "https://www.etoro.com/markets/usdkrw",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/424",
+    "estado": true
+}

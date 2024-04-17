@@ -1,0 +1,8 @@
+{
+    "carpeta": "CHFHUF",
+    "siglas": "CHFHUF",
+    "nombre": "CHF/HUF",
+    "link": "https://www.etoro.com/markets/chfhuf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/72",
+    "estado": true
+}

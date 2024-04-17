@@ -1,0 +1,8 @@
+{
+    "carpeta": "USDCAD",
+    "siglas": "USDCAD",
+    "nombre": "USD/CAD",
+    "link": "https://www.etoro.com/markets/usdcad",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4",
+    "estado": true
+}

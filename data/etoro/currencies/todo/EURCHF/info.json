@@ -1,0 +1,8 @@
+{
+    "carpeta": "EURCHF",
+    "siglas": "EURCHF",
+    "nombre": "EUR/CHF",
+    "link": "https://www.etoro.com/markets/eurchf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "AUDCHF",
+    "siglas": "AUDCHF",
+    "nombre": "AUD/CHF",
+    "link": "https://www.etoro.com/markets/audchf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/46",
+    "estado": true
+}

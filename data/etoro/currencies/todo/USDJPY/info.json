@@ -1,0 +1,8 @@
+{
+    "carpeta": "USDJPY",
+    "siglas": "USDJPY",
+    "nombre": "USD/JPY",
+    "link": "https://www.etoro.com/markets/usdjpy",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5",
+    "estado": true
+}

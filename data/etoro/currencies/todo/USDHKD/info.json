@@ -1,0 +1,8 @@
+{
+    "carpeta": "USDHKD",
+    "siglas": "USDHKD",
+    "nombre": "USD/HKD",
+    "link": "https://www.etoro.com/markets/usdhkd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/59",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "USDTRY",
+    "siglas": "USDTRY",
+    "nombre": "USD/TRY",
+    "link": "https://www.etoro.com/markets/usdtry",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/62",
+    "estado": true
+}
