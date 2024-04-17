@@ -19,11 +19,11 @@ class etoro_ws:
                 return    
         
         #Tiempo de actualizacion = Tiempo en segundo para actualizar la base de datos
-        tiempo_actualizacion = 30 * (24*60*60) #Actualizamos cada 30 dias
+        tiempo_actualizacion = 120 * (24*60*60) #Actualizamos cada 120 dias
         self.get_markets(debug=debug, tiempo_actualizacion=tiempo_actualizacion)
-        tiempo_actualizacion = 15 * (24*60*60) #Actualizamos cada 15 dias
+        tiempo_actualizacion = 60 * (24*60*60) #Actualizamos cada 60 dias
         self.get_info_markets(debug=debug,  tiempo_actualizacion=tiempo_actualizacion)
-        tiempo_actualizacion = 5 * (24*60*60) #Actualizamos cada 5 dias
+        tiempo_actualizacion = 30 * (24*60*60) #Actualizamos cada 30 dias
         self.get_info_markets_elements(debug=debug, tiempo_actualizacion=tiempo_actualizacion)
         self.get_data(debug=debug)
         
