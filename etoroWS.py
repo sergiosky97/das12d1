@@ -492,7 +492,7 @@ class etoro_ws:
                         info_mercado_json = []
                         contador = 1
                         for link_mercado in links_mercado:
-                            self.browser.url(link_mercado)
+                            self.browser.url(link_mercado + "/chart")
                             
                             elemento_nombre = self.browser.get_element(xpath="//h1[contains(@automation-id,'header-instrument-name')]",maximo_intentos=10,debug=False)
                             elemento_full_nombre = self.browser.get_element(xpath="//h1[contains(@automation-id,'header-instrument-name')]//span",maximo_intentos=10,debug=False)
@@ -512,12 +512,12 @@ class etoro_ws:
                                 'estado':True,
                             }
                             
-                            elemento_grafica = self.browser.get_element(xpath="//a[contains(@automation-id,'et-tab-chart')]",maximo_intentos=10,debug=False)
-                            if not elemento_grafica and not self.browser.click(element=elemento_grafica,debug=debug,name="elemento_grafica"):
-                                elemento['estado'] = False
-                            else:
-                                self.browser.url(elemento_grafica.get_attribute("href"))
-                                elemento['linkWS'] = self.get_url_for_data().replace("OneDay","OneMinute")                      
+                            #elemento_grafica = self.browser.get_element(xpath="//a[contains(@automation-id,'et-tab-chart')]",maximo_intentos=10,debug=False)
+                            #if not elemento_grafica and not self.browser.click(element=elemento_grafica,debug=debug,name="elemento_grafica"):
+                            #    elemento['estado'] = False
+                            #else:
+                            #    self.browser.url(elemento_grafica.get_attribute("href"))
+                            elemento['linkWS'] = self.get_url_for_data().replace("OneDay","OneMinute")                      
                             if debug:   
                                 print(f" ({contador}) - {elemento['carpeta']}: {elemento['siglas']} ({elemento['nombre']}). Estado {elemento['estado']} LinkWS: {elemento['linkWS']}")
                                 contador += 1
