@@ -1,0 +1,8 @@
+{
+    "carpeta": "XRPDASH",
+    "siglas": "XRPDASH",
+    "nombre": "Ripple / Dash",
+    "link": "https://www.etoro.com/markets/xrpdash",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100245",
+    "estado": true
+}

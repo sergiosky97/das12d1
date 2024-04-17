@@ -1,0 +1,8 @@
+{
+    "carpeta": "BTCEOS",
+    "siglas": "BTCEOS",
+    "nombre": "Bitcoin / EOS",
+    "link": "https://www.etoro.com/markets/btceos",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100134",
+    "estado": true
+}

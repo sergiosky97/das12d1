@@ -1,0 +1,8 @@
+{
+    "carpeta": "ETHBTC",
+    "siglas": "ETHBTC",
+    "nombre": "Ethereum / Bitcoin",
+    "link": "https://www.etoro.com/markets/ethbtc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100133",
+    "estado": true
+}

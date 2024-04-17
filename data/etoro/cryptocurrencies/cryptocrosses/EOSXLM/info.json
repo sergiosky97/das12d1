@@ -1,0 +1,8 @@
+{
+    "carpeta": "EOSXLM",
+    "siglas": "EOSXLM",
+    "nombre": "EOS / Stellar",
+    "link": "https://www.etoro.com/markets/eosxlm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100147",
+    "estado": true
+}

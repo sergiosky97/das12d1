@@ -1,0 +1,8 @@
+{
+    "carpeta": "ETHEOS",
+    "siglas": "ETHEOS",
+    "nombre": "Ethereum / EOS",
+    "link": "https://www.etoro.com/markets/etheos",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/100263",
+    "estado": true
+}
