@@ -1,0 +1,8 @@
+{
+    "carpeta": "ETHJPY",
+    "siglas": "ETHJPY",
+    "nombre": "Ethereum / Japanese Yen",
+    "link": "https://www.etoro.com/markets/ethjpy",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100121",
+    "estado": true
+}

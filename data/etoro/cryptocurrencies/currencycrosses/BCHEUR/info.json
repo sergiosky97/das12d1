@@ -1,0 +1,8 @@
+{
+    "carpeta": "BCHEUR",
+    "siglas": "BCHEUR",
+    "nombre": "Bitcoin Cash / Euro",
+    "link": "https://www.etoro.com/markets/bcheur",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100175",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "BTCAUD",
+    "siglas": "BTCAUD",
+    "nombre": "Bitcoin / Australian Dollar",
+    "link": "https://www.etoro.com/markets/btcaud",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100154",
+    "estado": true
+}

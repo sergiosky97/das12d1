@@ -1,0 +1,8 @@
+{
+    "carpeta": "ETHCAD",
+    "siglas": "ETHCAD",
+    "nombre": "Ethereum/ Canadian Dollar",
+    "link": "https://www.etoro.com/markets/ethcad",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100160",
+    "estado": true
+}

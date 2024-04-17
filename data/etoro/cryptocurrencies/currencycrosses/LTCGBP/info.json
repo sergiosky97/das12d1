@@ -1,0 +1,8 @@
+{
+    "carpeta": "LTCGBP",
+    "siglas": "LTCGBP",
+    "nombre": "Litecoin/ Pound",
+    "link": "https://www.etoro.com/markets/ltcgbp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100183",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "EOSJPY",
+    "siglas": "EOSJPY",
+    "nombre": "EOS / Japanese Yen",
+    "link": "https://www.etoro.com/markets/eosjpy",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/100122",
+    "estado": true
+}

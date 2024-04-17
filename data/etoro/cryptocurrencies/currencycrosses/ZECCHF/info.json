@@ -1,0 +1,8 @@
+{
+    "carpeta": "ZECCHF",
+    "siglas": "ZECCHF",
+    "nombre": "Zcash / Swiss Franc",
+    "link": "https://www.etoro.com/markets/zecchf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100244",
+    "estado": true
+}

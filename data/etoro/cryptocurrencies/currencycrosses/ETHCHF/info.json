@@ -1,0 +1,8 @@
+{
+    "carpeta": "ETHCHF",
+    "siglas": "ETHCHF",
+    "nombre": "Ethereum/ Swiss Franc",
+    "link": "https://www.etoro.com/markets/ethchf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100161",
+    "estado": true
+}

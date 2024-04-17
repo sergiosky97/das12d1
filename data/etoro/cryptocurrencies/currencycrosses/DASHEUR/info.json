@@ -1,0 +1,8 @@
+{
+    "carpeta": "DASHEUR",
+    "siglas": "DASHEUR",
+    "nombre": "Dash / Euro",
+    "link": "https://www.etoro.com/markets/dasheur",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100254",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "BTCNZD",
+    "siglas": "BTCNZD",
+    "nombre": "Bitcoin / New Zealand Dollar",
+    "link": "https://www.etoro.com/markets/btcnzd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100155",
+    "estado": true
+}

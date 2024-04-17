@@ -1,0 +1,8 @@
+{
+    "carpeta": "LTCAUD",
+    "siglas": "LTCAUD",
+    "nombre": "Litecoin/ Australian Dollar",
+    "link": "https://www.etoro.com/markets/ltcaud",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100184",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "ETCEUR",
+    "siglas": "ETCEUR",
+    "nombre": "Ethereum Classic / Euro",
+    "link": "https://www.etoro.com/markets/etceur",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100168",
+    "estado": true
+}

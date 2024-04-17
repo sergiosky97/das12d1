@@ -1,0 +1,8 @@
+{
+    "carpeta": "ETHCNH",
+    "siglas": "ETHCNH",
+    "nombre": "Ethereum / Chinese yuan",
+    "link": "https://www.etoro.com/markets/ethcnh",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100224",
+    "estado": true
+}

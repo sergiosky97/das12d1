@@ -1,0 +1,8 @@
+{
+    "carpeta": "LTCEUR",
+    "siglas": "LTCEUR",
+    "nombre": "Litecoin/ Euro",
+    "link": "https://www.etoro.com/markets/ltceur",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100182",
+    "estado": true
+}

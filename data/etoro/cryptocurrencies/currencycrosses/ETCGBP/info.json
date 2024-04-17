@@ -1,0 +1,8 @@
+{
+    "carpeta": "ETCGBP",
+    "siglas": "ETCGBP",
+    "nombre": "Ethereum Classic / Pound",
+    "link": "https://www.etoro.com/markets/etcgbp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100169",
+    "estado": true
+}

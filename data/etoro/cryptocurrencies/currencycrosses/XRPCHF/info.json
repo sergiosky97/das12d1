@@ -1,0 +1,8 @@
+{
+    "carpeta": "XRPCHF",
+    "siglas": "XRPCHF",
+    "nombre": "Ripple/ Swiss Franc",
+    "link": "https://www.etoro.com/markets/xrpchf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100166",
+    "estado": true
+}

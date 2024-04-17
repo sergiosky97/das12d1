@@ -1,0 +1,8 @@
+{
+    "carpeta": "DASHGBP",
+    "siglas": "DASHGBP",
+    "nombre": "Dash / Pound",
+    "link": "https://www.etoro.com/markets/dashgbp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100256",
+    "estado": true
+}

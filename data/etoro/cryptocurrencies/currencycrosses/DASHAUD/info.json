@@ -1,0 +1,8 @@
+{
+    "carpeta": "DASHAUD",
+    "siglas": "DASHAUD",
+    "nombre": "Dash / Australian Dollar",
+    "link": "https://www.etoro.com/markets/dashaud",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100232",
+    "estado": true
+}

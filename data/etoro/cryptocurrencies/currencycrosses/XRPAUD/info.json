@@ -1,0 +1,8 @@
+{
+    "carpeta": "XRPAUD",
+    "siglas": "XRPAUD",
+    "nombre": "Ripple/ Australian Dollar",
+    "link": "https://www.etoro.com/markets/xrpaud",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100163",
+    "estado": true
+}

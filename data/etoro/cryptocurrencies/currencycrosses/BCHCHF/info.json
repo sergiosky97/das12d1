@@ -1,0 +1,8 @@
+{
+    "carpeta": "BCHCHF",
+    "siglas": "BCHCHF",
+    "nombre": "Bitcoin Cash / Swiss Franc",
+    "link": "https://www.etoro.com/markets/bchchf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100180",
+    "estado": true
+}

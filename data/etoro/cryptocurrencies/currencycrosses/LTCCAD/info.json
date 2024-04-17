@@ -1,0 +1,8 @@
+{
+    "carpeta": "LTCCAD",
+    "siglas": "LTCCAD",
+    "nombre": "Litecoin/ Canadian Dollar",
+    "link": "https://www.etoro.com/markets/ltccad",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100186",
+    "estado": true
+}

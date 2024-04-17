@@ -1,0 +1,8 @@
+{
+    "carpeta": "XLMAUD",
+    "siglas": "XLMAUD",
+    "nombre": "Stellar / Australian Dollar",
+    "link": "https://www.etoro.com/markets/xlmaud",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100237",
+    "estado": true
+}

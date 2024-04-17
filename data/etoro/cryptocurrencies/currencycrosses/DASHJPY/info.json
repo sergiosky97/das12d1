@@ -1,0 +1,8 @@
+{
+    "carpeta": "DASHJPY",
+    "siglas": "DASHJPY",
+    "nombre": "Dash / Japanese Yen",
+    "link": "https://www.etoro.com/markets/dashjpy",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100255",
+    "estado": true
+}

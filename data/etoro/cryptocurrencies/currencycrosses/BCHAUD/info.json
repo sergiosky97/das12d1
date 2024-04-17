@@ -1,0 +1,8 @@
+{
+    "carpeta": "BCHAUD",
+    "siglas": "BCHAUD",
+    "nombre": "Bitcoin Cash / Australian Dollar",
+    "link": "https://www.etoro.com/markets/bchaud",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100177",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "ETCNZD",
+    "siglas": "ETCNZD",
+    "nombre": "Ethereum Classic / New Zealand Dollar",
+    "link": "https://www.etoro.com/markets/etcnzd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100171",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "EOSGBP",
+    "siglas": "EOSGBP",
+    "nombre": "EOS / Pound",
+    "link": "https://www.etoro.com/markets/eosgbp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100119",
+    "estado": true
+}

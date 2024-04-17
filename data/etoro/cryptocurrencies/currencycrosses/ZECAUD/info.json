@@ -1,0 +1,8 @@
+{
+    "carpeta": "ZECAUD",
+    "siglas": "ZECAUD",
+    "nombre": "Zcash / Australian Dollar",
+    "link": "https://www.etoro.com/markets/zecaud",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100238",
+    "estado": true
+}

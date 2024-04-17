@@ -1,0 +1,8 @@
+{
+    "carpeta": "ETHEUR",
+    "siglas": "ETHEUR",
+    "nombre": "Ethereum/Euro",
+    "link": "https://www.etoro.com/markets/etheur",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100110",
+    "estado": true
+}

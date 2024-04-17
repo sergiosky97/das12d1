@@ -1,0 +1,8 @@
+{
+    "carpeta": "LTCJPY",
+    "siglas": "LTCJPY",
+    "nombre": "Litecoin/ Japanese Yen",
+    "link": "https://www.etoro.com/markets/ltcjpy",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/100187",
+    "estado": true
+}

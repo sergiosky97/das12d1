@@ -1,0 +1,8 @@
+{
+    "carpeta": "ETCAUD",
+    "siglas": "ETCAUD",
+    "nombre": "Ethereum Classic / Australian Dollar",
+    "link": "https://www.etoro.com/markets/etcaud",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100170",
+    "estado": true
+}

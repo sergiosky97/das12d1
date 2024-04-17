@@ -1,0 +1,8 @@
+{
+    "carpeta": "XLMJPY",
+    "siglas": "XLMJPY",
+    "nombre": "Stellar / Japanese Yen",
+    "link": "https://www.etoro.com/markets/xlmjpy",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100209",
+    "estado": true
+}

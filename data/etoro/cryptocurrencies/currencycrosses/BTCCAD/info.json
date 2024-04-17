@@ -1,0 +1,8 @@
+{
+    "carpeta": "BTCCAD",
+    "siglas": "BTCCAD",
+    "nombre": "Bitcoin / Canadian Dollar",
+    "link": "https://www.etoro.com/markets/btccad",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100156",
+    "estado": true
+}

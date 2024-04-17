@@ -1,0 +1,8 @@
+{
+    "carpeta": "LTCCHF",
+    "siglas": "LTCCHF",
+    "nombre": "Litecoin/ Swiss Franc",
+    "link": "https://www.etoro.com/markets/ltcchf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100187",
+    "estado": true
+}

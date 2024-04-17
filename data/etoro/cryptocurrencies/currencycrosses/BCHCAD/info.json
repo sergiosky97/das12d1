@@ -1,0 +1,8 @@
+{
+    "carpeta": "BCHCAD",
+    "siglas": "BCHCAD",
+    "nombre": "Bitcoin Cash / Canadian Dollar",
+    "link": "https://www.etoro.com/markets/bchcad",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100179",
+    "estado": true
+}
