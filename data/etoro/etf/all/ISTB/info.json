@@ -1,0 +1,8 @@
+{
+    "carpeta": "ISTB",
+    "siglas": "ISTB",
+    "nombre": "iShares Core 1-5 Year USD Bond ETF",
+    "link": "https://www.etoro.com/markets/istb",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3152",
+    "estado": true
+}

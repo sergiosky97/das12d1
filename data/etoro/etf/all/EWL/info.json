@@ -1,0 +1,8 @@
+{
+    "carpeta": "EWL",
+    "siglas": "EWL",
+    "nombre": "iShares MSCI Switzerland ETF",
+    "link": "https://www.etoro.com/markets/ewl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/1084",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "VOOG",
+    "siglas": "VOOG",
+    "nombre": "Vanguard S&P 500 Growth ETF",
+    "link": "https://www.etoro.com/markets/voog",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3254",
+    "estado": true
+}

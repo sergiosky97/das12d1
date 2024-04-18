@@ -1,0 +1,8 @@
+{
+    "carpeta": "QUAL",
+    "siglas": "QUAL",
+    "nombre": "iShares Edge MSCI USA Quality",
+    "link": "https://www.etoro.com/markets/qual",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4384",
+    "estado": true
+}

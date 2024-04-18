@@ -1,0 +1,8 @@
+{
+    "carpeta": "SWDA_L",
+    "siglas": "SWDA.L",
+    "nombre": "iShares Core MSCI World UCITS ETF",
+    "link": "https://www.etoro.com/markets/swda.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3040",
+    "estado": true
+}

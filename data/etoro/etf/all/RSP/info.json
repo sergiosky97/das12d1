@@ -1,0 +1,8 @@
+{
+    "carpeta": "RSP",
+    "siglas": "RSP",
+    "nombre": "Invesco S&P 500 Equal Weight ETF",
+    "link": "https://www.etoro.com/markets/rsp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1078",
+    "estado": true
+}

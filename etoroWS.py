@@ -365,7 +365,9 @@ class etoro_ws:
             with open(path_update, "w") as file:
                 json.dump(data, file)                
                    
-    def get_info_markets_elements(self,debug, tiempo_actualizacion = 0):      
+    def get_info_markets_elements(self,debug, tiempo_actualizacion = 0):   
+        num_guardados = 0
+        num_guardados_reset = 5   
         if debug:
             print("")
             print(f"[INFO] GET_INFO_MARKETS_ELEMENTS()")
@@ -391,12 +393,16 @@ class etoro_ws:
                     if nueva_actualizacion > tiempo_actual:
                         if any("ERROR" == link_analizado for link_analizado in links_analizados):
                             if debug:
-                                print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Sucedio un error en la anterior actualizacion")
-                                links_analizados = [link for link in links_analizados if link != "ERROR"]
+                                print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizando: Sucedio un error en la anterior actualizacion, {len(links_analizados) } elementos analizados")    
+                            links_analizados = [link for link in links_analizados if link != "ERROR"]
                         elif any("FIN" == link_analizado for link_analizado in links_analizados):
                             if debug:
-                                print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizada")      
-                            continue                      
+                                print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizada: {len(links_analizados) - 1} elementos")      
+                            continue 
+                        else:
+                            if debug:
+                                print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizando: {len(links_analizados) } elementos analizados")      
+                                                 
                     else:
                         links_analizados = []
 
@@ -519,6 +525,14 @@ class etoro_ws:
                                         processed_links.append(link_mercado)
                                     except Exception as e:
                                         print(f"[WARNING] Error autosolucionable: {e}")
+                                
+                                #Lo hago para liberar memoria cada 10 guardados:
+                                if num_guardados >= num_guardados_reset:
+                                    self.browser.close()
+                                    self.browser = Browser()
+                                    num_guardados = 0
+                                else:
+                                    num_guardados += 1
                                 
                                 #Volvemos a la pagina antes de guardar
                                 self.browser.url(url=url_actual)

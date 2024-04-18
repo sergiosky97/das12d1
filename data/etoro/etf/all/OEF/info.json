@@ -1,0 +1,8 @@
+{
+    "carpeta": "OEF",
+    "siglas": "OEF",
+    "nombre": "iShares S&P 100 ETF",
+    "link": "https://www.etoro.com/markets/oef",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1390",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "PFF",
+    "siglas": "PFF",
+    "nombre": "iShares Preferred & Income Sec",
+    "link": "https://www.etoro.com/markets/pff",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4348",
+    "estado": true
+}

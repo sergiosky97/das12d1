@@ -1,0 +1,8 @@
+{
+    "carpeta": "XSMI_DE",
+    "siglas": "XSMI.DE",
+    "nombre": "Xtrackers Switzerland UCITS ETF",
+    "link": "https://www.etoro.com/markets/xsmi.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10592",
+    "estado": true
+}

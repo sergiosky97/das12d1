@@ -1,0 +1,8 @@
+{
+    "carpeta": "OUSA",
+    "siglas": "OUSA",
+    "nombre": "O'Shares US Quality Dividend ETF",
+    "link": "https://www.etoro.com/markets/ousa",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3207",
+    "estado": true
+}

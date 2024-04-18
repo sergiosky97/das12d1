@@ -1,0 +1,8 @@
+{
+    "carpeta": "IJS",
+    "siglas": "IJS",
+    "nombre": "iShares S&P Small-Cap 600 Value ETF",
+    "link": "https://www.etoro.com/markets/ijs",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1394",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "COPPER",
+    "siglas": "COPPER",
+    "nombre": "Copper",
+    "link": "https://www.etoro.com/markets/copper",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/21",
+    "estado": true
+}

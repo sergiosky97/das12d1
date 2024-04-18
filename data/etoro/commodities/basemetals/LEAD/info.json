@@ -1,0 +1,8 @@
+{
+    "carpeta": "LEAD",
+    "siglas": "LEAD",
+    "nombre": "Lead",
+    "link": "https://www.etoro.com/markets/lead",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/339",
+    "estado": true
+}

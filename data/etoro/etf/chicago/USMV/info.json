@@ -1,0 +1,8 @@
+{
+    "carpeta": "USMV",
+    "siglas": "USMV",
+    "nombre": "iShares Edge MSCI Min Vol USA",
+    "link": "https://www.etoro.com/markets/usmv",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4292",
+    "estado": true
+}

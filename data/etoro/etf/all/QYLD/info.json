@@ -1,0 +1,8 @@
+{
+    "carpeta": "QYLD",
+    "siglas": "QYLD",
+    "nombre": "Global X Nasdaq 100 Covered Call ETF",
+    "link": "https://www.etoro.com/markets/qyld",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6353",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "JETS",
+    "siglas": "JETS",
+    "nombre": "US Global Jets ETF",
+    "link": "https://www.etoro.com/markets/jets",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/8102",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "FEZ",
+    "siglas": "FEZ",
+    "nombre": "SPDR EURO STOXX 50 ETF",
+    "link": "https://www.etoro.com/markets/fez",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/4427",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "ITA",
+    "siglas": "ITA",
+    "nombre": "iShares US Aerospace & Defense ETF",
+    "link": "https://www.etoro.com/markets/ita",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6961",
+    "estado": true
+}

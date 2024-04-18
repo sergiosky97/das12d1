@@ -1,0 +1,8 @@
+{
+    "carpeta": "ARKB",
+    "siglas": "ARKB",
+    "nombre": "ARK 21Shares Bitcoin ETF",
+    "link": "https://www.etoro.com/markets/arkb",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1369",
+    "estado": true
+}

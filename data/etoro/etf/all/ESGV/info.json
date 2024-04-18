@@ -1,0 +1,8 @@
+{
+    "carpeta": "ESGV",
+    "siglas": "ESGV",
+    "nombre": "Vanguard ESG U.S. Stock ETF",
+    "link": "https://www.etoro.com/markets/esgv",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1423",
+    "estado": true
+}

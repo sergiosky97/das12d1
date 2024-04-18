@@ -1,0 +1,8 @@
+{
+    "carpeta": "MINT",
+    "siglas": "MINT",
+    "nombre": "PIMCO Enhanced Short Maturity",
+    "link": "https://www.etoro.com/markets/mint",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4375",
+    "estado": true
+}

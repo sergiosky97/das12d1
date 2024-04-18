@@ -1,0 +1,8 @@
+{
+    "carpeta": "EWZ",
+    "siglas": "EWZ",
+    "nombre": "Brazil Index MSCI Ishares",
+    "link": "https://www.etoro.com/markets/ewz",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3012",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "ITWN_L",
+    "siglas": "ITWN.L",
+    "nombre": "iShares MSCI Taiwan UCITS ETF",
+    "link": "https://www.etoro.com/markets/itwn.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3072",
+    "estado": true
+}

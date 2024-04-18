@@ -1,0 +1,8 @@
+{
+    "carpeta": "QQQ_EXT",
+    "siglas": "QQQ.EXT",
+    "nombre": "Invesco QQQ",
+    "link": "https://www.etoro.com/markets/qqq.ext",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3418",
+    "estado": true
+}

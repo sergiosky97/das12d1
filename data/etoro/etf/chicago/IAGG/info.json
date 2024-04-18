@@ -1,0 +1,8 @@
+{
+    "carpeta": "IAGG",
+    "siglas": "IAGG",
+    "nombre": "iShares Core International Aggregate Bond ETF",
+    "link": "https://www.etoro.com/markets/iagg",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3158",
+    "estado": true
+}

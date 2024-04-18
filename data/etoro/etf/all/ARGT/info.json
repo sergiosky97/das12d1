@@ -1,0 +1,8 @@
+{
+    "carpeta": "ARGT",
+    "siglas": "ARGT",
+    "nombre": "Global X MSCI Argentina ETF",
+    "link": "https://www.etoro.com/markets/argt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3421",
+    "estado": true
+}

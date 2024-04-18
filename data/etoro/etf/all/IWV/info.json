@@ -1,0 +1,8 @@
+{
+    "carpeta": "IWV",
+    "siglas": "IWV",
+    "nombre": "iShares Russell 3000 ETF",
+    "link": "https://www.etoro.com/markets/iwv",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1093",
+    "estado": true
+}

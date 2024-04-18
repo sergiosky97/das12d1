@@ -1,0 +1,8 @@
+{
+    "carpeta": "IVV",
+    "siglas": "IVV",
+    "nombre": "iShares Core S&P 500 ETF",
+    "link": "https://www.etoro.com/markets/ivv",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/3165",
+    "estado": true
+}

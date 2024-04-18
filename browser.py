@@ -330,7 +330,7 @@ class Browser:
     #FUNCIONES DRIVER
     def close(self):
         if self.driver != None:
-            self.driver.close()
+            self.driver.quit()
 
     #FUNCIONES URL
     def current_url(self):

@@ -1,0 +1,8 @@
+{
+    "carpeta": "IUSG",
+    "siglas": "IUSG",
+    "nombre": "iShares Core S&P US Growth",
+    "link": "https://www.etoro.com/markets/iusg",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3147",
+    "estado": true
+}

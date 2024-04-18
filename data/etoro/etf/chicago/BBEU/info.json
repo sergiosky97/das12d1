@@ -1,0 +1,8 @@
+{
+    "carpeta": "BBEU",
+    "siglas": "BBEU",
+    "nombre": "JPMorgan BetaBuilders Europe ETF",
+    "link": "https://www.etoro.com/markets/bbeu",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1428",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "THD",
+    "siglas": "THD",
+    "nombre": "iShares MSCI Thailand ETF",
+    "link": "https://www.etoro.com/markets/thd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3238",
+    "estado": true
+}

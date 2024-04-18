@@ -1,0 +1,8 @@
+{
+    "carpeta": "SCHX",
+    "siglas": "SCHX",
+    "nombre": "Schwab US Large-Cap ETF",
+    "link": "https://www.etoro.com/markets/schx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3220",
+    "estado": true
+}

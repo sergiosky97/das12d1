@@ -1,0 +1,8 @@
+{
+    "carpeta": "ICVT",
+    "siglas": "ICVT",
+    "nombre": "iShares Convertible Bond ETF",
+    "link": "https://www.etoro.com/markets/icvt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1434",
+    "estado": true
+}
