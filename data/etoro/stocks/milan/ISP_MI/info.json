@@ -1,8 +1,0 @@
-{
-    "carpeta": "ISP_MI",
-    "siglas": "ISP.MI",
-    "nombre": "Intesa Sanpaolo Group",
-    "link": "https://www.etoro.com/markets/isp.mi",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1288",
-    "estado": true
-}

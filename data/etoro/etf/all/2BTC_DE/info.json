@@ -1,8 +1,0 @@
-{
-    "carpeta": "2BTC_DE",
-    "siglas": "2BTC.DE",
-    "nombre": "21Shares Bitcoin ETP",
-    "link": "https://www.etoro.com/markets/2btc.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3281",
-    "estado": true
-}

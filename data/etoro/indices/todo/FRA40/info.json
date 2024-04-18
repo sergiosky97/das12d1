@@ -1,8 +1,0 @@
-{
-    "carpeta": "FRA40",
-    "siglas": "FRA40",
-    "nombre": "FRA40 Index",
-    "link": "https://www.etoro.com/markets/fra40",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/31",
-    "estado": true
-}

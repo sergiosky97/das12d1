@@ -1,8 +1,0 @@
-{
-    "carpeta": "UVXY",
-    "siglas": "UVXY",
-    "nombre": "ProShares Ultra VIX Short-Term s ETF",
-    "link": "https://www.etoro.com/markets/uvxy",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3246",
-    "estado": true
-}

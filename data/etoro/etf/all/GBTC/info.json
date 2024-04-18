@@ -1,8 +1,0 @@
-{
-    "carpeta": "GBTC",
-    "siglas": "GBTC",
-    "nombre": "Grayscale Bitcoin Trust BTC",
-    "link": "https://www.etoro.com/markets/gbtc",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5612",
-    "estado": true
-}

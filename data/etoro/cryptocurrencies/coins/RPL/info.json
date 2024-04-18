@@ -1,0 +1,8 @@
+{
+    "carpeta": "RPL",
+    "siglas": "RPL",
+    "nombre": "Rocket Pool",
+    "link": "https://www.etoro.com/markets/rpl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100341",
+    "estado": true
+}

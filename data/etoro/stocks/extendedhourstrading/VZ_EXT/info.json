@@ -1,8 +1,0 @@
-{
-    "carpeta": "VZ_EXT",
-    "siglas": "VZ.EXT",
-    "nombre": "Verizon",
-    "link": "https://www.etoro.com/markets/vz.ext",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9161",
-    "estado": true
-}

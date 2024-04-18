@@ -1,8 +1,0 @@
-{
-    "carpeta": "IYE",
-    "siglas": "IYE",
-    "nombre": "iShares U.S. Energy ETF",
-    "link": "https://www.etoro.com/markets/iye",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1432",
-    "estado": true
-}

@@ -1,8 +1,0 @@
-{
-    "carpeta": "MTUM",
-    "siglas": "MTUM",
-    "nombre": "iShares Edge MSCI USA Momentum",
-    "link": "https://www.etoro.com/markets/mtum",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4402",
-    "estado": true
-}

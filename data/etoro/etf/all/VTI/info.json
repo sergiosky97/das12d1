@@ -1,8 +1,0 @@
-{
-    "carpeta": "VTI",
-    "siglas": "VTI",
-    "nombre": "Vanguard Total Stock Market ETF",
-    "link": "https://www.etoro.com/markets/vti",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4237",
-    "estado": true
-}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "IOTX",
+    "siglas": "IOTX",
+    "nombre": "IoTex",
+    "link": "https://www.etoro.com/markets/iotx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100015",
+    "estado": true
+}

@@ -1,8 +1,0 @@
-{
-    "carpeta": "PRU_L",
-    "siglas": "PRU.L",
-    "nombre": "Prudential",
-    "link": "https://www.etoro.com/markets/pru.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2061",
-    "estado": true
-}

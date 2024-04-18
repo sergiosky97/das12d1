@@ -1,8 +1,0 @@
-{
-    "carpeta": "BGN_MI",
-    "siglas": "BGN.MI",
-    "nombre": "Banca Generali",
-    "link": "https://www.etoro.com/markets/bgn.mi",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4219",
-    "estado": true
-}

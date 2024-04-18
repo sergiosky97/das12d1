@@ -1,8 +1,0 @@
-{
-    "carpeta": "SSO",
-    "siglas": "SSO",
-    "nombre": "Proshares Ultra S&P 500",
-    "link": "https://www.etoro.com/markets/sso",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3027",
-    "estado": true
-}

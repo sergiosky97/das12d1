@@ -1,8 +1,0 @@
-{
-    "carpeta": "IWM",
-    "siglas": "IWM",
-    "nombre": "Ishares Russell 2000 ETF",
-    "link": "https://www.etoro.com/markets/iwm",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3005",
-    "estado": true
-}

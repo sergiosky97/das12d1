@@ -1,8 +1,0 @@
-{
-    "carpeta": "UMI_BR",
-    "siglas": "UMI.BR",
-    "nombre": "Umicore",
-    "link": "https://www.etoro.com/markets/umi.br",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5747",
-    "estado": true
-}

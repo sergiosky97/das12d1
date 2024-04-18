@@ -1,8 +1,0 @@
-{
-    "carpeta": "IBCD_DE",
-    "siglas": "IBCD.DE",
-    "nombre": "iShares USD Corp Bond UCITS ETF",
-    "link": "https://www.etoro.com/markets/ibcd.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3403",
-    "estado": true
-}

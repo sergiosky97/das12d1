@@ -1,8 +1,0 @@
-{
-    "carpeta": "SPSB",
-    "siglas": "SPSB",
-    "nombre": "SPDR Portfolio Short Term Corporate Bond ETF",
-    "link": "https://www.etoro.com/markets/spsb",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1396",
-    "estado": true
-}

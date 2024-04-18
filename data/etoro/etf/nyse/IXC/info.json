@@ -1,8 +1,0 @@
-{
-    "carpeta": "IXC",
-    "siglas": "IXC",
-    "nombre": "iShares Global Energy ETF",
-    "link": "https://www.etoro.com/markets/ixc",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1433",
-    "estado": true
-}

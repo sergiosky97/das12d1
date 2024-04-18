@@ -1,8 +1,0 @@
-{
-    "carpeta": "EZU",
-    "siglas": "EZU",
-    "nombre": "iShares MSCI Eurozone ETF",
-    "link": "https://www.etoro.com/markets/ezu",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4411",
-    "estado": true
-}

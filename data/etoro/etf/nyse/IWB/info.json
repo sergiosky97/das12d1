@@ -1,8 +1,0 @@
-{
-    "carpeta": "IWB",
-    "siglas": "IWB",
-    "nombre": "iShares Russell 1000 ETF",
-    "link": "https://www.etoro.com/markets/iwb",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4319",
-    "estado": true
-}

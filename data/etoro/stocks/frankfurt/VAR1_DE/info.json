@@ -1,8 +1,0 @@
-{
-    "carpeta": "VAR1_DE",
-    "siglas": "VAR1.DE",
-    "nombre": "Varta AG",
-    "link": "https://www.etoro.com/markets/var1.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6975",
-    "estado": true
-}

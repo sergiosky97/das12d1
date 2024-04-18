@@ -1,8 +1,0 @@
-{
-    "carpeta": "IWR",
-    "siglas": "IWR",
-    "nombre": "iShares Russell Mid-Cap ETF",
-    "link": "https://www.etoro.com/markets/iwr",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4324",
-    "estado": true
-}

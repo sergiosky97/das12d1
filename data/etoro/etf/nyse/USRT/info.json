@@ -1,8 +1,0 @@
-{
-    "carpeta": "USRT",
-    "siglas": "USRT",
-    "nombre": "iShares Core U.S. REIT ETF",
-    "link": "https://www.etoro.com/markets/usrt",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3159",
-    "estado": true
-}

@@ -1,8 +1,0 @@
-{
-    "carpeta": "USDOLLAR",
-    "siglas": "USDOLLAR",
-    "nombre": "US Dollar Index",
-    "link": "https://www.etoro.com/markets/usdollar",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/25",
-    "estado": true
-}

@@ -1,8 +1,0 @@
-{
-    "carpeta": "DIA_US",
-    "siglas": "DIA.US",
-    "nombre": "SPDR Dow Jones Industrial Average ETF Trust",
-    "link": "https://www.etoro.com/markets/dia.us",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3026",
-    "estado": true
-}

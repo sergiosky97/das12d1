@@ -1,8 +1,0 @@
-{
-    "carpeta": "VMUK_L",
-    "siglas": "VMUK.L",
-    "nombre": "Virgin Money UK",
-    "link": "https://www.etoro.com/markets/vmuk.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2824",
-    "estado": true
-}

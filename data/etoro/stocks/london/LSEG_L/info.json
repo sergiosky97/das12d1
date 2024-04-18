@@ -1,8 +1,0 @@
-{
-    "carpeta": "LSEG_L",
-    "siglas": "LSEG.L",
-    "nombre": "London Stock Exchange",
-    "link": "https://www.etoro.com/markets/lseg.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2051",
-    "estado": true
-}

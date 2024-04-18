@@ -1,8 +1,0 @@
-{
-    "carpeta": "SCHE",
-    "siglas": "SCHE",
-    "nombre": "Schwab Emerging Markets Equity ETF",
-    "link": "https://www.etoro.com/markets/sche",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3218",
-    "estado": true
-}

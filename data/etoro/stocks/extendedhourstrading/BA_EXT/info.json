@@ -1,8 +1,0 @@
-{
-    "carpeta": "BA_EXT",
-    "siglas": "BA.EXT",
-    "nombre": "Boeing",
-    "link": "https://www.etoro.com/markets/ba.ext",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2884",
-    "estado": true
-}

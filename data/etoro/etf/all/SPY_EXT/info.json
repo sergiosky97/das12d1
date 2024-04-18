@@ -1,8 +1,0 @@
-{
-    "carpeta": "SPY_EXT",
-    "siglas": "SPY.EXT",
-    "nombre": "SPDR S&P 500 ETF",
-    "link": "https://www.etoro.com/markets/spy.ext",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3417",
-    "estado": true
-}

@@ -1,8 +1,0 @@
-{
-    "carpeta": "DHL_DE",
-    "siglas": "DHL.DE",
-    "nombre": "Deutsche Post AG",
-    "link": "https://www.etoro.com/markets/dhl.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1216",
-    "estado": true
-}

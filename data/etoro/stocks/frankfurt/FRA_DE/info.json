@@ -1,8 +1,0 @@
-{
-    "carpeta": "FRA_DE",
-    "siglas": "FRA.DE",
-    "nombre": "Fraport AG Frankfurt Airport S",
-    "link": "https://www.etoro.com/markets/fra.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2562",
-    "estado": true
-}

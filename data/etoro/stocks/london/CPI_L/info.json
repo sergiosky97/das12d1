@@ -1,8 +1,0 @@
-{
-    "carpeta": "CPI_L",
-    "siglas": "CPI.L",
-    "nombre": "Capita",
-    "link": "https://www.etoro.com/markets/cpi.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2027",
-    "estado": true
-}

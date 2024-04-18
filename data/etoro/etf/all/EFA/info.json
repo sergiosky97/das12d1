@@ -1,8 +1,0 @@
-{
-    "carpeta": "EFA",
-    "siglas": "EFA",
-    "nombre": "iShares MSCI EAFE ETF",
-    "link": "https://www.etoro.com/markets/efa",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3009",
-    "estado": true
-}

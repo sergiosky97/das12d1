@@ -1,8 +1,0 @@
-{
-    "carpeta": "IAEX_L",
-    "siglas": "IAEX.L",
-    "nombre": "iShares AEX UCITS ETF",
-    "link": "https://www.etoro.com/markets/iaex.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3035",
-    "estado": true
-}

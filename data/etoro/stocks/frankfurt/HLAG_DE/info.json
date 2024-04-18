@@ -1,8 +1,0 @@
-{
-    "carpeta": "HLAG_DE",
-    "siglas": "HLAG.DE",
-    "nombre": "Hapag-Lloyd",
-    "link": "https://www.etoro.com/markets/hlag.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2542",
-    "estado": true
-}

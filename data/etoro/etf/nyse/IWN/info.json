@@ -1,8 +1,0 @@
-{
-    "carpeta": "IWN",
-    "siglas": "IWN",
-    "nombre": "iShares Russell 2000 Value ETF",
-    "link": "https://www.etoro.com/markets/iwn",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4396",
-    "estado": true
-}

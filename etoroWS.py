@@ -379,7 +379,6 @@ class etoro_ws:
                 links_analizados = []        
                 ruta_carpeta = os.path.join(path_carpeta_etoro,carpeta_market)
                 #COMPROBAR SI ES NECESARIO ACTUALIZAR
-                actualizacion_obligatoria = False
                 path_update = os.path.join(ruta_carpeta,"update.json")
                 if os.path.exists(path_update):
                     with open(path_update, "r") as file:
@@ -390,19 +389,16 @@ class etoro_ws:
                     tiempo_actual = datetime.now()
                     nueva_actualizacion = ultima_actualizacion + timedelta(seconds=tiempo_actualizacion)     
                     if nueva_actualizacion > tiempo_actual:
-                        carpetas_actualizacion = [nombre for nombre in os.listdir(ruta_carpeta) if os.path.isdir(os.path.join(ruta_carpeta, nombre))]
-                        if len(links_analizados) != len(carpetas_actualizacion) + 1: #+1 HACE REFERENCIA A FIN QUE SE AÑADE AL FINALIZAR
+                        if any("ERROR" == link_analizado for link_analizado in links_analizados):
                             if debug:
-                                print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizadas {len(links_analizados)} de {len(carpetas_actualizacion) - 1} carpetas actualizadas")      
-                                for elemento in reversed(links_analizados):
-                                    if elemento == "ERROR":
-                                        links_analizados.remove(elemento)
-                        else:  
+                                print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Sucedio un error en la anterior actualizacion")
+                                links_analizados = [link for link in links_analizados if link != "ERROR"]
+                        elif any("FIN" == link_analizado for link_analizado in links_analizados):
                             if debug:
-                                print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizada")       
-                            continue
+                                print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizada")      
+                            continue                      
                     else:
-                        actualizacion_obligatoria = True
+                        links_analizados = []
 
                 #COMPROBAMOS EL ARCHIVO INFO.JSON
                 path_info_json = os.path.join(ruta_carpeta,"info.json")
@@ -430,180 +426,197 @@ class etoro_ws:
                         
                         if debug:
                             print(f"[INFO] Extrayendo elementos de {nombre}: {link}")
-                        
-                        #LINK PRIMER ELEMENTO SE UTILIZA PARA VER SI SE HA ACTUALIZADO DESPUES DE PULSAR NEXT BUTTON 
-                        link_primeros_elementos = ["no_link"]
-                        contador_general = 0
+
+                        #AUTOSAVE V2
+                        CANTIDAD_PARA_GUARDAR = 120
+                        aux_guardar = False
+                        links_mercado = []
+                        autosave_intentos = 100
                         xpath_link = "//et-instrument-trading-row//et-card-avatar//a"
-                        while True:
-                            links_mercado = []     
-                            #Obtenemos el primer elemento
-                            elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)               
+                        contador_id = 1
+                        while autosave_intentos > 0 or aux_guardar:
+                            #Obtenemos los elementos de la pagina
+                            elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)     
                             maximo_intentos = 20
                             while maximo_intentos > 0:
                                 if not elementos_pagina:
-                                    elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)        
-                                if elementos_pagina:
-                                    try:
-                                        aux_primer_elemento = elementos_pagina[0].get_attribute("href")
-                                        if not any(aux_primer_elemento in links for links in link_primeros_elementos):
-                                            link_primeros_elementos.append(aux_primer_elemento)
-                                            break
-                                        self.browser.esperar(1)
-                                        elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)
-                                        maximo_intentos -= 1
-                                    except:
-                                        self.browser.esperar(1)
-                                        elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)
-                                        maximo_intentos -= 1
+                                    elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)       
+                                    maximo_intentos -= 1 
+                                else:
+                                    break
                             if maximo_intentos == 0:
                                 print(f"[ERROR] No se pudo obtener elementos")
-                                break
-            
-                            #ANALIZAMOS TODOS LOS ELEMENTOs/LINKS DENTRO DEL ENLACE
-                            links_mercado = []
-                            contador = 1
-                            for elemento in elementos_pagina:               
+                                autosave_intentos -= 1
+                                break                                 
+                            
+                            
+                            #Controlamos si es necesario pulsar al boton siguiente (si existe)
+                            siguiente_pagina = True
+                            for elemento in elementos_pagina:
                                 try:
-                                    elink = elemento.get_attribute("href")   
-                                    #COMPROBAMOS QUE NO SEA UN LINK ACTUALIZADO
-                                    if actualizacion_obligatoria or (links_analizados and any(elink in links for links in links_analizados)):
-                                        print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}:{elink}. Actualizada")                      
-                                        contador += 1
-                                        continue 
-                                    else:
-                                        links_mercado.append(elink)
-                                    if debug:
-                                        print(f" ({contador_general + contador}) - Link: {elink}")     
-                                        contador += 1
-                                except Exception as e:
-                                    print(f"[ERROR] Obteniendo enlace del mercado: {e}")
-                                    pass                   
-
-                            total_contador = contador_general + contador - 1
+                                    link_elemento = elemento.get_attribute("href")
+                                    if not any(link_elemento in link_analizado for link_analizado in links_analizados) and not any(link_elemento in link_mercado for link_mercado in links_mercado):
+                                        siguiente_pagina = False
+                                        if CANTIDAD_PARA_GUARDAR > len(links_mercado):
+                                            links_mercado.append(link_elemento)
+                                            if debug:
+                                                print(f" ({contador_id}) - Link: {link_elemento}")  
+                                        else: #No hemos sobrepasado el limite
+                                            siguiente_pagina = True
+                                        contador_id += 1    
+                                except:
+                                    contador_id = -1
+                                    break
+                                
+                            if contador_id == -1:
+                                autosave_intentos -= 1
+                                continue
                             
-                            #ANALIZAMOS CADA LINK DEL MERCADO
-                            info_mercado_json = []
-                            contador = 1
-                            if debug:
-                                print(" --------------------- [INFO] EXTRAYENDO API ---------------------")
-                            for link_mercado in links_mercado:                                
-                                #SI NO LO ES LA ACTUALIZAMOS
-                                links_analizados.append(link_mercado)
-                                self.browser.url(link_mercado + "/chart")
+                            #Hemos llegado al limite del autosave
+                            if CANTIDAD_PARA_GUARDAR == len(links_mercado) or aux_guardar:
+                                #Guardamos la url porque vamos a analizar uno a uno
+                                url_actual = self.browser.current_url()
+                                contador_id = 1
+                                #ANALIZAMOS CADA LINK DEL MERCADO
+                                info_mercado_json = []
+                                contador_info = 1
+                                if debug:
+                                    print(" --------------------- [INFO] EXTRAYENDO API ---------------------")
+                                processed_links = []
+                                for link_mercado in links_mercado:                                
+                                    try:
+                                        #SI NO LO ES LA ACTUALIZAMOS
+                                        self.browser.url(link_mercado + "/chart")
+                                        
+                                        elemento_nombre = self.browser.get_element(xpath="//h1[contains(@automation-id,'header-instrument-name')]",maximo_intentos=10,debug=False)
+                                        elemento_full_nombre = self.browser.get_element(xpath="//h1[contains(@automation-id,'header-instrument-name')]//span",maximo_intentos=10,debug=False)
+                                        enombre = elemento_nombre.text
+                                        efullnombre = elemento_full_nombre.text
+                                        enombre = enombre.replace(efullnombre,"").replace("\n","").strip()
+                                        efullnombre = efullnombre.replace("Future","").replace("Before","").strip()
+                                        if enombre == "":
+                                            enombre = efullnombre
+                                        
+                                        elemento = {
+                                            'carpeta':re.sub(r'[^a-zA-Z0-9]', '_', enombre),
+                                            'siglas':enombre,
+                                            'nombre':efullnombre,
+                                            'link':link_mercado,
+                                            'linkWS':"",
+                                            'estado':True,
+                                        }
+                                        #elemento_grafica = self.browser.get_element(xpath="//a[contains(@automation-id,'et-tab-chart')]",maximo_intentos=10,debug=False)
+                                        #if not elemento_grafica and not self.browser.click(element=elemento_grafica,debug=debug,name="elemento_grafica"):
+                                        #    elemento['estado'] = False
+                                        #else:
+                                        #    self.browser.url(elemento_grafica.get_attribute("href"))
+                                        elemento['linkWS'] = self.get_url_for_data().replace("OneDay","OneMinute")                      
+                                        if debug:   
+                                            print(f" ({contador_info}/{len(links_mercado)}) - {elemento['carpeta']}: {elemento['siglas']} ({elemento['nombre']}). Estado {elemento['estado']} LinkWS: {elemento['linkWS']}")
+                                            contador_info+=1
+                                            
+                                        info_mercado_json.append(elemento)    
+                                        processed_links.append(link_mercado)
+                                    except Exception as e:
+                                        print(f"[WARNING] Error autosolucionable: {e}")
                                 
-                                elemento_nombre = self.browser.get_element(xpath="//h1[contains(@automation-id,'header-instrument-name')]",maximo_intentos=10,debug=False)
-                                elemento_full_nombre = self.browser.get_element(xpath="//h1[contains(@automation-id,'header-instrument-name')]//span",maximo_intentos=10,debug=False)
-                                enombre = elemento_nombre.text
-                                efullnombre = elemento_full_nombre.text
-                                enombre = enombre.replace(efullnombre,"").replace("\n","").strip()
-                                efullnombre = efullnombre.replace("Future","").replace("Before","").strip()
-                                if enombre == "":
-                                    enombre = efullnombre
+                                #Volvemos a la pagina antes de guardar
+                                self.browser.url(url=url_actual)
                                 
-                                elemento = {
-                                    'carpeta':re.sub(r'[^a-zA-Z0-9]', '_', enombre),
-                                    'siglas':enombre,
-                                    'nombre':efullnombre,
-                                    'link':link_mercado,
-                                    'linkWS':"",
-                                    'estado':True,
-                                }
+                                # Eliminar los enlaces procesados de la lista principal
+                                for link in processed_links:
+                                    links_mercado.remove(link)
                                 
-                                #elemento_grafica = self.browser.get_element(xpath="//a[contains(@automation-id,'et-tab-chart')]",maximo_intentos=10,debug=False)
-                                #if not elemento_grafica and not self.browser.click(element=elemento_grafica,debug=debug,name="elemento_grafica"):
-                                #    elemento['estado'] = False
-                                #else:
-                                #    self.browser.url(elemento_grafica.get_attribute("href"))
-                                elemento['linkWS'] = self.get_url_for_data().replace("OneDay","OneMinute")                      
-                                if debug:   
-                                    print(f" ({contador_general + contador}/{total_contador}) - {elemento['carpeta']}: {elemento['siglas']} ({elemento['nombre']}). Estado {elemento['estado']} LinkWS: {elemento['linkWS']}")
-                                    contador+=1
-                                info_mercado_json.append(elemento)
-
-                            
-                            if len(links_mercado) > 0:
                                 if debug:
                                     print(" -------------------- [INFO] GUARDANDO PROGRESO -------------------")
-                                    #ANTES DE GUARDAR EL AVANCE VAMOS A VOLVER A LA URL:
-                                    self.browser.url(link)
             
                                 #GUARDAMOS EL JSON 
-                                contador = 1
-                                for elemento in info_mercado_json:
-                                    
-                                    ruta_info_json = os.path.join(ruta_carpeta,elemento['carpeta'])
+                                contador_json = 1
+                                for elemento_info in info_mercado_json:
+                                    ruta_info_json = os.path.join(ruta_carpeta,elemento_info['carpeta'])
                                     os.makedirs(ruta_info_json,exist_ok=True)
                                     ruta_info_json = os.path.join(ruta_info_json,"info.json")      
                                     # Escribir el diccionario en el archivo JSON
-                                    with open(ruta_info_json, 'w') as f:
-                                        json.dump(elemento, f, indent=4)
-                                    if debug:   
-                                        print(f" ({contador_general + contador}/{total_contador}) - {elemento['carpeta']}/info.json")
-                                        contador += 1
-                    
-                                contador_general += contador -1
-                            
+                                    try:
+                                        with open(ruta_info_json, 'w') as f:
+                                            json.dump(elemento_info, f, indent=4)
+                                        if debug:   
+                                            print(f" ({contador_json}/{len(info_mercado_json)}) - {elemento_info['carpeta']}/info.json")
+                                            contador_json += 1    
+                                        links_analizados.append(elemento_info['link'])
+                                    except Exception as e:
+                                        if debug:
+                                            print(f"[WARNING] Error autosolucionable {e}")
+                                        links_mercado.append(elemento_info['link'])                        
                                 
                                 # GUARDAMOS ACTUALIZACION
-                                path_update = os.path.join(ruta_carpeta,"update.json")
-                                tiempo_actual = datetime.now()
-                                data = {
-                                    "ultima_actualizacion": tiempo_actual.strftime("%Y-%m-%d %H:%M:%S"),
-                                    "links_analizados": links_analizados
-                                }
-                                with open(path_update, "w") as file:
-                                    json.dump(data, file)  
+                                try:
+                                    path_update = os.path.join(ruta_carpeta,"update.json")
+                                    tiempo_actual = datetime.now()
+                                    data = {
+                                        "ultima_actualizacion": tiempo_actual.strftime("%Y-%m-%d %H:%M:%S"),
+                                        "links_analizados": links_analizados
+                                    }
+                                    with open(path_update, "w") as file:
+                                        json.dump(data, file)    
+                                except:
+                                    pass  
+                                
+                                #Limpiamos la lista mercado
+                                info_mercado_json.clear()
                    
-                            #PULSAMOS EL BOTON NEXT SI EXISTE PARA OBTENER MAS ENLACES
-                            maximo_intentos = 20
-                            elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False) 
-                            fin = False
-                            while maximo_intentos > 0:
-                                if not elementos_pagina:
-                                    elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)        
-                                if elementos_pagina:
-                                    try:
-                                        aux_primer_elemento = elementos_pagina[0].get_attribute("href")
-                                        if any(aux_primer_elemento in links for links in link_primeros_elementos):                          
-                                            xpath_next_button = "//*[contains(@class,'menu-button-hp discover-page')]//*[contains(@automation-id,'next-button')]"
-                                            next_button = self.browser.get_element(xpath=xpath_next_button,maximo_intentos=7,debug=False)
-                                            if next_button:
-                                                if "disabled" in next_button.get_attribute("class"):
-                                                    if debug:
-                                                        print(f"[INFO] Extraccion completada, no hay mas elementos")
-                                                    fin = True
-                                                    break
-                                                else:
-                                                    if not self.browser.click(next_button,debug=debug,name="next_button"):
-                                                        next_button = self.browser.get_element(xpath=xpath_next_button,maximo_intentos=5,debug=False)
-                                                        clicked = False
-                                                        for i in range(5):
-                                                            if next_button and "disabled" in next_button.get_attribute("class"):
-                                                                fin = True
-                                                                break
-                                                            elif self.browser.click(next_button,debug=False,name="next_button"):   
-                                                                clicked = True
-                                                                break                          
-                                                            else:
-                                                                next_button = self.browser.get_element(xpath=xpath_next_button,maximo_intentos=5,debug=False)
-                                                        
-                                                        if not clicked and not self.browser.click(next_button,debug=debug,name="next_button"):
-                                                            print(f"[ERROR] Sucedio un error con next_button")  
-                                                            links_analizados.append("ERROR")
-                                                            fin = True
-                                                            break                                                                            
-                                            else:
-                                                if debug:
-                                                    print(f"[INFO] Extraccion completada, no hay mas elementos, ni existe next_button")
-                                                    fin = True
-                                                break
+                            #Pulsamos el boton siguiente
+                            if siguiente_pagina:
+                                maximo_intentos_next = 2
+                                xpath_next_button = "//*[contains(@class,'menu-button-hp discover-page')]//*[contains(@automation-id,'next-button')]"
+                                next_button = self.browser.get_element(xpath=xpath_next_button,maximo_intentos=3,debug=False)
+                                while maximo_intentos_next > 0:
+                                    if not next_button:
+                                        next_button = self.browser.get_element(xpath=xpath_next_button,maximo_intentos=3,debug=False)
+                                        if not next_button:
+                                            maximo_intentos_next -= 1
+                                    else:
+                                        break
+                                    
+                                #NO HAY NEXT BUTTON GUARDAMOS Y FINALIZAMOS
+                                if not next_button:
+                                    autosave_intentos = 0
+                                    if len(links_mercado) > 0:
+                                        aux_guardar = True
+                                    else:
+                                        aux_guardar = False
+                                    if debug:
+                                        if aux_guardar == False and debug:    
+                                            print(f"[INFO] Extraccion completada, no existe next_button")
+                                else:
+                                    if "disabled" in next_button.get_attribute("class"):
+                                        autosave_intentos = 0
+                                        if len(links_mercado) > 0:
+                                            aux_guardar = True
                                         else:
-                                            maximo_intentos = 0
-                                    except:
-                                        maximo_intentos -= 1
-                            if fin:
-                                break
+                                            aux_guardar = False
+                                        if debug:
+                                            print(f"[INFO] Extraccion completada, no hay mas elementos")
+                                    else:
+                                        aux_guardar = False
+                                        try:
+                                            link_anterior = elementos_pagina[0].get_attribute("href")
+                                            if self.browser.click(next_button,debug=False,name="next_button"):
+                                                #Obtenemos los elementos de la pagina
+                                                elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)     
+                                                maximo_intentos = 20
+                                                while maximo_intentos > 0:
+                                                    if not elementos_pagina:
+                                                        elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)    
+                                                        maximo_intentos -= 1    
+                                                    else:
+                                                        if elementos_pagina[0].get_attribute("href") != link_anterior:
+                                                            break
+                                        except:
+                                            autosave_intentos -= 1
+                                            if autosave_intentos == 0:
+                                                links_analizados.append("ERROR")  
+                                                print(f"[ERROR] Next button obtuvo un error fatal")             
                                 
                         #ANALIZO SI HAY ALGUNA QUE NO ESTA ACTIVA
                         #carpetas_etoro_internas = [nombre for nombre in os.listdir(ruta_carpeta) if os.path.isdir(os.path.join(ruta_carpeta,nombre))]    

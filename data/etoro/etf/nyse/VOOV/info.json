@@ -1,8 +1,0 @@
-{
-    "carpeta": "VOOV",
-    "siglas": "VOOV",
-    "nombre": "Vanguard S&P 500 Value ETF",
-    "link": "https://www.etoro.com/markets/voov",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3255",
-    "estado": true
-}

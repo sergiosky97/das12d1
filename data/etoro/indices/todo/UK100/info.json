@@ -1,8 +1,0 @@
-{
-    "carpeta": "UK100",
-    "siglas": "UK100",
-    "nombre": "UK100 Index",
-    "link": "https://www.etoro.com/markets/uk100",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/30",
-    "estado": true
-}

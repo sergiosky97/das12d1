@@ -1,0 +1,8 @@
+{
+    "carpeta": "STRK",
+    "siglas": "STRK",
+    "nombre": "Starknet",
+    "link": "https://www.etoro.com/markets/strk",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100316",
+    "estado": true
+}

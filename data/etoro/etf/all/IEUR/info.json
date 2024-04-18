@@ -1,8 +1,0 @@
-{
-    "carpeta": "IEUR",
-    "siglas": "IEUR",
-    "nombre": "iShares Core MSCI Europe ETF",
-    "link": "https://www.etoro.com/markets/ieur",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3150",
-    "estado": true
-}

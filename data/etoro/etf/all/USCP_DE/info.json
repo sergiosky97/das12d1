@@ -1,8 +1,0 @@
-{
-    "carpeta": "USCP_DE",
-    "siglas": "USCP.DE",
-    "nombre": "Ossiam Shiller Barclays Cape US Sector Value TR",
-    "link": "https://www.etoro.com/markets/uscp.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10616",
-    "estado": true
-}

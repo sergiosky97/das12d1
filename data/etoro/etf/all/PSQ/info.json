@@ -1,8 +1,0 @@
-{
-    "carpeta": "PSQ",
-    "siglas": "PSQ",
-    "nombre": "ProShares Short QQQ ETF",
-    "link": "https://www.etoro.com/markets/psq",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2192",
-    "estado": true
-}

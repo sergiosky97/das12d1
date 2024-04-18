@@ -1,8 +1,0 @@
-{
-    "carpeta": "IBB",
-    "siglas": "IBB",
-    "nombre": "Ishares Nasdaq Biotechnology",
-    "link": "https://www.etoro.com/markets/ibb",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3028",
-    "estado": true
-}

@@ -1,8 +1,0 @@
-{
-    "carpeta": "RWE_DE",
-    "siglas": "RWE.DE",
-    "nombre": "RWE AG",
-    "link": "https://www.etoro.com/markets/rwe.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1213",
-    "estado": true
-}

@@ -1,8 +1,0 @@
-{
-    "carpeta": "INDV_L",
-    "siglas": "INDV.L",
-    "nombre": "Indivior PLC",
-    "link": "https://www.etoro.com/markets/indv.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2751",
-    "estado": true
-}

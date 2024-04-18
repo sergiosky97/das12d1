@@ -1,8 +1,0 @@
-{
-    "carpeta": "C_EXT",
-    "siglas": "C.EXT",
-    "nombre": "Citigroup",
-    "link": "https://www.etoro.com/markets/c.ext",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8767",
-    "estado": true
-}

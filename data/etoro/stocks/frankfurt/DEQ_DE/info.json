@@ -1,8 +1,0 @@
-{
-    "carpeta": "DEQ_DE",
-    "siglas": "DEQ.DE",
-    "nombre": "Deutsche Euroshop",
-    "link": "https://www.etoro.com/markets/deq.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2540",
-    "estado": true
-}

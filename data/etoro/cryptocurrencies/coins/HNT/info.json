@@ -1,0 +1,8 @@
+{
+    "carpeta": "HNT",
+    "siglas": "HNT",
+    "nombre": "Helium",
+    "link": "https://www.etoro.com/markets/hnt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100098",
+    "estado": true
+}

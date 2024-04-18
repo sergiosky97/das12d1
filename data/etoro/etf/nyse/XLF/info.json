@@ -1,8 +1,0 @@
-{
-    "carpeta": "XLF",
-    "siglas": "XLF",
-    "nombre": "Financial Select Sector SPDR",
-    "link": "https://www.etoro.com/markets/xlf",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3004",
-    "estado": true
-}

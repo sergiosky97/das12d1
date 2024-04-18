@@ -1,0 +1,8 @@
+{
+    "carpeta": "METIS",
+    "siglas": "METIS",
+    "nombre": "Metis DAO",
+    "link": "https://www.etoro.com/markets/metis",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100312",
+    "estado": true
+}

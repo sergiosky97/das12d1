@@ -1,8 +1,0 @@
-{
-    "carpeta": "IRE_MI",
-    "siglas": "IRE.MI",
-    "nombre": "Iren",
-    "link": "https://www.etoro.com/markets/ire.mi",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5567",
-    "estado": true
-}

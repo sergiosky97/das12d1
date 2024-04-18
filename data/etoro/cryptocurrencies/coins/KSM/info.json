@@ -1,0 +1,8 @@
+{
+    "carpeta": "KSM",
+    "siglas": "KSM",
+    "nombre": "Kusama",
+    "link": "https://www.etoro.com/markets/ksm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100332",
+    "estado": true
+}

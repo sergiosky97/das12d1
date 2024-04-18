@@ -1,8 +1,0 @@
-{
-    "carpeta": "BOND",
-    "siglas": "BOND",
-    "nombre": "PIMCO Active Bond Exchange-Traded Fund",
-    "link": "https://www.etoro.com/markets/bond",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3125",
-    "estado": true
-}

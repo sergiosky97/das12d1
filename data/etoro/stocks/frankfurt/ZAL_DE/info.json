@@ -1,8 +1,0 @@
-{
-    "carpeta": "ZAL_DE",
-    "siglas": "ZAL.DE",
-    "nombre": "Zalando",
-    "link": "https://www.etoro.com/markets/zal.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2521",
-    "estado": true
-}

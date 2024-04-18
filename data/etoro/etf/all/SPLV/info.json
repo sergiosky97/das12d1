@@ -1,8 +1,0 @@
-{
-    "carpeta": "SPLV",
-    "siglas": "SPLV",
-    "nombre": "Invesco S&P 500 Low Volatility",
-    "link": "https://www.etoro.com/markets/splv",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4388",
-    "estado": true
-}

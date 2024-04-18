@@ -1,8 +1,0 @@
-{
-    "carpeta": "ENI_MI",
-    "siglas": "ENI.MI",
-    "nombre": "Eni Energy Company",
-    "link": "https://www.etoro.com/markets/eni.mi",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1283",
-    "estado": true
-}

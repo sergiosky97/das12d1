@@ -1,0 +1,8 @@
+{
+    "carpeta": "STX",
+    "siglas": "STX",
+    "nombre": "Stacks",
+    "link": "https://www.etoro.com/markets/stx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100314",
+    "estado": true
+}

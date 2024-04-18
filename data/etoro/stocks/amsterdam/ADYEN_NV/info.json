@@ -1,8 +1,0 @@
-{
-    "carpeta": "ADYEN_NV",
-    "siglas": "ADYEN.NV",
-    "nombre": "Adyen NV",
-    "link": "https://www.etoro.com/markets/adyen.nv",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4502",
-    "estado": true
-}

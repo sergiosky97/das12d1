@@ -1,8 +1,0 @@
-{
-    "carpeta": "LAND_L",
-    "siglas": "LAND.L",
-    "nombre": "Land Securities",
-    "link": "https://www.etoro.com/markets/land.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2048",
-    "estado": true
-}

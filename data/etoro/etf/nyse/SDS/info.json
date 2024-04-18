@@ -1,8 +1,0 @@
-{
-    "carpeta": "SDS",
-    "siglas": "SDS",
-    "nombre": "ProShares UltraShort S&P500",
-    "link": "https://www.etoro.com/markets/sds",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3224",
-    "estado": true
-}

@@ -1,8 +1,0 @@
-{
-    "carpeta": "KXI",
-    "siglas": "KXI",
-    "nombre": "iShares Global Consumer Staples ETF",
-    "link": "https://www.etoro.com/markets/kxi",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1436",
-    "estado": true
-}

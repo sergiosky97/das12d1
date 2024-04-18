@@ -1,8 +1,0 @@
-{
-    "carpeta": "KTN_DE",
-    "siglas": "KTN.DE",
-    "nombre": "Kontron AG",
-    "link": "https://www.etoro.com/markets/ktn.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2259",
-    "estado": true
-}

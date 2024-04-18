@@ -1,8 +1,0 @@
-{
-    "carpeta": "INDA",
-    "siglas": "INDA",
-    "nombre": "iShares MSCI India ETF",
-    "link": "https://www.etoro.com/markets/inda",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4429",
-    "estado": true
-}

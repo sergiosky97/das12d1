@@ -1,8 +1,0 @@
-{
-    "carpeta": "CSP1_L",
-    "siglas": "CSP1.L",
-    "nombre": "iShares Core S&P 500 UCITS ETF",
-    "link": "https://www.etoro.com/markets/csp1.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8020",
-    "estado": true
-}

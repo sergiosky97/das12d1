@@ -1,8 +1,0 @@
-{
-    "carpeta": "GLD",
-    "siglas": "GLD",
-    "nombre": "SPDR Gold",
-    "link": "https://www.etoro.com/markets/gld",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3025",
-    "estado": true
-}

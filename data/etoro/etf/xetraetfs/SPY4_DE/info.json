@@ -1,8 +1,0 @@
-{
-    "carpeta": "SPY4_DE",
-    "siglas": "SPY4.DE",
-    "nombre": "SPDR S&P 400 US Mid Cap UCITS ETF",
-    "link": "https://www.etoro.com/markets/spy4.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10583",
-    "estado": true
-}

@@ -1,8 +1,0 @@
-{
-    "carpeta": "AAPL_EXT",
-    "siglas": "AAPL.EXT",
-    "nombre": "Apple Inc.",
-    "link": "https://www.etoro.com/markets/aapl.ext",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8754",
-    "estado": true
-}

@@ -3,6 +3,6 @@
     "siglas": "PLATINUM",
     "nombre": "Platinum",
     "link": "https://www.etoro.com/markets/platinum",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/40",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/21",
     "estado": true
 }

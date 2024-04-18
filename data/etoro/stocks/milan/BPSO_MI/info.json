@@ -1,8 +1,0 @@
-{
-    "carpeta": "BPSO_MI",
-    "siglas": "BPSO.MI",
-    "nombre": "Banca Popolare di Sondrio S.p.A",
-    "link": "https://www.etoro.com/markets/bpso.mi",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3533",
-    "estado": true
-}

@@ -1,8 +1,0 @@
-{
-    "carpeta": "IBST_L",
-    "siglas": "IBST.L",
-    "nombre": "Ibstock PLC",
-    "link": "https://www.etoro.com/markets/ibst.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2688",
-    "estado": true
-}

@@ -1,8 +1,0 @@
-{
-    "carpeta": "IEMG",
-    "siglas": "IEMG",
-    "nombre": "iShares Core MSCI Emerging Markets ETF",
-    "link": "https://www.etoro.com/markets/iemg",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3141",
-    "estado": true
-}

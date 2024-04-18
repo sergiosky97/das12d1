@@ -1,0 +1,8 @@
+{
+    "carpeta": "COTI",
+    "siglas": "COTI",
+    "nombre": "COTI",
+    "link": "https://www.etoro.com/markets/coti",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100095",
+    "estado": true
+}

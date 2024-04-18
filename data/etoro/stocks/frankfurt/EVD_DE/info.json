@@ -1,8 +1,0 @@
-{
-    "carpeta": "EVD_DE",
-    "siglas": "EVD.DE",
-    "nombre": "CTS Eventim",
-    "link": "https://www.etoro.com/markets/evd.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2548",
-    "estado": true
-}

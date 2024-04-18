@@ -1,8 +1,0 @@
-{
-    "carpeta": "IEF",
-    "siglas": "IEF",
-    "nombre": "iShares 7-10 Year Treasury Bond ETF",
-    "link": "https://www.etoro.com/markets/ief",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3101",
-    "estado": true
-}

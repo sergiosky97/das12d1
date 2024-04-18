@@ -1,8 +1,0 @@
-{
-    "carpeta": "AMZN_EXT",
-    "siglas": "AMZN.EXT",
-    "nombre": "Amazon.com Inc",
-    "link": "https://www.etoro.com/markets/amzn.ext",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8753",
-    "estado": true
-}

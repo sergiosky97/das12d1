@@ -1,8 +1,0 @@
-{
-    "carpeta": "SPXL",
-    "siglas": "SPXL",
-    "nombre": "Direxion Daily S&P 500 Bull 3X",
-    "link": "https://www.etoro.com/markets/spxl",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3230",
-    "estado": true
-}

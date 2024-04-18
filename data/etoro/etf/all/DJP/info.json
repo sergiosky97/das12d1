@@ -1,8 +1,0 @@
-{
-    "carpeta": "DJP",
-    "siglas": "DJP",
-    "nombre": "iPath Bloomberg Commodity Index Total Return ETN",
-    "link": "https://www.etoro.com/markets/djp",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3177",
-    "estado": true
-}

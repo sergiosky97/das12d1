@@ -1,8 +1,0 @@
-{
-    "carpeta": "SAN_MC",
-    "siglas": "SAN.MC",
-    "nombre": "Banco Santander SA",
-    "link": "https://www.etoro.com/markets/san.mc",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/7615",
-    "estado": true
-}

@@ -3,6 +3,6 @@
     "siglas": "BTCEUR",
     "nombre": "Bitcoin/Euro",
     "link": "https://www.etoro.com/markets/btceur",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100109",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/100245",
     "estado": true
 }

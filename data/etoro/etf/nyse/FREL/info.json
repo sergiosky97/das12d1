@@ -1,8 +1,0 @@
-{
-    "carpeta": "FREL",
-    "siglas": "FREL",
-    "nombre": "Fidelity MSCI Real Estate Index ETF",
-    "link": "https://www.etoro.com/markets/frel",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3188",
-    "estado": true
-}

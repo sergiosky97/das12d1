@@ -1,8 +1,0 @@
-{
-    "carpeta": "TLX_DE",
-    "siglas": "TLX.DE",
-    "nombre": "Talanx AG",
-    "link": "https://www.etoro.com/markets/tlx.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2558",
-    "estado": true
-}

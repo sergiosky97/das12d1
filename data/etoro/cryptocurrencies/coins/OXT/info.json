@@ -3,6 +3,6 @@
     "siglas": "OXT",
     "nombre": "Orchid",
     "link": "https://www.etoro.com/markets/oxt",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/100070",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/100069",
     "estado": true
 }

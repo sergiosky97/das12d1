@@ -1,8 +1,0 @@
-{
-    "carpeta": "ACWI",
-    "siglas": "ACWI",
-    "nombre": "iShares MSCI ACWI Index Fund",
-    "link": "https://www.etoro.com/markets/acwi",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4002",
-    "estado": true
-}

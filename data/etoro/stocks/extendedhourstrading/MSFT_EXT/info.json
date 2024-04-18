@@ -1,8 +1,0 @@
-{
-    "carpeta": "MSFT_EXT",
-    "siglas": "MSFT.EXT",
-    "nombre": "Microsoft",
-    "link": "https://www.etoro.com/markets/msft.ext",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8757",
-    "estado": true
-}

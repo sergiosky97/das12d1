@@ -1,8 +1,0 @@
-{
-    "carpeta": "ITOT",
-    "siglas": "ITOT",
-    "nombre": "iShares Core S&P Total U.S. Stock Market ETF",
-    "link": "https://www.etoro.com/markets/itot",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3144",
-    "estado": true
-}

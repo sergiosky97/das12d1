@@ -1,8 +1,0 @@
-{
-    "carpeta": "MCHI",
-    "siglas": "MCHI",
-    "nombre": "iShares MSCI China ETF",
-    "link": "https://www.etoro.com/markets/mchi",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4432",
-    "estado": true
-}

@@ -1,8 +1,0 @@
-{
-    "carpeta": "TRN_L",
-    "siglas": "TRN.L",
-    "nombre": "Trainline PLC",
-    "link": "https://www.etoro.com/markets/trn.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2176",
-    "estado": true
-}

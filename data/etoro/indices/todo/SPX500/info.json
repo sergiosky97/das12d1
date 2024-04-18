@@ -1,8 +1,0 @@
-{
-    "carpeta": "SPX500",
-    "siglas": "SPX500",
-    "nombre": "SPX500 Index",
-    "link": "https://www.etoro.com/markets/spx500",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/27",
-    "estado": true
-}

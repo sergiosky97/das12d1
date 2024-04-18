@@ -1,8 +1,0 @@
-{
-    "carpeta": "TSLA_EXT",
-    "siglas": "TSLA.EXT",
-    "nombre": "Tesla Motors, Inc.",
-    "link": "https://www.etoro.com/markets/tsla.ext",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8752",
-    "estado": true
-}

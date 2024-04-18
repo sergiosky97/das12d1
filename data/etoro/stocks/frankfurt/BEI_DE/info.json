@@ -1,8 +1,0 @@
-{
-    "carpeta": "BEI_DE",
-    "siglas": "BEI.DE",
-    "nombre": "Beiersdorf AG",
-    "link": "https://www.etoro.com/markets/bei.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1225",
-    "estado": true
-}

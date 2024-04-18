@@ -1,8 +1,0 @@
-{
-    "carpeta": "IWD",
-    "siglas": "IWD",
-    "nombre": "iShares Russell 1000 Value ETF",
-    "link": "https://www.etoro.com/markets/iwd",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4269",
-    "estado": true
-}

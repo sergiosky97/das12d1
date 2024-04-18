@@ -1,8 +1,0 @@
-{
-    "carpeta": "SDR_L",
-    "siglas": "SDR.L",
-    "nombre": "Schroders",
-    "link": "https://www.etoro.com/markets/sdr.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2078",
-    "estado": true
-}

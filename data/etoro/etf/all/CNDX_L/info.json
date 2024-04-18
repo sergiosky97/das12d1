@@ -1,8 +1,0 @@
-{
-    "carpeta": "CNDX_L",
-    "siglas": "CNDX.L",
-    "nombre": "iShares NASDAQ 100 UCITS ETF usd",
-    "link": "https://www.etoro.com/markets/cndx.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8015",
-    "estado": true
-}

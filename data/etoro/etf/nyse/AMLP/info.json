@@ -1,8 +1,0 @@
-{
-    "carpeta": "AMLP",
-    "siglas": "AMLP",
-    "nombre": "Alerian MLP ETF",
-    "link": "https://www.etoro.com/markets/amlp",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4395",
-    "estado": true
-}

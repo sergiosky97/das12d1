@@ -1,8 +1,0 @@
-{
-    "carpeta": "GER40",
-    "siglas": "GER40",
-    "nombre": "GER40 Index",
-    "link": "https://www.etoro.com/markets/ger40",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/32",
-    "estado": true
-}

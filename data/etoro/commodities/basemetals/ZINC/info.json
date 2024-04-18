@@ -1,8 +1,0 @@
-{
-    "carpeta": "ZINC",
-    "siglas": "ZINC",
-    "nombre": "Zinc",
-    "link": "https://www.etoro.com/markets/zinc",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/340",
-    "estado": true
-}

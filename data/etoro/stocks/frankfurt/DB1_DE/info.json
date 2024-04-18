@@ -1,8 +1,0 @@
-{
-    "carpeta": "DB1_DE",
-    "siglas": "DB1.DE",
-    "nombre": "Deutsche Boerse AG",
-    "link": "https://www.etoro.com/markets/db1.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1219",
-    "estado": true
-}

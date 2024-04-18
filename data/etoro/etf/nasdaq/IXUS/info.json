@@ -1,8 +1,0 @@
-{
-    "carpeta": "IXUS",
-    "siglas": "IXUS",
-    "nombre": "iShares Core MSCI Total International Stock ETF",
-    "link": "https://www.etoro.com/markets/ixus",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3145",
-    "estado": true
-}

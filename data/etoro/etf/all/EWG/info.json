@@ -1,8 +1,0 @@
-{
-    "carpeta": "EWG",
-    "siglas": "EWG",
-    "nombre": "iShares MSCI Germany ETF",
-    "link": "https://www.etoro.com/markets/ewg",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4446",
-    "estado": true
-}

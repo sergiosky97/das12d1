@@ -1,8 +1,0 @@
-{
-    "carpeta": "SPY5_L",
-    "siglas": "SPY5.L",
-    "nombre": "SPDR S&P 500 UCITS ETF",
-    "link": "https://www.etoro.com/markets/spy5.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2864",
-    "estado": true
-}

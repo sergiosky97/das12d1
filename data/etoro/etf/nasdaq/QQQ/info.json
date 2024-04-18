@@ -1,8 +1,0 @@
-{
-    "carpeta": "QQQ",
-    "siglas": "QQQ",
-    "nombre": "Invesco QQQ",
-    "link": "https://www.etoro.com/markets/qqq",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3006",
-    "estado": true
-}

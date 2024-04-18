@@ -1,8 +1,0 @@
-{
-    "carpeta": "BCP_LSB",
-    "siglas": "BCP.LSB",
-    "nombre": "Banco Comercial Portugues SA",
-    "link": "https://www.etoro.com/markets/bcp.lsb",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5754",
-    "estado": true
-}

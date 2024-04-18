@@ -1,8 +1,0 @@
-{
-    "carpeta": "MBB",
-    "siglas": "MBB",
-    "nombre": "iShares MBS ETF",
-    "link": "https://www.etoro.com/markets/mbb",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1081",
-    "estado": true
-}

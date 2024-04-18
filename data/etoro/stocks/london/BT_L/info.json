@@ -1,8 +1,0 @@
-{
-    "carpeta": "BT_L",
-    "siglas": "BT.L",
-    "nombre": "BT Group",
-    "link": "https://www.etoro.com/markets/bt.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2022",
-    "estado": true
-}

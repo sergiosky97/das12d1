@@ -1,8 +1,0 @@
-{
-    "carpeta": "PSON_L",
-    "siglas": "PSON.L",
-    "nombre": "Pearson",
-    "link": "https://www.etoro.com/markets/pson.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2063",
-    "estado": true
-}

@@ -1,8 +1,0 @@
-{
-    "carpeta": "SPX_L",
-    "siglas": "SPX.L",
-    "nombre": "Spirax-Sarco Engineering PLC",
-    "link": "https://www.etoro.com/markets/spx.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2611",
-    "estado": true
-}

@@ -1,8 +1,0 @@
-{
-    "carpeta": "ALV_DE",
-    "siglas": "ALV.DE",
-    "nombre": "Allianz SE",
-    "link": "https://www.etoro.com/markets/alv.de",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1204",
-    "estado": true
-}

@@ -1,8 +1,0 @@
-{
-    "carpeta": "IBIT",
-    "siglas": "IBIT",
-    "nombre": "iShares Bitcoin Trust",
-    "link": "https://www.etoro.com/markets/ibit",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1367",
-    "estado": true
-}

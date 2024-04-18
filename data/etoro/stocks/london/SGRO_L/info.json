@@ -1,8 +1,0 @@
-{
-    "carpeta": "SGRO_L",
-    "siglas": "SGRO.L",
-    "nombre": "Segro",
-    "link": "https://www.etoro.com/markets/sgro.l",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2159",
-    "estado": true
-}

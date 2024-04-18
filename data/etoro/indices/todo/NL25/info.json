@@ -1,8 +1,0 @@
-{
-    "carpeta": "NL25",
-    "siglas": "NL25",
-    "nombre": "Netherlands 25 Index",
-    "link": "https://www.etoro.com/markets/nl25",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/353",
-    "estado": true
-}

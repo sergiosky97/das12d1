@@ -1,8 +1,0 @@
-{
-    "carpeta": "PFE_EXT",
-    "siglas": "PFE.EXT",
-    "nombre": "Pfizer",
-    "link": "https://www.etoro.com/markets/pfe.ext",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2496",
-    "estado": true
-}

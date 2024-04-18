@@ -1,8 +1,0 @@
-{
-    "carpeta": "UNI_MI",
-    "siglas": "UNI.MI",
-    "nombre": "Unipol",
-    "link": "https://www.etoro.com/markets/uni.mi",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4230",
-    "estado": true
-}

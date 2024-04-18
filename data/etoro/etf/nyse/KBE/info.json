@@ -1,8 +1,0 @@
-{
-    "carpeta": "KBE",
-    "siglas": "KBE",
-    "nombre": "SPDR S&P Bank ETF",
-    "link": "https://www.etoro.com/markets/kbe",
-    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4449",
-    "estado": true
-}
