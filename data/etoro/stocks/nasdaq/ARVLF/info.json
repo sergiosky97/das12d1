@@ -1,0 +1,8 @@
+{
+    "carpeta": "ARVLF",
+    "siglas": "ARVLF",
+    "nombre": "Arrival",
+    "link": "https://www.etoro.com/markets/arvlf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8736",
+    "estado": true
+}

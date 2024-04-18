@@ -1,0 +1,8 @@
+{
+    "carpeta": "HUT",
+    "siglas": "HUT",
+    "nombre": "Hut 8 Mining Corp",
+    "link": "https://www.etoro.com/markets/hut",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8671",
+    "estado": true
+}

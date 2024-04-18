@@ -1,0 +1,8 @@
+{
+    "carpeta": "CYBR",
+    "siglas": "CYBR",
+    "nombre": "CyberArk",
+    "link": "https://www.etoro.com/markets/cybr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4041",
+    "estado": true
+}

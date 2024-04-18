@@ -1,0 +1,8 @@
+{
+    "carpeta": "HCP_US",
+    "siglas": "HCP.US",
+    "nombre": "HashiCorp Inc",
+    "link": "https://www.etoro.com/markets/hcp.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9440",
+    "estado": true
+}

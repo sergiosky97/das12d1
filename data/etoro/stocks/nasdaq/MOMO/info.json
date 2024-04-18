@@ -1,0 +1,8 @@
+{
+    "carpeta": "MOMO",
+    "siglas": "MOMO",
+    "nombre": "Hello Group Inc-ADR",
+    "link": "https://www.etoro.com/markets/momo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1387",
+    "estado": true
+}

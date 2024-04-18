@@ -1,0 +1,8 @@
+{
+    "carpeta": "ADP",
+    "siglas": "ADP",
+    "nombre": "Automatic Data Processing Inc",
+    "link": "https://www.etoro.com/markets/adp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1648",
+    "estado": true
+}

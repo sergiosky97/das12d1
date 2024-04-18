@@ -1,0 +1,8 @@
+{
+    "carpeta": "VC",
+    "siglas": "VC",
+    "nombre": "Visteon Corp",
+    "link": "https://www.etoro.com/markets/vc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1727",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "TROW",
+    "siglas": "TROW",
+    "nombre": "T Rowe Price Group Inc",
+    "link": "https://www.etoro.com/markets/trow",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1953",
+    "estado": true
+}

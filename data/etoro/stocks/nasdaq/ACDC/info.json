@@ -1,0 +1,8 @@
+{
+    "carpeta": "ACDC",
+    "siglas": "ACDC",
+    "nombre": "ProFrac Holding Corp",
+    "link": "https://www.etoro.com/markets/acdc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9906",
+    "estado": true
+}

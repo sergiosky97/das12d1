@@ -1,0 +1,8 @@
+{
+    "carpeta": "DXCM",
+    "siglas": "DXCM",
+    "nombre": "DexCom Inc",
+    "link": "https://www.etoro.com/markets/dxcm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4382",
+    "estado": true
+}

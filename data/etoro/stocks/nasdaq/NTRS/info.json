@@ -1,0 +1,8 @@
+{
+    "carpeta": "NTRS",
+    "siglas": "NTRS",
+    "nombre": "Northern Trust Corp",
+    "link": "https://www.etoro.com/markets/ntrs",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1913",
+    "estado": true
+}

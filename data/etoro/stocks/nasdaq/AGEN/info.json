@@ -1,0 +1,8 @@
+{
+    "carpeta": "AGEN",
+    "siglas": "AGEN",
+    "nombre": "Agenus Inc",
+    "link": "https://www.etoro.com/markets/agen",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8009",
+    "estado": true
+}

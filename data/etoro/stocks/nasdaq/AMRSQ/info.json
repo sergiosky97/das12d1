@@ -1,0 +1,8 @@
+{
+    "carpeta": "AMRSQ",
+    "siglas": "AMRSQ",
+    "nombre": "Amyris Inc",
+    "link": "https://www.etoro.com/markets/amrsq",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6379",
+    "estado": true
+}

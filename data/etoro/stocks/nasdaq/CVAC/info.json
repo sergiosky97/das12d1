@@ -1,0 +1,8 @@
+{
+    "carpeta": "CVAC",
+    "siglas": "CVAC",
+    "nombre": "CureVac NV",
+    "link": "https://www.etoro.com/markets/cvac",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8013",
+    "estado": true
+}

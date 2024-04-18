@@ -1,0 +1,8 @@
+{
+    "carpeta": "FLEX",
+    "siglas": "FLEX",
+    "nombre": "Flex Ltd",
+    "link": "https://www.etoro.com/markets/flex",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5636",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "IAC",
+    "siglas": "IAC",
+    "nombre": "IAC Inc",
+    "link": "https://www.etoro.com/markets/iac",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4327",
+    "estado": true
+}

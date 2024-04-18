@@ -1,0 +1,8 @@
+{
+    "carpeta": "RGEN",
+    "siglas": "RGEN",
+    "nombre": "Repligen Corp",
+    "link": "https://www.etoro.com/markets/rgen",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6118",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "GPRE",
+    "siglas": "GPRE",
+    "nombre": "Green Plains Inc",
+    "link": "https://www.etoro.com/markets/gpre",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6435",
+    "estado": true
+}

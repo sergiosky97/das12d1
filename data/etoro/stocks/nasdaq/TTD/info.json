@@ -1,0 +1,8 @@
+{
+    "carpeta": "TTD",
+    "siglas": "TTD",
+    "nombre": "Trade Desk Inc A",
+    "link": "https://www.etoro.com/markets/ttd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4399",
+    "estado": true
+}

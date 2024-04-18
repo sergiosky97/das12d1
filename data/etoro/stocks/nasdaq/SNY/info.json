@@ -1,0 +1,8 @@
+{
+    "carpeta": "SNY",
+    "siglas": "SNY",
+    "nombre": "Sanofi-ADR",
+    "link": "https://www.etoro.com/markets/sny",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8672",
+    "estado": true
+}

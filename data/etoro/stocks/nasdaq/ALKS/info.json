@@ -1,0 +1,8 @@
+{
+    "carpeta": "ALKS",
+    "siglas": "ALKS",
+    "nombre": "Alkermes plc",
+    "link": "https://www.etoro.com/markets/alks",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8995",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "CME",
+    "siglas": "CME",
+    "nombre": "CME Group",
+    "link": "https://www.etoro.com/markets/cme",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4033",
+    "estado": true
+}

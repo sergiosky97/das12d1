@@ -1,0 +1,8 @@
+{
+    "carpeta": "CRIS",
+    "siglas": "CRIS",
+    "nombre": "Curis Inc",
+    "link": "https://www.etoro.com/markets/cris",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6323",
+    "estado": true
+}

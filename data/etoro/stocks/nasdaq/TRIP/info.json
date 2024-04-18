@@ -1,0 +1,8 @@
+{
+    "carpeta": "TRIP",
+    "siglas": "TRIP",
+    "nombre": "TripAdvisor Inc",
+    "link": "https://www.etoro.com/markets/trip",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1123",
+    "estado": true
+}

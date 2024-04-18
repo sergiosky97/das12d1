@@ -1,0 +1,8 @@
+{
+    "carpeta": "PAAS",
+    "siglas": "PAAS",
+    "nombre": "Pan American Silver Corp",
+    "link": "https://www.etoro.com/markets/paas",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6495",
+    "estado": true
+}

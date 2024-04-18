@@ -1,0 +1,8 @@
+{
+    "carpeta": "TELL",
+    "siglas": "TELL",
+    "nombre": "Tellurian Inc",
+    "link": "https://www.etoro.com/markets/tell",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6284",
+    "estado": true
+}

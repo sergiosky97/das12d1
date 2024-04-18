@@ -1,0 +1,8 @@
+{
+    "carpeta": "KLAC",
+    "siglas": "KLAC",
+    "nombre": "KLA Corporation",
+    "link": "https://www.etoro.com/markets/klac",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4317",
+    "estado": true
+}

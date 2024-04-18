@@ -1,0 +1,8 @@
+{
+    "carpeta": "AGNC",
+    "siglas": "AGNC",
+    "nombre": "AGNC Investment Corp",
+    "link": "https://www.etoro.com/markets/agnc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1133",
+    "estado": true
+}

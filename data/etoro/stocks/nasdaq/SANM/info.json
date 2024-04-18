@@ -1,0 +1,8 @@
+{
+    "carpeta": "SANM",
+    "siglas": "SANM",
+    "nombre": "Sanmina Corp",
+    "link": "https://www.etoro.com/markets/sanm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1799",
+    "estado": true
+}

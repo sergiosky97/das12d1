@@ -1,0 +1,8 @@
+{
+    "carpeta": "ARCC",
+    "siglas": "ARCC",
+    "nombre": "Ares Capital Corp",
+    "link": "https://www.etoro.com/markets/arcc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6382",
+    "estado": true
+}

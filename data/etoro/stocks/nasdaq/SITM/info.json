@@ -1,0 +1,8 @@
+{
+    "carpeta": "SITM",
+    "siglas": "SITM",
+    "nombre": "SiTime Corporation",
+    "link": "https://www.etoro.com/markets/sitm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8928",
+    "estado": true
+}

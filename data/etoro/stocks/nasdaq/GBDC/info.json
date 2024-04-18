@@ -1,0 +1,8 @@
+{
+    "carpeta": "GBDC",
+    "siglas": "GBDC",
+    "nombre": "Golub Capital BDC Inc",
+    "link": "https://www.etoro.com/markets/gbdc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9817",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "API",
+    "siglas": "API",
+    "nombre": "Agora Inc-ADR",
+    "link": "https://www.etoro.com/markets/api",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5162",
+    "estado": true
+}

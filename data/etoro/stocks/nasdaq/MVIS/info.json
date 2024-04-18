@@ -1,0 +1,8 @@
+{
+    "carpeta": "MVIS",
+    "siglas": "MVIS",
+    "nombre": "MicroVision Inc",
+    "link": "https://www.etoro.com/markets/mvis",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6343",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "VRNS",
+    "siglas": "VRNS",
+    "nombre": "Varonis Systems Inc",
+    "link": "https://www.etoro.com/markets/vrns",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8666",
+    "estado": true
+}

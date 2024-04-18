@@ -1,0 +1,8 @@
+{
+    "carpeta": "MTCH",
+    "siglas": "MTCH",
+    "nombre": "Match Group, Inc",
+    "link": "https://www.etoro.com/markets/mtch",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1968",
+    "estado": true
+}

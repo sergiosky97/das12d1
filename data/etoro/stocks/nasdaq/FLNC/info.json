@@ -1,0 +1,8 @@
+{
+    "carpeta": "FLNC",
+    "siglas": "FLNC",
+    "nombre": "Fluence Energy Inc.",
+    "link": "https://www.etoro.com/markets/flnc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9091",
+    "estado": true
+}

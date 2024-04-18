@@ -1,0 +1,8 @@
+{
+    "carpeta": "PINC",
+    "siglas": "PINC",
+    "nombre": "Premier Inc",
+    "link": "https://www.etoro.com/markets/pinc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6502",
+    "estado": true
+}

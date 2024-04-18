@@ -1,0 +1,8 @@
+{
+    "carpeta": "BKKT",
+    "siglas": "BKKT",
+    "nombre": "Bakkt Holding",
+    "link": "https://www.etoro.com/markets/bkkt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9248",
+    "estado": true
+}

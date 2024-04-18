@@ -1,0 +1,8 @@
+{
+    "carpeta": "IBKR",
+    "siglas": "IBKR",
+    "nombre": "Interactive Brokers Group",
+    "link": "https://www.etoro.com/markets/ibkr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4075",
+    "estado": true
+}

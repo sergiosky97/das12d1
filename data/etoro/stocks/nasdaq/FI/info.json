@@ -1,0 +1,8 @@
+{
+    "carpeta": "FI",
+    "siglas": "FI",
+    "nombre": "Fiserv Inc",
+    "link": "https://www.etoro.com/markets/fi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1865",
+    "estado": true
+}

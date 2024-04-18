@@ -1,0 +1,8 @@
+{
+    "carpeta": "ATHXQ",
+    "siglas": "ATHXQ",
+    "nombre": "Athersys Inc",
+    "link": "https://www.etoro.com/markets/athxq",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6180",
+    "estado": true
+}

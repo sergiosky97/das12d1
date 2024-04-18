@@ -1,0 +1,8 @@
+{
+    "carpeta": "LIN",
+    "siglas": "LIN",
+    "nombre": "Linde PLC",
+    "link": "https://www.etoro.com/markets/lin",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4241",
+    "estado": true
+}

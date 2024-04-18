@@ -1,0 +1,8 @@
+{
+    "carpeta": "YNDX",
+    "siglas": "YNDX",
+    "nombre": "Yandex NV",
+    "link": "https://www.etoro.com/markets/yndx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1053",
+    "estado": true
+}

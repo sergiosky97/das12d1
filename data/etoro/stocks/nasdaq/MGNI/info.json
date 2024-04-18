@@ -1,0 +1,8 @@
+{
+    "carpeta": "MGNI",
+    "siglas": "MGNI",
+    "nombre": "Magnite Inc",
+    "link": "https://www.etoro.com/markets/mgni",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5262",
+    "estado": true
+}

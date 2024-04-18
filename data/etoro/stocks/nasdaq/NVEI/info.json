@@ -1,0 +1,8 @@
+{
+    "carpeta": "NVEI",
+    "siglas": "NVEI",
+    "nombre": "Nuvei Corp",
+    "link": "https://www.etoro.com/markets/nvei",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8603",
+    "estado": true
+}

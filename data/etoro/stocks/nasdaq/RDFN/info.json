@@ -1,0 +1,8 @@
+{
+    "carpeta": "RDFN",
+    "siglas": "RDFN",
+    "nombre": "Redfin Corp",
+    "link": "https://www.etoro.com/markets/rdfn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6515",
+    "estado": true
+}

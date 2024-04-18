@@ -1,0 +1,8 @@
+{
+    "carpeta": "CACC",
+    "siglas": "CACC",
+    "nombre": "Credit Acceptance",
+    "link": "https://www.etoro.com/markets/cacc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4203",
+    "estado": true
+}

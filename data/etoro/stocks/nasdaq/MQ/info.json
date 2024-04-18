@@ -1,0 +1,8 @@
+{
+    "carpeta": "MQ",
+    "siglas": "MQ",
+    "nombre": "Marqeta Inc.",
+    "link": "https://www.etoro.com/markets/mq",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9273",
+    "estado": true
+}

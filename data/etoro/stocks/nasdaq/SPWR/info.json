@@ -1,0 +1,8 @@
+{
+    "carpeta": "SPWR",
+    "siglas": "SPWR",
+    "nombre": "SunPower Corp",
+    "link": "https://www.etoro.com/markets/spwr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6073",
+    "estado": true
+}

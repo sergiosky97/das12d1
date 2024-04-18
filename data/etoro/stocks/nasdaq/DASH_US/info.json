@@ -1,0 +1,8 @@
+{
+    "carpeta": "DASH_US",
+    "siglas": "DASH.US",
+    "nombre": "DoorDash Inc",
+    "link": "https://www.etoro.com/markets/dash.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8048",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "RENT",
+    "siglas": "RENT",
+    "nombre": "Rent the Runway",
+    "link": "https://www.etoro.com/markets/rent",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8590",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "SNDL",
+    "siglas": "SNDL",
+    "nombre": "SNDL Inc",
+    "link": "https://www.etoro.com/markets/sndl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6536",
+    "estado": true
+}

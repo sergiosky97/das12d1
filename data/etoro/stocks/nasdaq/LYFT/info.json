@@ -1,0 +1,8 @@
+{
+    "carpeta": "LYFT",
+    "siglas": "LYFT",
+    "nombre": "Lyft Inc.",
+    "link": "https://www.etoro.com/markets/lyft",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1183",
+    "estado": true
+}

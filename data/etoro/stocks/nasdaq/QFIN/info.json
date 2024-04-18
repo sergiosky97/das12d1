@@ -1,0 +1,8 @@
+{
+    "carpeta": "QFIN",
+    "siglas": "QFIN",
+    "nombre": "Qifu Technology Inc",
+    "link": "https://www.etoro.com/markets/qfin",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5615",
+    "estado": true
+}

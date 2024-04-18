@@ -1,0 +1,8 @@
+{
+    "carpeta": "QIWI",
+    "siglas": "QIWI",
+    "nombre": "Qiwi Plc-ADR",
+    "link": "https://www.etoro.com/markets/qiwi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1054",
+    "estado": true
+}

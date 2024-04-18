@@ -1,0 +1,8 @@
+{
+    "carpeta": "PSEC",
+    "siglas": "PSEC",
+    "nombre": "Prospect Capital Corp",
+    "link": "https://www.etoro.com/markets/psec",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6509",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "GLBE",
+    "siglas": "GLBE",
+    "nombre": "Global-E Online Ltd",
+    "link": "https://www.etoro.com/markets/glbe",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8109",
+    "estado": true
+}

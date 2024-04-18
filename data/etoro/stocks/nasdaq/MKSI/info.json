@@ -1,0 +1,8 @@
+{
+    "carpeta": "MKSI",
+    "siglas": "MKSI",
+    "nombre": "MKS Instruments Inc",
+    "link": "https://www.etoro.com/markets/mksi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6468",
+    "estado": true
+}

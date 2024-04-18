@@ -1,0 +1,8 @@
+{
+    "carpeta": "ENVX",
+    "siglas": "ENVX",
+    "nombre": "Enovix Corporation",
+    "link": "https://www.etoro.com/markets/envx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1071",
+    "estado": true
+}
