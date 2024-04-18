@@ -1,0 +1,8 @@
+{
+    "carpeta": "EKT_DE",
+    "siglas": "EKT.DE",
+    "nombre": "ENERGIEKONTOR AG",
+    "link": "https://www.etoro.com/markets/ekt.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3676",
+    "estado": true
+}

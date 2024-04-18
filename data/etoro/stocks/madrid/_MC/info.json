@@ -1,0 +1,8 @@
+{
+    "carpeta": "_MC",
+    "siglas": ".MC",
+    "nombre": "ACS",
+    "link": "https://www.etoro.com/markets/acs.mc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1313",
+    "estado": true
+}

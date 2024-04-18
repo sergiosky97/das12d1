@@ -1,0 +1,8 @@
+{
+    "carpeta": "CON_DE",
+    "siglas": "CON.DE",
+    "nombre": "Continental AG",
+    "link": "https://www.etoro.com/markets/con.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1228",
+    "estado": true
+}

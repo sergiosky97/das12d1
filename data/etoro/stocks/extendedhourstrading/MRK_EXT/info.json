@@ -1,0 +1,8 @@
+{
+    "carpeta": "MRK_EXT",
+    "siglas": "MRK.EXT",
+    "nombre": "Merck & Co.",
+    "link": "https://www.etoro.com/markets/mrk.ext",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8770",
+    "estado": true
+}

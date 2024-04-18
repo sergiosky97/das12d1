@@ -1,0 +1,8 @@
+{
+    "carpeta": "SAB_MC",
+    "siglas": "SAB.MC",
+    "nombre": "Banco Sabadell",
+    "link": "https://www.etoro.com/markets/sab.mc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1340",
+    "estado": true
+}

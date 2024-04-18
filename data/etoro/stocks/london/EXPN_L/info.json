@@ -1,0 +1,8 @@
+{
+    "carpeta": "EXPN_L",
+    "siglas": "EXPN.L",
+    "nombre": "Experian",
+    "link": "https://www.etoro.com/markets/expn.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2030",
+    "estado": true
+}

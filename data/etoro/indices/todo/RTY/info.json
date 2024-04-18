@@ -1,0 +1,8 @@
+{
+    "carpeta": "RTY",
+    "siglas": "RTY",
+    "nombre": "Russell 2000 Index",
+    "link": "https://www.etoro.com/markets/rty",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/29",
+    "estado": true
+}

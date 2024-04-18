@@ -1,0 +1,8 @@
+{
+    "carpeta": "AT1_DE",
+    "siglas": "AT1.DE",
+    "nombre": "Aroundtown SA",
+    "link": "https://www.etoro.com/markets/at1.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2559",
+    "estado": true
+}

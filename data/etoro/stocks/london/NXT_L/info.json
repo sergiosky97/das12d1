@@ -1,0 +1,8 @@
+{
+    "carpeta": "NXT_L",
+    "siglas": "NXT.L",
+    "nombre": "Next PLC",
+    "link": "https://www.etoro.com/markets/nxt.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2058",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "NG_L",
+    "siglas": "NG.L",
+    "nombre": "National Grid",
+    "link": "https://www.etoro.com/markets/ng.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2057",
+    "estado": true
+}

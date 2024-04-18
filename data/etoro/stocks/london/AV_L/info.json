@@ -1,0 +1,8 @@
+{
+    "carpeta": "AV_L",
+    "siglas": "AV.L",
+    "nombre": "Aviva",
+    "link": "https://www.etoro.com/markets/av.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2009",
+    "estado": true
+}

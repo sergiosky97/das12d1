@@ -1,0 +1,8 @@
+{
+    "carpeta": "EWQ",
+    "siglas": "EWQ",
+    "nombre": "iShares MSCI France ETF",
+    "link": "https://www.etoro.com/markets/ewq",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1438",
+    "estado": true
+}

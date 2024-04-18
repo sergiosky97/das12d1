@@ -1,0 +1,8 @@
+{
+    "carpeta": "GSLC",
+    "siglas": "GSLC",
+    "nombre": "Goldman Sachs ActiveBeta U.S. Large Cap Equity ETF",
+    "link": "https://www.etoro.com/markets/gslc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1090",
+    "estado": true
+}

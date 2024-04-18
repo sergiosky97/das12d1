@@ -1,0 +1,8 @@
+{
+    "carpeta": "GBLB_BR",
+    "siglas": "GBLB.BR",
+    "nombre": "Groupe Bruxelles Lambert",
+    "link": "https://www.etoro.com/markets/gblb.br",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5741",
+    "estado": true
+}

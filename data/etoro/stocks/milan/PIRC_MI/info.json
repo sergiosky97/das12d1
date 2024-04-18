@@ -1,0 +1,8 @@
+{
+    "carpeta": "PIRC_MI",
+    "siglas": "PIRC.MI",
+    "nombre": "Pirelli & C",
+    "link": "https://www.etoro.com/markets/pirc.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4226",
+    "estado": true
+}

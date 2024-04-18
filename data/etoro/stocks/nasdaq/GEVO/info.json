@@ -1,0 +1,8 @@
+{
+    "carpeta": "GEVO",
+    "siglas": "GEVO",
+    "nombre": "Gevo Inc",
+    "link": "https://www.etoro.com/markets/gevo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6222",
+    "estado": true
+}

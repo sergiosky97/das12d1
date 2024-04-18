@@ -1,0 +1,8 @@
+{
+    "carpeta": "BFF_MI",
+    "siglas": "BFF.MI",
+    "nombre": "BFF Bank S.p.A",
+    "link": "https://www.etoro.com/markets/bff.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3531",
+    "estado": true
+}

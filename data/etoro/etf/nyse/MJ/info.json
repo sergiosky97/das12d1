@@ -1,0 +1,8 @@
+{
+    "carpeta": "MJ",
+    "siglas": "MJ",
+    "nombre": "ETFMG Alternative Harvest ETF",
+    "link": "https://www.etoro.com/markets/mj",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8110",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "CNA_L",
+    "siglas": "CNA.L",
+    "nombre": "Centrica",
+    "link": "https://www.etoro.com/markets/cna.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2025",
+    "estado": true
+}

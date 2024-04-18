@@ -1,0 +1,8 @@
+{
+    "carpeta": "DJ30",
+    "siglas": "DJ30",
+    "nombre": "DJ30 Index",
+    "link": "https://www.etoro.com/markets/dj30",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/29",
+    "estado": true
+}

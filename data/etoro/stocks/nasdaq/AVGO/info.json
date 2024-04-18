@@ -1,0 +1,8 @@
+{
+    "carpeta": "AVGO",
+    "siglas": "AVGO",
+    "nombre": "Broadcom Inc",
+    "link": "https://www.etoro.com/markets/avgo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4236",
+    "estado": true
+}

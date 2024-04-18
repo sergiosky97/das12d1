@@ -1,0 +1,8 @@
+{
+    "carpeta": "HKG50",
+    "siglas": "HKG50",
+    "nombre": "HKG50 Index",
+    "link": "https://www.etoro.com/markets/hkg50",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/38",
+    "estado": true
+}

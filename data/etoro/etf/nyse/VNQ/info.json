@@ -1,0 +1,8 @@
+{
+    "carpeta": "VNQ",
+    "siglas": "VNQ",
+    "nombre": "Vanguard Real Estate ETF",
+    "link": "https://www.etoro.com/markets/vnq",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4274",
+    "estado": true
+}

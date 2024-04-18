@@ -1,0 +1,8 @@
+{
+    "carpeta": "STAN_L",
+    "siglas": "STAN.L",
+    "nombre": "Standard Chartered",
+    "link": "https://www.etoro.com/markets/stan.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2086",
+    "estado": true
+}

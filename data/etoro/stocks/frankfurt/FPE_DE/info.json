@@ -1,0 +1,8 @@
+{
+    "carpeta": "FPE_DE",
+    "siglas": "FPE.DE",
+    "nombre": "Fuchs SE",
+    "link": "https://www.etoro.com/markets/fpe.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3694",
+    "estado": true
+}

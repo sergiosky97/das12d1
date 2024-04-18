@@ -1,0 +1,8 @@
+{
+    "carpeta": "ACX_MC",
+    "siglas": "ACX.MC",
+    "nombre": "Acerinox SA",
+    "link": "https://www.etoro.com/markets/acx.mc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5508",
+    "estado": true
+}

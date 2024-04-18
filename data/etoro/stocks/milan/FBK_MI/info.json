@@ -1,0 +1,8 @@
+{
+    "carpeta": "FBK_MI",
+    "siglas": "FBK.MI",
+    "nombre": "FinecoBank",
+    "link": "https://www.etoro.com/markets/fbk.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4223",
+    "estado": true
+}

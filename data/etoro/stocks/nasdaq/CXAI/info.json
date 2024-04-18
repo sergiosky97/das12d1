@@ -1,0 +1,8 @@
+{
+    "carpeta": "CXAI",
+    "siglas": "CXAI",
+    "nombre": "CXApp Inc",
+    "link": "https://www.etoro.com/markets/cxai",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2882",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "CE_MI",
+    "siglas": "CE.MI",
+    "nombre": "Credito Emiliano S.p.A",
+    "link": "https://www.etoro.com/markets/ce.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3540",
+    "estado": true
+}

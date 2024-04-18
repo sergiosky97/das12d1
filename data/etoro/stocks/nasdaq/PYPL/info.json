@@ -1,0 +1,8 @@
+{
+    "carpeta": "PYPL",
+    "siglas": "PYPL",
+    "nombre": "PayPal Holdings",
+    "link": "https://www.etoro.com/markets/pypl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1484",
+    "estado": true
+}

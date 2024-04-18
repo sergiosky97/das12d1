@@ -1,0 +1,8 @@
+{
+    "carpeta": "FRAS",
+    "siglas": "FRAS",
+    "nombre": "Frasers Group",
+    "link": "https://www.etoro.com/markets/fras",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2084",
+    "estado": true
+}

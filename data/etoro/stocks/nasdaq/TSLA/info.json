@@ -1,0 +1,8 @@
+{
+    "carpeta": "TSLA",
+    "siglas": "TSLA",
+    "nombre": "Tesla Motors, Inc.",
+    "link": "https://www.etoro.com/markets/tsla",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1111",
+    "estado": true
+}

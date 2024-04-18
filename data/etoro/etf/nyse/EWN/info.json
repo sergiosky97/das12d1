@@ -1,0 +1,8 @@
+{
+    "carpeta": "EWN",
+    "siglas": "EWN",
+    "nombre": "iShares MSCI Netherlands ETF",
+    "link": "https://www.etoro.com/markets/ewn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3182",
+    "estado": true
+}

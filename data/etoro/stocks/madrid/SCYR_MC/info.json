@@ -1,0 +1,8 @@
+{
+    "carpeta": "SCYR_MC",
+    "siglas": "SCYR.MC",
+    "nombre": "Sacyr",
+    "link": "https://www.etoro.com/markets/scyr.mc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1342",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "NSDQ100",
+    "siglas": "NSDQ100",
+    "nombre": "NASDAQ100 Index",
+    "link": "https://www.etoro.com/markets/nsdq100",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/27",
+    "estado": true
+}

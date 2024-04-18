@@ -1,0 +1,8 @@
+{
+    "carpeta": "HOOD",
+    "siglas": "HOOD",
+    "nombre": "Robinhood Markets Inc.",
+    "link": "https://www.etoro.com/markets/hood",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9272",
+    "estado": true
+}

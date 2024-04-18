@@ -1,0 +1,8 @@
+{
+    "carpeta": "DGE_L",
+    "siglas": "DGE.L",
+    "nombre": "Diageo",
+    "link": "https://www.etoro.com/markets/dge.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2029",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "VFH",
+    "siglas": "VFH",
+    "nombre": "Vanguard Financials ETF",
+    "link": "https://www.etoro.com/markets/vfh",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3250",
+    "estado": true
+}

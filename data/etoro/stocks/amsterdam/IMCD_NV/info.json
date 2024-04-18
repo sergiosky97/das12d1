@@ -1,0 +1,8 @@
+{
+    "carpeta": "IMCD_NV",
+    "siglas": "IMCD.NV",
+    "nombre": "IMCD NV",
+    "link": "https://www.etoro.com/markets/imcd.nv",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4524",
+    "estado": true
+}

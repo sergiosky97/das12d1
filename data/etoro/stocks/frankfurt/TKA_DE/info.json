@@ -1,0 +1,8 @@
+{
+    "carpeta": "TKA_DE",
+    "siglas": "TKA.DE",
+    "nombre": "ThyssenKrupp AG",
+    "link": "https://www.etoro.com/markets/tka.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1220",
+    "estado": true
+}

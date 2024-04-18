@@ -1,0 +1,8 @@
+{
+    "carpeta": "SMDS_L",
+    "siglas": "SMDS.L",
+    "nombre": "DS Smith PLC",
+    "link": "https://www.etoro.com/markets/smds.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2623",
+    "estado": true
+}

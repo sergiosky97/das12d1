@@ -1,0 +1,8 @@
+{
+    "carpeta": "CRSP",
+    "siglas": "CRSP",
+    "nombre": "CRISPR Therapeutics AG",
+    "link": "https://www.etoro.com/markets/crsp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6324",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "RED_MC",
+    "siglas": "RED.MC",
+    "nombre": "Red Electrica Corp",
+    "link": "https://www.etoro.com/markets/red.mc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1338",
+    "estado": true
+}

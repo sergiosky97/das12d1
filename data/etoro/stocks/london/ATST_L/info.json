@@ -1,0 +1,8 @@
+{
+    "carpeta": "ATST_L",
+    "siglas": "ATST.L",
+    "nombre": "Alliance Trust PLC",
+    "link": "https://www.etoro.com/markets/atst.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2667",
+    "estado": true
+}

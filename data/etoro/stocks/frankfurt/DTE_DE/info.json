@@ -1,0 +1,8 @@
+{
+    "carpeta": "DTE_DE",
+    "siglas": "DTE.DE",
+    "nombre": "Deutsche Telekom AG",
+    "link": "https://www.etoro.com/markets/dte.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1207",
+    "estado": true
+}

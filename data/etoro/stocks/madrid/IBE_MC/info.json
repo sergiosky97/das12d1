@@ -1,0 +1,8 @@
+{
+    "carpeta": "IBE_MC",
+    "siglas": "IBE.MC",
+    "nombre": "Iberdrola",
+    "link": "https://www.etoro.com/markets/ibe.mc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1330",
+    "estado": true
+}

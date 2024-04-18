@@ -1,0 +1,8 @@
+{
+    "carpeta": "_L",
+    "siglas": ".L",
+    "nombre": "IMI",
+    "link": "https://www.etoro.com/markets/imi.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2042",
+    "estado": true
+}

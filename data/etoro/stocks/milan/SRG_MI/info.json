@@ -1,0 +1,8 @@
+{
+    "carpeta": "SRG_MI",
+    "siglas": "SRG.MI",
+    "nombre": "Snam Group",
+    "link": "https://www.etoro.com/markets/srg.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1299",
+    "estado": true
+}

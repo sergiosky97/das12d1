@@ -1,0 +1,8 @@
+{
+    "carpeta": "PGX",
+    "siglas": "PGX",
+    "nombre": "Invesco Preferred ETF",
+    "link": "https://www.etoro.com/markets/pgx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3209",
+    "estado": true
+}

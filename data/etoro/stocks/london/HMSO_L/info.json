@@ -1,0 +1,8 @@
+{
+    "carpeta": "HMSO_L",
+    "siglas": "HMSO.L",
+    "nombre": "Hammerson",
+    "link": "https://www.etoro.com/markets/hmso.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2038",
+    "estado": true
+}

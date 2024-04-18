@@ -1,0 +1,8 @@
+{
+    "carpeta": "ELISA_HE",
+    "siglas": "ELISA.HE",
+    "nombre": "Elisa Oyj",
+    "link": "https://www.etoro.com/markets/elisa.he",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2285",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "AMS_MC",
+    "siglas": "AMS.MC",
+    "nombre": "Amadeus IT Hold -A-",
+    "link": "https://www.etoro.com/markets/ams.mc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1314",
+    "estado": true
+}

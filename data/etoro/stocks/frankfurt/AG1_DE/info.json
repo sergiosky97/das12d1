@@ -1,0 +1,8 @@
+{
+    "carpeta": "AG1_DE",
+    "siglas": "AG1.DE",
+    "nombre": "AUTO1 GROUP SE",
+    "link": "https://www.etoro.com/markets/ag1.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3672",
+    "estado": true
+}

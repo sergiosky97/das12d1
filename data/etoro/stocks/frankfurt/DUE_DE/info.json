@@ -1,0 +1,8 @@
+{
+    "carpeta": "DUE_DE",
+    "siglas": "DUE.DE",
+    "nombre": "Duerr AG",
+    "link": "https://www.etoro.com/markets/due.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2582",
+    "estado": true
+}

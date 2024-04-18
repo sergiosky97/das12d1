@@ -1,0 +1,8 @@
+{
+    "carpeta": "BAR",
+    "siglas": "BAR",
+    "nombre": "Graniteshares Gold Trust",
+    "link": "https://www.etoro.com/markets/bar",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3168",
+    "estado": true
+}

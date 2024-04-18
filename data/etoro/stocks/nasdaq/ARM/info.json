@@ -1,0 +1,8 @@
+{
+    "carpeta": "ARM",
+    "siglas": "ARM",
+    "nombre": "ARM Holdings PLC",
+    "link": "https://www.etoro.com/markets/arm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1365",
+    "estado": true
+}

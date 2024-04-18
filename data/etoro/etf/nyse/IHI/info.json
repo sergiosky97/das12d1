@@ -1,0 +1,8 @@
+{
+    "carpeta": "IHI",
+    "siglas": "IHI",
+    "nombre": "iShares U.S. Medical Devices ETF",
+    "link": "https://www.etoro.com/markets/ihi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3192",
+    "estado": true
+}

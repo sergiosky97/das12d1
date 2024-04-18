@@ -1,0 +1,8 @@
+{
+    "carpeta": "VOD",
+    "siglas": "VOD",
+    "nombre": "Vodafone Group plc-ADR",
+    "link": "https://www.etoro.com/markets/vod",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1047",
+    "estado": true
+}

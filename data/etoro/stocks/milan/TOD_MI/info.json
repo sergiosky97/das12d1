@@ -1,0 +1,8 @@
+{
+    "carpeta": "TOD_MI",
+    "siglas": "TOD.MI",
+    "nombre": "Tods Group",
+    "link": "https://www.etoro.com/markets/tod.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1304",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "PFC_L",
+    "siglas": "PFC.L",
+    "nombre": "Petrofac",
+    "link": "https://www.etoro.com/markets/pfc.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2060",
+    "estado": true
+}

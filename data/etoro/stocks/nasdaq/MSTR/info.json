@@ -1,0 +1,8 @@
+{
+    "carpeta": "MSTR",
+    "siglas": "MSTR",
+    "nombre": "MicroStrategy Incorporated",
+    "link": "https://www.etoro.com/markets/mstr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6473",
+    "estado": true
+}

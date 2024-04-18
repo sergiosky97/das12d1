@@ -1,0 +1,8 @@
+{
+    "carpeta": "STNE",
+    "siglas": "STNE",
+    "nombre": "StoneCo Ltd A",
+    "link": "https://www.etoro.com/markets/stne",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4380",
+    "estado": true
+}

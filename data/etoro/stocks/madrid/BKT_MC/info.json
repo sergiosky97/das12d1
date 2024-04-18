@@ -1,0 +1,8 @@
+{
+    "carpeta": "BKT_MC",
+    "siglas": "BKT.MC",
+    "nombre": "Bankinter",
+    "link": "https://www.etoro.com/markets/bkt.mc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1318",
+    "estado": true
+}

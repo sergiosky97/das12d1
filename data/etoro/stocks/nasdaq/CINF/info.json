@@ -1,0 +1,8 @@
+{
+    "carpeta": "CINF",
+    "siglas": "CINF",
+    "nombre": "Cincinnati Financial Corp",
+    "link": "https://www.etoro.com/markets/cinf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1875",
+    "estado": true
+}

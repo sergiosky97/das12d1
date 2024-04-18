@@ -1,0 +1,8 @@
+{
+    "carpeta": "IAG_L",
+    "siglas": "IAG.L",
+    "nombre": "International Consolidated Airlines",
+    "link": "https://www.etoro.com/markets/iag.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2040",
+    "estado": true
+}

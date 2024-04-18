@@ -1,0 +1,8 @@
+{
+    "carpeta": "ADM_L",
+    "siglas": "ADM.L",
+    "nombre": "Admiral Group",
+    "link": "https://www.etoro.com/markets/adm.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2002",
+    "estado": true
+}

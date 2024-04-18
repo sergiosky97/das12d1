@@ -1,0 +1,8 @@
+{
+    "carpeta": "MTS_MC",
+    "siglas": "MTS.MC",
+    "nombre": "ArcelorMittal",
+    "link": "https://www.etoro.com/markets/mts.mc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1255",
+    "estado": true
+}

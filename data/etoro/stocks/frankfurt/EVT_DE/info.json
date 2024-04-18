@@ -1,0 +1,8 @@
+{
+    "carpeta": "EVT_DE",
+    "siglas": "EVT.DE",
+    "nombre": "EVOTEC",
+    "link": "https://www.etoro.com/markets/evt.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2504",
+    "estado": true
+}

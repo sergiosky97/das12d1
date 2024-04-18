@@ -1,0 +1,8 @@
+{
+    "carpeta": "NEXI_MI",
+    "siglas": "NEXI.MI",
+    "nombre": "Nexi S.P.A",
+    "link": "https://www.etoro.com/markets/nexi.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2994",
+    "estado": true
+}

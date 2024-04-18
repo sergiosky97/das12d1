@@ -1,0 +1,8 @@
+{
+    "carpeta": "10yUS",
+    "siglas": "10yUS",
+    "nombre": "10 year Treasury",
+    "link": "https://www.etoro.com/markets/10yus",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/312",
+    "estado": true
+}

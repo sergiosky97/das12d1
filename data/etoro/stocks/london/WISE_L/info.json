@@ -1,0 +1,8 @@
+{
+    "carpeta": "WISE_L",
+    "siglas": "WISE.L",
+    "nombre": "Wise Ltd",
+    "link": "https://www.etoro.com/markets/wise.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9275",
+    "estado": true
+}

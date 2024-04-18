@@ -1,0 +1,8 @@
+{
+    "carpeta": "CBK_DE",
+    "siglas": "CBK.DE",
+    "nombre": "Commerzbank AG",
+    "link": "https://www.etoro.com/markets/cbk.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1223",
+    "estado": true
+}

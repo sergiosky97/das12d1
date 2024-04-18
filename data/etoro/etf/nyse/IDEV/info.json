@@ -1,0 +1,8 @@
+{
+    "carpeta": "IDEV",
+    "siglas": "IDEV",
+    "nombre": "iShares Core MSCI International Developed Markets ETF",
+    "link": "https://www.etoro.com/markets/idev",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3156",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "SDF_DE",
+    "siglas": "SDF.DE",
+    "nombre": "K+S Aktiengesellschaft",
+    "link": "https://www.etoro.com/markets/sdf.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1222",
+    "estado": true
+}

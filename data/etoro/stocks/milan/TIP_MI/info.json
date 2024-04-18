@@ -1,0 +1,8 @@
+{
+    "carpeta": "TIP_MI",
+    "siglas": "TIP.MI",
+    "nombre": "Tamburi Investment Partners S.p.A",
+    "link": "https://www.etoro.com/markets/tip.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3541",
+    "estado": true
+}

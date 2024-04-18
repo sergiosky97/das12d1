@@ -1,0 +1,8 @@
+{
+    "carpeta": "LXS_DE",
+    "siglas": "LXS.DE",
+    "nombre": "LANXESS",
+    "link": "https://www.etoro.com/markets/lxs.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2513",
+    "estado": true
+}

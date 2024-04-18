@@ -1,0 +1,8 @@
+{
+    "carpeta": "INF_L",
+    "siglas": "INF.L",
+    "nombre": "Informa",
+    "link": "https://www.etoro.com/markets/inf.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2155",
+    "estado": true
+}

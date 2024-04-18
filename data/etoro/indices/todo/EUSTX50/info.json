@@ -1,0 +1,8 @@
+{
+    "carpeta": "EUSTX50",
+    "siglas": "EUSTX50",
+    "nombre": "EUSTX50 Index",
+    "link": "https://www.etoro.com/markets/eustx50",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/43",
+    "estado": true
+}

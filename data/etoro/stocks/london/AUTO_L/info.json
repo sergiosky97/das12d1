@@ -1,0 +1,8 @@
+{
+    "carpeta": "AUTO_L",
+    "siglas": "AUTO.L",
+    "nombre": "Auto Trader Group PLC",
+    "link": "https://www.etoro.com/markets/auto.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2666",
+    "estado": true
+}

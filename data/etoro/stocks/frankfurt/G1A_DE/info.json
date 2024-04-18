@@ -1,0 +1,8 @@
+{
+    "carpeta": "G1A_DE",
+    "siglas": "G1A.DE",
+    "nombre": "GEA",
+    "link": "https://www.etoro.com/markets/g1a.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2518",
+    "estado": true
+}

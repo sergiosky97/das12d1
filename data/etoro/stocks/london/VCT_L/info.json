@@ -1,0 +1,8 @@
+{
+    "carpeta": "VCT_L",
+    "siglas": "VCT.L",
+    "nombre": "Victrex PLC",
+    "link": "https://www.etoro.com/markets/vct.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2760",
+    "estado": true
+}

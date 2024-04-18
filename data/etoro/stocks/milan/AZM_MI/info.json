@@ -1,0 +1,8 @@
+{
+    "carpeta": "AZM_MI",
+    "siglas": "AZM.MI",
+    "nombre": "Azimut Holding",
+    "link": "https://www.etoro.com/markets/azm.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1274",
+    "estado": true
+}

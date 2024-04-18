@@ -1,0 +1,8 @@
+{
+    "carpeta": "AFRM",
+    "siglas": "AFRM",
+    "nombre": "Affirm",
+    "link": "https://www.etoro.com/markets/afrm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8108",
+    "estado": true
+}

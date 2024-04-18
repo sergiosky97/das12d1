@@ -1,0 +1,8 @@
+{
+    "carpeta": "AAPL",
+    "siglas": "AAPL",
+    "nombre": "Apple",
+    "link": "https://www.etoro.com/markets/aapl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1001",
+    "estado": true
+}

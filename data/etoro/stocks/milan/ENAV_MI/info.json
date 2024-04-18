@@ -1,0 +1,8 @@
+{
+    "carpeta": "ENAV_MI",
+    "siglas": "ENAV.MI",
+    "nombre": "ENAV S.p.A",
+    "link": "https://www.etoro.com/markets/enav.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3547",
+    "estado": true
+}

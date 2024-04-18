@@ -1,0 +1,8 @@
+{
+    "carpeta": "NSIS_B_CO",
+    "siglas": "NSIS-B.CO",
+    "nombre": "Novonesis B",
+    "link": "https://www.etoro.com/markets/nsis-b.co",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2264",
+    "estado": true
+}

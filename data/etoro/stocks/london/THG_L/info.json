@@ -1,0 +1,8 @@
+{
+    "carpeta": "THG_L",
+    "siglas": "THG.L",
+    "nombre": "THG Plc",
+    "link": "https://www.etoro.com/markets/thg.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2116",
+    "estado": true
+}

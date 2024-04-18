@@ -1,0 +1,8 @@
+{
+    "carpeta": "CSCO",
+    "siglas": "CSCO",
+    "nombre": "Cisco Systems Inc",
+    "link": "https://www.etoro.com/markets/csco",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1013",
+    "estado": true
+}

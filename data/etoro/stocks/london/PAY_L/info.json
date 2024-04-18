@@ -1,0 +1,8 @@
+{
+    "carpeta": "PAY_L",
+    "siglas": "PAY.L",
+    "nombre": "PayPoint PLC",
+    "link": "https://www.etoro.com/markets/pay.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2743",
+    "estado": true
+}

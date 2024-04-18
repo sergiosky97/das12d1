@@ -1,0 +1,8 @@
+{
+    "carpeta": "RAND_NV",
+    "siglas": "RAND.NV",
+    "nombre": "Randstad Holding NV",
+    "link": "https://www.etoro.com/markets/rand.nv",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4533",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "INTU",
+    "siglas": "INTU",
+    "nombre": "Intuit Corp",
+    "link": "https://www.etoro.com/markets/intu",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1914",
+    "estado": true
+}

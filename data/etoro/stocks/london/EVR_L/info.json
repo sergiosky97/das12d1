@@ -1,0 +1,8 @@
+{
+    "carpeta": "EVR_L",
+    "siglas": "EVR.L",
+    "nombre": "Evraz PLC",
+    "link": "https://www.etoro.com/markets/evr.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2687",
+    "estado": true
+}

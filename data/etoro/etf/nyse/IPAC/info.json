@@ -1,0 +1,8 @@
+{
+    "carpeta": "IPAC",
+    "siglas": "IPAC",
+    "nombre": "iShares Core MSCI Pacific ETF",
+    "link": "https://www.etoro.com/markets/ipac",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3155",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "UNI_MC",
+    "siglas": "UNI.MC",
+    "nombre": "Unicaja Banco SA",
+    "link": "https://www.etoro.com/markets/uni.mc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5542",
+    "estado": true
+}

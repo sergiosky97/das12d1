@@ -1,0 +1,8 @@
+{
+    "carpeta": "RAA_DE",
+    "siglas": "RAA.DE",
+    "nombre": "Rational AG",
+    "link": "https://www.etoro.com/markets/raa.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2563",
+    "estado": true
+}

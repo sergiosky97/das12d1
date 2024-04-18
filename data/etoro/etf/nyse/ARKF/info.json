@@ -1,0 +1,8 @@
+{
+    "carpeta": "ARKF",
+    "siglas": "ARKF",
+    "nombre": "ARK Fintech Innovation ETF",
+    "link": "https://www.etoro.com/markets/arkf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3165",
+    "estado": true
+}

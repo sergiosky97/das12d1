@@ -1,0 +1,8 @@
+{
+    "carpeta": "CTEC_L",
+    "siglas": "CTEC.L",
+    "nombre": "ConvaTec",
+    "link": "https://www.etoro.com/markets/ctec.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2850",
+    "estado": true
+}

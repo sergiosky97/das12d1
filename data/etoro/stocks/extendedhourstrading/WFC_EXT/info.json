@@ -1,0 +1,8 @@
+{
+    "carpeta": "WFC_EXT",
+    "siglas": "WFC.EXT",
+    "nombre": "Wells Fargo & Co",
+    "link": "https://www.etoro.com/markets/wfc.ext",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2901",
+    "estado": true
+}

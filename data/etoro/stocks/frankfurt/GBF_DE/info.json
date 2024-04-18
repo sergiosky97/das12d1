@@ -1,0 +1,8 @@
+{
+    "carpeta": "GBF_DE",
+    "siglas": "GBF.DE",
+    "nombre": "Bilfinger",
+    "link": "https://www.etoro.com/markets/gbf.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2527",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "MELI",
+    "siglas": "MELI",
+    "nombre": "MercadoLibre",
+    "link": "https://www.etoro.com/markets/meli",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4108",
+    "estado": true
+}

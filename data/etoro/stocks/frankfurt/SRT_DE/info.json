@@ -1,0 +1,8 @@
+{
+    "carpeta": "SRT_DE",
+    "siglas": "SRT.DE",
+    "nombre": "Sartorius AG",
+    "link": "https://www.etoro.com/markets/srt.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2555",
+    "estado": true
+}

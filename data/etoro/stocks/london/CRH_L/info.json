@@ -1,0 +1,8 @@
+{
+    "carpeta": "CRH_L",
+    "siglas": "CRH.L",
+    "nombre": "CRH plc",
+    "link": "https://www.etoro.com/markets/crh.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2111",
+    "estado": true
+}

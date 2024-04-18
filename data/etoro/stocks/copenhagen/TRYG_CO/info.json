@@ -1,0 +1,8 @@
+{
+    "carpeta": "TRYG_CO",
+    "siglas": "TRYG.CO",
+    "nombre": "Tryg A/S",
+    "link": "https://www.etoro.com/markets/tryg.co",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2266",
+    "estado": true
+}

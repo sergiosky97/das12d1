@@ -1,0 +1,8 @@
+{
+    "carpeta": "BILI",
+    "siglas": "BILI",
+    "nombre": "Bilibili-ADR",
+    "link": "https://www.etoro.com/markets/bili",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4488",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "REC_MI",
+    "siglas": "REC.MI",
+    "nombre": "Recordati",
+    "link": "https://www.etoro.com/markets/rec.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4228",
+    "estado": true
+}

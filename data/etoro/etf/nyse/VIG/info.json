@@ -1,0 +1,8 @@
+{
+    "carpeta": "VIG",
+    "siglas": "VIG",
+    "nombre": "Vanguard Dividend Appreciation ETF",
+    "link": "https://www.etoro.com/markets/vig",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3252",
+    "estado": true
+}

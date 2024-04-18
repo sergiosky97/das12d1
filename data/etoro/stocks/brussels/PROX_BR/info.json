@@ -1,0 +1,8 @@
+{
+    "carpeta": "PROX_BR",
+    "siglas": "PROX.BR",
+    "nombre": "Proximus SA",
+    "link": "https://www.etoro.com/markets/prox.br",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5743",
+    "estado": true
+}

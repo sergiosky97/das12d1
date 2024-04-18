@@ -1,0 +1,8 @@
+{
+    "carpeta": "GRI_L",
+    "siglas": "GRI.L",
+    "nombre": "Grainger PLC",
+    "link": "https://www.etoro.com/markets/gri.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2764",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "VIX_MAY24",
+    "siglas": "VIX.MAY24",
+    "nombre": "VIX May 24",
+    "link": "https://www.etoro.com/markets/vix.may24",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/430",
+    "estado": true
+}

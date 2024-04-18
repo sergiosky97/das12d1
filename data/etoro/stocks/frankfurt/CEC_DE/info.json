@@ -1,0 +1,8 @@
+{
+    "carpeta": "CEC_DE",
+    "siglas": "CEC.DE",
+    "nombre": "Ceconomy St",
+    "link": "https://www.etoro.com/markets/cec.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2503",
+    "estado": true
+}

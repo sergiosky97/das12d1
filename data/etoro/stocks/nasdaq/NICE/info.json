@@ -1,0 +1,8 @@
+{
+    "carpeta": "NICE",
+    "siglas": "NICE",
+    "nombre": "Nice Ltd-ADR",
+    "link": "https://www.etoro.com/markets/nice",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6479",
+    "estado": true
+}

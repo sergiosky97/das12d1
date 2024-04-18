@@ -1,0 +1,8 @@
+{
+    "carpeta": "SBUX",
+    "siglas": "SBUX",
+    "nombre": "Starbucks Corporation",
+    "link": "https://www.etoro.com/markets/sbux",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1142",
+    "estado": true
+}

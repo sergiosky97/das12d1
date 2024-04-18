@@ -1,0 +1,8 @@
+{
+    "carpeta": "FLOW_NV",
+    "siglas": "FLOW.NV",
+    "nombre": "Flow Traders Cooperatief UA",
+    "link": "https://www.etoro.com/markets/flow.nv",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4517",
+    "estado": true
+}

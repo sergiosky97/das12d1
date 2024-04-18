@@ -1,0 +1,8 @@
+{
+    "carpeta": "TQQQ",
+    "siglas": "TQQQ",
+    "nombre": "ProShares UltraPro QQQ",
+    "link": "https://www.etoro.com/markets/tqqq",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4465",
+    "estado": true
+}

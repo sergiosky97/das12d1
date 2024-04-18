@@ -1,0 +1,8 @@
+{
+    "carpeta": "JD_US",
+    "siglas": "JD.US",
+    "nombre": "JD.com-ADR",
+    "link": "https://www.etoro.com/markets/jd.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1378",
+    "estado": true
+}

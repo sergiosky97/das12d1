@@ -1,0 +1,8 @@
+{
+    "carpeta": "ICOS_MI",
+    "siglas": "ICOS.MI",
+    "nombre": "Intercos S.p.A",
+    "link": "https://www.etoro.com/markets/icos.mi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3546",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "ECV_DE",
+    "siglas": "ECV.DE",
+    "nombre": "Encavis AG",
+    "link": "https://www.etoro.com/markets/ecv.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9011",
+    "estado": true
+}

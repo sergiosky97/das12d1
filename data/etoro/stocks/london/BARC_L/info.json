@@ -1,0 +1,8 @@
+{
+    "carpeta": "BARC_L",
+    "siglas": "BARC.L",
+    "nombre": "Barclays",
+    "link": "https://www.etoro.com/markets/barc.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2013",
+    "estado": true
+}

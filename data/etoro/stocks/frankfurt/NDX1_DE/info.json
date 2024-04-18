@@ -1,0 +1,8 @@
+{
+    "carpeta": "NDX1_DE",
+    "siglas": "NDX1.DE",
+    "nombre": "Nordex",
+    "link": "https://www.etoro.com/markets/ndx1.de",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2509",
+    "estado": true
+}

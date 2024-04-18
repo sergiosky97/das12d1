@@ -1,0 +1,8 @@
+{
+    "carpeta": "SGX",
+    "siglas": "SGX",
+    "nombre": "Singapore Index",
+    "link": "https://www.etoro.com/markets/sgx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/301",
+    "estado": true
+}

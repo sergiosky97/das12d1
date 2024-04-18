@@ -1,0 +1,8 @@
+{
+    "carpeta": "BIL",
+    "siglas": "BIL",
+    "nombre": "SPDR Bloomberg Barclays 1-3 Month T-Bill ETF",
+    "link": "https://www.etoro.com/markets/bil",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4407",
+    "estado": true
+}

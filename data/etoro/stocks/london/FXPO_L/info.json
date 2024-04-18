@@ -1,0 +1,8 @@
+{
+    "carpeta": "FXPO_L",
+    "siglas": "FXPO.L",
+    "nombre": "Ferrexpo PLC",
+    "link": "https://www.etoro.com/markets/fxpo.l",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2694",
+    "estado": true
+}
