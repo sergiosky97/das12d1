@@ -1,0 +1,8 @@
+{
+    "carpeta": "XMTR",
+    "siglas": "XMTR",
+    "nombre": "Xometry Inc",
+    "link": "https://www.etoro.com/markets/xmtr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9702",
+    "estado": true
+}

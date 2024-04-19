@@ -1,0 +1,8 @@
+{
+    "carpeta": "FOXA",
+    "siglas": "FOXA",
+    "nombre": "Fox Corp",
+    "link": "https://www.etoro.com/markets/foxa",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6424",
+    "estado": true
+}

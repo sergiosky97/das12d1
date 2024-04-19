@@ -1,0 +1,8 @@
+{
+    "carpeta": "PAX",
+    "siglas": "PAX",
+    "nombre": "Patria Investments Limited",
+    "link": "https://www.etoro.com/markets/pax",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9995",
+    "estado": true
+}

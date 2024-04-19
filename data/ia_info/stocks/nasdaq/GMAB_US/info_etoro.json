@@ -1,0 +1,8 @@
+{
+    "carpeta": "GMAB_US",
+    "siglas": "GMAB.US",
+    "nombre": "Genmab A/S -ADR",
+    "link": "https://www.etoro.com/markets/gmab.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2463",
+    "estado": true
+}

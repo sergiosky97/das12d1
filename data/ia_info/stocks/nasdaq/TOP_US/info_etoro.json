@@ -1,0 +1,8 @@
+{
+    "carpeta": "TOP_US",
+    "siglas": "TOP.US",
+    "nombre": "Top Financial Group LTD",
+    "link": "https://www.etoro.com/markets/top.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2489",
+    "estado": true
+}

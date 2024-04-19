@@ -1,0 +1,8 @@
+{
+    "carpeta": "CUTR",
+    "siglas": "CUTR",
+    "nombre": "Cutera Inc",
+    "link": "https://www.etoro.com/markets/cutr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9688",
+    "estado": true
+}

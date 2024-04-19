@@ -1,0 +1,8 @@
+{
+    "carpeta": "CRMD",
+    "siglas": "CRMD",
+    "nombre": "CorMedix Inc",
+    "link": "https://www.etoro.com/markets/crmd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10333",
+    "estado": true
+}

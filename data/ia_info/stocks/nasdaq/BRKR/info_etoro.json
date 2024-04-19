@@ -1,0 +1,8 @@
+{
+    "carpeta": "BRKR",
+    "siglas": "BRKR",
+    "nombre": "Bruker Corp",
+    "link": "https://www.etoro.com/markets/brkr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6104",
+    "estado": true
+}

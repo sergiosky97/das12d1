@@ -1,0 +1,8 @@
+{
+    "carpeta": "GOGO",
+    "siglas": "GOGO",
+    "nombre": "Gogo Inc",
+    "link": "https://www.etoro.com/markets/gogo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6432",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "PERI",
+    "siglas": "PERI",
+    "nombre": "Perion Network Ltd",
+    "link": "https://www.etoro.com/markets/peri",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9542",
+    "estado": true
+}

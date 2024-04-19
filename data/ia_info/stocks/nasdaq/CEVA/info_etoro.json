@@ -1,0 +1,8 @@
+{
+    "carpeta": "CEVA",
+    "siglas": "CEVA",
+    "nombre": "Ceva Inc.",
+    "link": "https://www.etoro.com/markets/ceva",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5627",
+    "estado": true
+}

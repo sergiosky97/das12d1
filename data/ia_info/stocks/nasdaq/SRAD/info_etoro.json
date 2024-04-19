@@ -1,0 +1,8 @@
+{
+    "carpeta": "SRAD",
+    "siglas": "SRAD",
+    "nombre": "Sportradar Group AG",
+    "link": "https://www.etoro.com/markets/srad",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8628",
+    "estado": true
+}

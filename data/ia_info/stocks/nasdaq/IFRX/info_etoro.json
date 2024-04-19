@@ -1,0 +1,8 @@
+{
+    "carpeta": "IFRX",
+    "siglas": "IFRX",
+    "nombre": "InflaRx NV",
+    "link": "https://www.etoro.com/markets/ifrx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6443",
+    "estado": true
+}

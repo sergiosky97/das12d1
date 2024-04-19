@@ -1,0 +1,8 @@
+{
+    "carpeta": "EGAN",
+    "siglas": "EGAN",
+    "nombre": "eGain Corp",
+    "link": "https://www.etoro.com/markets/egan",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6215",
+    "estado": true
+}

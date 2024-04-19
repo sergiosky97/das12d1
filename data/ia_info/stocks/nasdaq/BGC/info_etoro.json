@@ -1,0 +1,8 @@
+{
+    "carpeta": "BGC",
+    "siglas": "BGC",
+    "nombre": "BGC Group Inc",
+    "link": "https://www.etoro.com/markets/bgc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6389",
+    "estado": true
+}

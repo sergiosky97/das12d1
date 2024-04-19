@@ -1,0 +1,8 @@
+{
+    "carpeta": "OZK",
+    "siglas": "OZK",
+    "nombre": "Bank OZK",
+    "link": "https://www.etoro.com/markets/ozk",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8916",
+    "estado": true
+}

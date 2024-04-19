@@ -1,0 +1,8 @@
+{
+    "carpeta": "MORN",
+    "siglas": "MORN",
+    "nombre": "Morningstar Inc.",
+    "link": "https://www.etoro.com/markets/morn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8853",
+    "estado": true
+}

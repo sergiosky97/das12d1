@@ -1,0 +1,8 @@
+{
+    "carpeta": "SPTN",
+    "siglas": "SPTN",
+    "nombre": "SpartanNash Company",
+    "link": "https://www.etoro.com/markets/sptn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1741",
+    "estado": true
+}

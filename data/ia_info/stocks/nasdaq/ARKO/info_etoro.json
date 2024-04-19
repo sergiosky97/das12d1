@@ -1,0 +1,8 @@
+{
+    "carpeta": "ARKO",
+    "siglas": "ARKO",
+    "nombre": "Arko Corp",
+    "link": "https://www.etoro.com/markets/arko",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10068",
+    "estado": true
+}

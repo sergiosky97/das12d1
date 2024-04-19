@@ -1,0 +1,8 @@
+{
+    "carpeta": "GRFS",
+    "siglas": "GRFS",
+    "nombre": "Grifols SA",
+    "link": "https://www.etoro.com/markets/grfs",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9910",
+    "estado": true
+}

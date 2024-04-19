@@ -1,0 +1,8 @@
+{
+    "carpeta": "APPF",
+    "siglas": "APPF",
+    "nombre": "Appfolio Inc",
+    "link": "https://www.etoro.com/markets/appf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6312",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "PETS_US",
+    "siglas": "PETS.US",
+    "nombre": "PetMed Express",
+    "link": "https://www.etoro.com/markets/pets.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2445",
+    "estado": true
+}

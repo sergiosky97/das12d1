@@ -1,0 +1,8 @@
+{
+    "carpeta": "INVE",
+    "siglas": "INVE",
+    "nombre": "Identiv Inc",
+    "link": "https://www.etoro.com/markets/inve",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10348",
+    "estado": true
+}

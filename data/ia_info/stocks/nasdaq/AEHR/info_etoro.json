@@ -1,0 +1,8 @@
+{
+    "carpeta": "AEHR",
+    "siglas": "AEHR",
+    "nombre": "Aehr Test System",
+    "link": "https://www.etoro.com/markets/aehr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9451",
+    "estado": true
+}

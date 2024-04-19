@@ -1,0 +1,8 @@
+{
+    "carpeta": "SNEX",
+    "siglas": "SNEX",
+    "nombre": "StoneX Group Inc",
+    "link": "https://www.etoro.com/markets/snex",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1530",
+    "estado": true
+}

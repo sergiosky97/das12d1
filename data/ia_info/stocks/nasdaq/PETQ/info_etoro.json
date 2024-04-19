@@ -1,0 +1,8 @@
+{
+    "carpeta": "PETQ",
+    "siglas": "PETQ",
+    "nombre": "PetIQ Inc",
+    "link": "https://www.etoro.com/markets/petq",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2452",
+    "estado": true
+}

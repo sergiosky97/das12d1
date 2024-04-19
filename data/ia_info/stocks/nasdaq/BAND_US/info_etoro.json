@@ -1,0 +1,8 @@
+{
+    "carpeta": "BAND_US",
+    "siglas": "BAND.US",
+    "nombre": "Bandwidth Inc.",
+    "link": "https://www.etoro.com/markets/band.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9151",
+    "estado": true
+}

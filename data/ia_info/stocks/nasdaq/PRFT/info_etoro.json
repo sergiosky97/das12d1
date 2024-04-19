@@ -1,0 +1,8 @@
+{
+    "carpeta": "PRFT",
+    "siglas": "PRFT",
+    "nombre": "Perficient Inc",
+    "link": "https://www.etoro.com/markets/prft",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6507",
+    "estado": true
+}

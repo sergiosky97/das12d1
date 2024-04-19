@@ -1,0 +1,8 @@
+{
+    "carpeta": "CDW",
+    "siglas": "CDW",
+    "nombre": "CDW Corp",
+    "link": "https://www.etoro.com/markets/cdw",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1650",
+    "estado": true
+}

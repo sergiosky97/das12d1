@@ -1,0 +1,8 @@
+{
+    "carpeta": "TZOO",
+    "siglas": "TZOO",
+    "nombre": "Travelzoo",
+    "link": "https://www.etoro.com/markets/tzoo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10372",
+    "estado": true
+}

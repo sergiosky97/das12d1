@@ -1,0 +1,8 @@
+{
+    "carpeta": "PAYX",
+    "siglas": "PAYX",
+    "nombre": "Paychex Inc",
+    "link": "https://www.etoro.com/markets/payx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4281",
+    "estado": true
+}

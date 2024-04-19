@@ -1,0 +1,8 @@
+{
+    "carpeta": "IMKTA",
+    "siglas": "IMKTA",
+    "nombre": "Ingles Markets Incorporated",
+    "link": "https://www.etoro.com/markets/imkta",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9951",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "PRTS",
+    "siglas": "PRTS",
+    "nombre": "CarPartscom Inc",
+    "link": "https://www.etoro.com/markets/prts",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10318",
+    "estado": true
+}

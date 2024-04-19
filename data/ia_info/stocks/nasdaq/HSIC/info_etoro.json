@@ -1,0 +1,8 @@
+{
+    "carpeta": "HSIC",
+    "siglas": "HSIC",
+    "nombre": "Henry Schein Inc",
+    "link": "https://www.etoro.com/markets/hsic",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1678",
+    "estado": true
+}

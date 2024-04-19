@@ -1,0 +1,8 @@
+{
+    "carpeta": "TWKS",
+    "siglas": "TWKS",
+    "nombre": "Thoughtworks",
+    "link": "https://www.etoro.com/markets/twks",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8592",
+    "estado": true
+}

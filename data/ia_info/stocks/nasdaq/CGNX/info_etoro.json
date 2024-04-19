@@ -1,0 +1,8 @@
+{
+    "carpeta": "CGNX",
+    "siglas": "CGNX",
+    "nombre": "Cognex Corp",
+    "link": "https://www.etoro.com/markets/cgnx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6400",
+    "estado": true
+}

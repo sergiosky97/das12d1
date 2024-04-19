@@ -1,0 +1,8 @@
+{
+    "carpeta": "LESL",
+    "siglas": "LESL",
+    "nombre": "Leslie's Inc",
+    "link": "https://www.etoro.com/markets/lesl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8107",
+    "estado": true
+}

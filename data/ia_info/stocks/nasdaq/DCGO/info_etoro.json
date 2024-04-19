@@ -1,0 +1,8 @@
+{
+    "carpeta": "DCGO",
+    "siglas": "DCGO",
+    "nombre": "Docgo Inc",
+    "link": "https://www.etoro.com/markets/dcgo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9894",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "AZTA",
+    "siglas": "AZTA",
+    "nombre": "Azenta Inc",
+    "link": "https://www.etoro.com/markets/azta",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6393",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "LPLA_US",
+    "siglas": "LPLA.US",
+    "nombre": "LPL Financial Holdings Inc",
+    "link": "https://www.etoro.com/markets/lpla.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9426",
+    "estado": true
+}

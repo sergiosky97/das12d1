@@ -1,0 +1,8 @@
+{
+    "carpeta": "UONE",
+    "siglas": "UONE",
+    "nombre": "Urban One Inc",
+    "link": "https://www.etoro.com/markets/uone",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6290",
+    "estado": true
+}

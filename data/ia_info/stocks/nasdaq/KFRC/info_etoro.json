@@ -1,0 +1,8 @@
+{
+    "carpeta": "KFRC",
+    "siglas": "KFRC",
+    "nombre": "Kforce Inc",
+    "link": "https://www.etoro.com/markets/kfrc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9885",
+    "estado": true
+}

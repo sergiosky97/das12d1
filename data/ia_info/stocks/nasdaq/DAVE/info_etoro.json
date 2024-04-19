@@ -1,0 +1,8 @@
+{
+    "carpeta": "DAVE",
+    "siglas": "DAVE",
+    "nombre": "Dave Inc.",
+    "link": "https://www.etoro.com/markets/dave",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2488",
+    "estado": true
+}

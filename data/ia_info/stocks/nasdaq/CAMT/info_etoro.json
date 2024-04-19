@@ -1,0 +1,8 @@
+{
+    "carpeta": "CAMT",
+    "siglas": "CAMT",
+    "nombre": "Camtek Ltd",
+    "link": "https://www.etoro.com/markets/camt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9612",
+    "estado": true
+}

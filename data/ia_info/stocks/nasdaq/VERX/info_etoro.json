@@ -1,0 +1,8 @@
+{
+    "carpeta": "VERX",
+    "siglas": "VERX",
+    "nombre": "Vertex Inc",
+    "link": "https://www.etoro.com/markets/verx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9913",
+    "estado": true
+}

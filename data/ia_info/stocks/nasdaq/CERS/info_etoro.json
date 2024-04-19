@@ -1,0 +1,8 @@
+{
+    "carpeta": "CERS",
+    "siglas": "CERS",
+    "nombre": "Cerus Corp",
+    "link": "https://www.etoro.com/markets/cers",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6319",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "PCVX",
+    "siglas": "PCVX",
+    "nombre": "Vaxcyte Inc",
+    "link": "https://www.etoro.com/markets/pcvx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8010",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "MTLS",
+    "siglas": "MTLS",
+    "nombre": "Materialise NV",
+    "link": "https://www.etoro.com/markets/mtls",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10245",
+    "estado": true
+}

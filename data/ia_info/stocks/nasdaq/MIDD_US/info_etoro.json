@@ -1,0 +1,8 @@
+{
+    "carpeta": "MIDD_US",
+    "siglas": "MIDD.US",
+    "nombre": "Middleby Corp",
+    "link": "https://www.etoro.com/markets/midd.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5270",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "TRIN",
+    "siglas": "TRIN",
+    "nombre": "Trinity Capital Inc",
+    "link": "https://www.etoro.com/markets/trin",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/7902",
+    "estado": true
+}

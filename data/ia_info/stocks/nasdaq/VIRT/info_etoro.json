@@ -1,0 +1,8 @@
+{
+    "carpeta": "VIRT",
+    "siglas": "VIRT",
+    "nombre": "Virtu Financial Inc",
+    "link": "https://www.etoro.com/markets/virt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8625",
+    "estado": true
+}

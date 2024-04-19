@@ -1,0 +1,8 @@
+{
+    "carpeta": "STRL_US",
+    "siglas": "STRL.US",
+    "nombre": "Sterling Infrastructure Inc",
+    "link": "https://www.etoro.com/markets/strl.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9507",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "HDSN",
+    "siglas": "HDSN",
+    "nombre": "Hudson Technologies Inc",
+    "link": "https://www.etoro.com/markets/hdsn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/7888",
+    "estado": true
+}

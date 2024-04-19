@@ -1,0 +1,8 @@
+{
+    "carpeta": "AMED",
+    "siglas": "AMED",
+    "nombre": "Amedisys Inc",
+    "link": "https://www.etoro.com/markets/amed",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6069",
+    "estado": true
+}

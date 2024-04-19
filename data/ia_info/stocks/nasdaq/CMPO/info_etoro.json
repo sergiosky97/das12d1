@@ -1,0 +1,8 @@
+{
+    "carpeta": "CMPO",
+    "siglas": "CMPO",
+    "nombre": "CompoSecure Inc",
+    "link": "https://www.etoro.com/markets/cmpo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10167",
+    "estado": true
+}

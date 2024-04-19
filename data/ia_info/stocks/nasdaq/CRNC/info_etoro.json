@@ -1,0 +1,8 @@
+{
+    "carpeta": "CRNC",
+    "siglas": "CRNC",
+    "nombre": "Cerence Inc.",
+    "link": "https://www.etoro.com/markets/crnc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8982",
+    "estado": true
+}

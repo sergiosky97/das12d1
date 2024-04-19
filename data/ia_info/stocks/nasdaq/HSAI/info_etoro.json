@@ -1,0 +1,8 @@
+{
+    "carpeta": "HSAI",
+    "siglas": "HSAI",
+    "nombre": "Hesai Group",
+    "link": "https://www.etoro.com/markets/hsai",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10048",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "CNDT",
+    "siglas": "CNDT",
+    "nombre": "Conduent Inc",
+    "link": "https://www.etoro.com/markets/cndt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6407",
+    "estado": true
+}

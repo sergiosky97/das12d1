@@ -1,0 +1,8 @@
+{
+    "carpeta": "SAIA",
+    "siglas": "SAIA",
+    "nombre": "Saia Inc.",
+    "link": "https://www.etoro.com/markets/saia",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8103",
+    "estado": true
+}

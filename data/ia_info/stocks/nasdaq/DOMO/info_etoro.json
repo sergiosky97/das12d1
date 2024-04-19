@@ -1,0 +1,8 @@
+{
+    "carpeta": "DOMO",
+    "siglas": "DOMO",
+    "nombre": "Domo Inc",
+    "link": "https://www.etoro.com/markets/domo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6326",
+    "estado": true
+}

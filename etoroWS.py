@@ -634,38 +634,26 @@ class etoro_ws:
                                             if autosave_intentos == 0:
                                                 links_analizados.add("ERROR")  
                                                 print(f"[ERROR] Next button obtuvo un error fatal")             
-                                
-                        #ANALIZO SI HAY ALGUNA QUE NO ESTA ACTIVA
-                        #carpetas_etoro_internas = [nombre for nombre in os.listdir(ruta_carpeta) if os.path.isdir(os.path.join(ruta_carpeta,nombre))]    
-                        #for nombre_carpeta in carpetas_etoro_internas:
-                        #    ruta_completa = os.path.join(ruta_carpeta,nombre_carpeta)
-                        #    if not any(ruta_completa == os.path.join(ruta_carpeta,car_int['carpeta']) for car_int in info_mercado_json):
-                        #        if os.path.exists(os.path.join(ruta_completa, "info_etoro.json")):
-                        #            if debug:
-                        #                print(f"[INFO] La carpeta {ruta_completa} se ha marcado como incativa")
-                        #            # Si tiene archivo json, marcarlo con estado = False
-                        #            with open(os.path.join(ruta_completa, "info_etoro.json"), 'r+') as archivo_json:
-                        #                data = json.load(archivo_json)
-                        #                data['estado'] = False
-                        #                # PARA QUE LA CANTIDAD DE CARPETAS CUADRE CON LOS LINKS AÑADO EL LINK
-                        #                link_aux = data['link']
-                        #                if not (links_analizados and any(link_mercado in links for links in links_analizados)):
-                        #                    links_analizados.append(link_aux)
-                        #                    
-                        #                archivo_json.seek(0)
-                        #                json.dump(data, archivo_json, indent=4)
-                        #                archivo_json.truncate()
-                        #            
-                        #        else:
-                        #            if debug:
-                        #                print(f"[INFO] La carpeta {ruta_completa} se ha eliminado")
-                        #            # Si no tiene archivo json, borrar la carpeta
-                        #            shutil.rmtree(ruta_completa)
-                        
+                      
                         # GUARDAMOS ACTUALIZACION
+                        try:
+                            elemento_number = self.browser.get_element(xpath="//span[contains(@automation-id,'discover-market-results-num')]",maximo_intentos=10,debug=False)
+                            if str(len(links_analizados)) == elemento_number.text.replace(" ","") and not any("ERROR" == link_analizado for link_analizado in links_analizados):
+                                if debug:
+                                    print(f"[FIN] {len(links_analizados)} elementos en la carpeta")
+                                links_analizados.add("FIN")
+                                
+                            else:
+                                if debug:
+                                    print("[WARNING] No se extrajeron todos los elementos correctamente")
+                                links_analizados.add("ERROR")
+                        except Exception as e:
+                            if debug:
+                                print(f"[WARNING] Error obteniendo cantidad elmentos: {e}")
+                            links_analizados.add("FIN")
+                            
                         path_update = os.path.join(ruta_carpeta,"update_etoro.json")
                         tiempo_actual = datetime.now()
-                        links_analizados.add("FIN") #SE AÑADE PARA COMPROBAR QUE ESTA FINALIZADO EL PROCESO
                         data = {
                             "ultima_actualizacion": tiempo_actual.strftime("%Y-%m-%d %H:%M:%S"),
                             "links_analizados":  ["https://www.etoro.com/" + link if link not in {"ERROR", "FIN"} else link for link in links_analizados]

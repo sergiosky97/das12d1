@@ -1,0 +1,8 @@
+{
+    "carpeta": "LPSN",
+    "siglas": "LPSN",
+    "nombre": "LivePerson Inc",
+    "link": "https://www.etoro.com/markets/lpsn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6108",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "PAYS",
+    "siglas": "PAYS",
+    "nombre": "Paysign Inc",
+    "link": "https://www.etoro.com/markets/pays",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6262",
+    "estado": true
+}

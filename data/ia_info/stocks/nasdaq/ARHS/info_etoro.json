@@ -1,0 +1,8 @@
+{
+    "carpeta": "ARHS",
+    "siglas": "ARHS",
+    "nombre": "Arhaus Inc",
+    "link": "https://www.etoro.com/markets/arhs",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9747",
+    "estado": true
+}

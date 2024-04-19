@@ -1,0 +1,8 @@
+{
+    "carpeta": "NDSN",
+    "siglas": "NDSN",
+    "nombre": "Nordson Corporation",
+    "link": "https://www.etoro.com/markets/ndsn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8848",
+    "estado": true
+}

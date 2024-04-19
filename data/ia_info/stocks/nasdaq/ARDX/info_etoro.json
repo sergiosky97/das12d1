@@ -1,0 +1,8 @@
+{
+    "carpeta": "ARDX",
+    "siglas": "ARDX",
+    "nombre": "Ardelyx Inc",
+    "link": "https://www.etoro.com/markets/ardx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10077",
+    "estado": true
+}

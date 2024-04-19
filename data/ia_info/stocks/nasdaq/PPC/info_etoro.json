@@ -1,0 +1,8 @@
+{
+    "carpeta": "PPC",
+    "siglas": "PPC",
+    "nombre": "Pilgrim's Pride",
+    "link": "https://www.etoro.com/markets/ppc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4129",
+    "estado": true
+}

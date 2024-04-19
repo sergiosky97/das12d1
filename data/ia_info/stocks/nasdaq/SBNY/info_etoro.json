@@ -1,0 +1,8 @@
+{
+    "carpeta": "SBNY",
+    "siglas": "SBNY",
+    "nombre": "Signature Bank",
+    "link": "https://www.etoro.com/markets/sbny",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4142",
+    "estado": true
+}

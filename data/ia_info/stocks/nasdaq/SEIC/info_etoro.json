@@ -1,0 +1,8 @@
+{
+    "carpeta": "SEIC",
+    "siglas": "SEIC",
+    "nombre": "SEI Investments Company",
+    "link": "https://www.etoro.com/markets/seic",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4145",
+    "estado": true
+}
