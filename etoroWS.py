@@ -443,6 +443,7 @@ class etoro_ws:
                         autosave_intentos = 100
                         xpath_link = "//et-instrument-trading-row//et-card-avatar//a"
                         contador_id = 1
+                        bool_links = True
                         while autosave_intentos > 0 or aux_guardar:
                             #Obtenemos los elementos de la pagina
                             elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)     
@@ -465,6 +466,9 @@ class etoro_ws:
                                 try:
                                     link_elemento = elemento.get_attribute("href")
                                     if not any(link_elemento in "https://www.etoro.com/" + link_analizado for link_analizado in links_analizados) and not any(link_elemento in link_mercado for link_mercado in links_mercado):
+                                        if bool_links and debug:
+                                            print(" -------------------- [INFO] EXTRAYENDO LINKS --------------------")
+                                            bool_links = False
                                         siguiente_pagina = False
                                         if CANTIDAD_PARA_GUARDAR > len(links_mercado):
                                             links_mercado.append(link_elemento)
@@ -483,6 +487,7 @@ class etoro_ws:
                             
                             #Hemos llegado al limite del autosave
                             if CANTIDAD_PARA_GUARDAR == len(links_mercado) or aux_guardar:
+                                bool_links = True
                                 #Guardamos la url porque vamos a analizar uno a uno
                                 url_actual = self.browser.current_url()
                                 contador_id = 1

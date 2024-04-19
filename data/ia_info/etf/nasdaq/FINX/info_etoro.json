@@ -1,0 +1,8 @@
+{
+    "carpeta": "FINX",
+    "siglas": "FINX",
+    "nombre": "Global X Fintech Etf",
+    "link": "https://www.etoro.com/markets/finx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/11128",
+    "estado": true
+}

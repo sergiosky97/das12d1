@@ -1,0 +1,8 @@
+{
+    "carpeta": "IQLT",
+    "siglas": "IQLT",
+    "nombre": "Ishares Msci International Q",
+    "link": "https://www.etoro.com/markets/iqlt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10809",
+    "estado": true
+}

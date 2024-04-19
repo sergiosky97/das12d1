@@ -1,0 +1,8 @@
+{
+    "carpeta": "SUB",
+    "siglas": "SUB",
+    "nombre": "Ishares Short-Term National",
+    "link": "https://www.etoro.com/markets/sub",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10873",
+    "estado": true
+}

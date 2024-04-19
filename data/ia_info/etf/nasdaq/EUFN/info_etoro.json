@@ -1,0 +1,8 @@
+{
+    "carpeta": "EUFN",
+    "siglas": "EUFN",
+    "nombre": "Ishares Msci Europe Financia",
+    "link": "https://www.etoro.com/markets/eufn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10774",
+    "estado": true
+}

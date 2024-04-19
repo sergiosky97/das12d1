@@ -1,0 +1,8 @@
+{
+    "carpeta": "PCEF",
+    "siglas": "PCEF",
+    "nombre": "Invesco Cef Income Composite",
+    "link": "https://www.etoro.com/markets/pcef",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10769",
+    "estado": true
+}

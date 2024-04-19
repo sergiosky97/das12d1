@@ -1,0 +1,8 @@
+{
+    "carpeta": "SECT",
+    "siglas": "SECT",
+    "nombre": "Main Sector Rotation Etf",
+    "link": "https://www.etoro.com/markets/sect",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10824",
+    "estado": true
+}

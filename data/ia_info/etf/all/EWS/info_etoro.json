@@ -1,0 +1,8 @@
+{
+    "carpeta": "EWS",
+    "siglas": "EWS",
+    "nombre": "Ishares Msci Singapore Etf",
+    "link": "https://www.etoro.com/markets/ews",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10772",
+    "estado": true
+}

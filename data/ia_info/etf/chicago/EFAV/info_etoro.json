@@ -1,0 +1,8 @@
+{
+    "carpeta": "EFAV",
+    "siglas": "EFAV",
+    "nombre": "Ishares Msci Eafe Min Vol Fa",
+    "link": "https://www.etoro.com/markets/efav",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10858",
+    "estado": true
+}

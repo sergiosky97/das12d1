@@ -1,0 +1,8 @@
+{
+    "carpeta": "PGF",
+    "siglas": "PGF",
+    "nombre": "Invesco Financial Preferred",
+    "link": "https://www.etoro.com/markets/pgf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10760",
+    "estado": true
+}

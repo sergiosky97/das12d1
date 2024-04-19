@@ -1,0 +1,8 @@
+{
+    "carpeta": "MNA",
+    "siglas": "MNA",
+    "nombre": "Iq Merger Arbitrage Etf",
+    "link": "https://www.etoro.com/markets/mna",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10800",
+    "estado": true
+}

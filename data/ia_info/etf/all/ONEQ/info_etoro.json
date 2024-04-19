@@ -1,0 +1,8 @@
+{
+    "carpeta": "ONEQ",
+    "siglas": "ONEQ",
+    "nombre": "Fidelity Nasdaq Composite In",
+    "link": "https://www.etoro.com/markets/oneq",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10851",
+    "estado": true
+}

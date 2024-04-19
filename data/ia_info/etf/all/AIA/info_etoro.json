@@ -1,0 +1,8 @@
+{
+    "carpeta": "AIA",
+    "siglas": "AIA",
+    "nombre": "Ishares Asia 50 Etf",
+    "link": "https://www.etoro.com/markets/aia",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10848",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "SMIN_US",
+    "siglas": "SMIN.US",
+    "nombre": "ISHARES MSCI INDIA SMALL-CAP",
+    "link": "https://www.etoro.com/markets/smin.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3425",
+    "estado": true
+}

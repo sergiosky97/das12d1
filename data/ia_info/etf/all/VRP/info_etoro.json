@@ -1,0 +1,8 @@
+{
+    "carpeta": "VRP",
+    "siglas": "VRP",
+    "nombre": "Invesco Variable Rate Prefer",
+    "link": "https://www.etoro.com/markets/vrp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10784",
+    "estado": true
+}

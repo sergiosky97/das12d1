@@ -1,0 +1,8 @@
+{
+    "carpeta": "KBWB",
+    "siglas": "KBWB",
+    "nombre": "Invesco Kbw Bank Etf",
+    "link": "https://www.etoro.com/markets/kbwb",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10825",
+    "estado": true
+}

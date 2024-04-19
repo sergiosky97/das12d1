@@ -1,0 +1,8 @@
+{
+    "carpeta": "XRT",
+    "siglas": "XRT",
+    "nombre": "Spdr S&P Retail Etf",
+    "link": "https://www.etoro.com/markets/xrt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10859",
+    "estado": true
+}

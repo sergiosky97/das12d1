@@ -1,0 +1,8 @@
+{
+    "carpeta": "IAI_US",
+    "siglas": "IAI.US",
+    "nombre": "Ishares U.S. Broker-Dealers",
+    "link": "https://www.etoro.com/markets/iai.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/11161",
+    "estado": true
+}

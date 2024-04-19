@@ -1,0 +1,8 @@
+{
+    "carpeta": "SPTM",
+    "siglas": "SPTM",
+    "nombre": "Spdr Portfolio S&P 1500 Comp",
+    "link": "https://www.etoro.com/markets/sptm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10850",
+    "estado": true
+}

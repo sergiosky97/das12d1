@@ -1,0 +1,8 @@
+{
+    "carpeta": "JEPI",
+    "siglas": "JEPI",
+    "nombre": "Jpmorgan Equity Premium Inco",
+    "link": "https://www.etoro.com/markets/jepi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10846",
+    "estado": true
+}

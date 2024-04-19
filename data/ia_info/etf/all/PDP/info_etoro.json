@@ -1,0 +1,8 @@
+{
+    "carpeta": "PDP",
+    "siglas": "PDP",
+    "nombre": "Invesco Dorsey Wright Moment",
+    "link": "https://www.etoro.com/markets/pdp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10862",
+    "estado": true
+}

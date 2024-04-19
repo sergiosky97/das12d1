@@ -1,0 +1,8 @@
+{
+    "carpeta": "XMMO",
+    "siglas": "XMMO",
+    "nombre": "Invesco S&P Midcap Momentum",
+    "link": "https://www.etoro.com/markets/xmmo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10865",
+    "estado": true
+}

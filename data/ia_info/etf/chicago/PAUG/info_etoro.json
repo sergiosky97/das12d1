@@ -1,0 +1,8 @@
+{
+    "carpeta": "PAUG",
+    "siglas": "PAUG",
+    "nombre": "Innovator U.S. Equity Power",
+    "link": "https://www.etoro.com/markets/paug",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10801",
+    "estado": true
+}

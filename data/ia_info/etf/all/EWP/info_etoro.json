@@ -1,0 +1,8 @@
+{
+    "carpeta": "EWP",
+    "siglas": "EWP",
+    "nombre": "Ishares Msci Spain Etf",
+    "link": "https://www.etoro.com/markets/ewp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10799",
+    "estado": true
+}

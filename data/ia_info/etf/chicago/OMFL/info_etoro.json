@@ -1,0 +1,8 @@
+{
+    "carpeta": "OMFL",
+    "siglas": "OMFL",
+    "nombre": "Invesco Russell 1000 Dyn M/F",
+    "link": "https://www.etoro.com/markets/omfl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10835",
+    "estado": true
+}

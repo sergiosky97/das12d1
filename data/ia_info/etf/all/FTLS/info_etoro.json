@@ -1,0 +1,8 @@
+{
+    "carpeta": "FTLS",
+    "siglas": "FTLS",
+    "nombre": "First Trust Long/Short Eqty",
+    "link": "https://www.etoro.com/markets/ftls",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10847",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "PTF",
+    "siglas": "PTF",
+    "nombre": "Invesco Dorsey Wright Tech",
+    "link": "https://www.etoro.com/markets/ptf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/11149",
+    "estado": true
+}

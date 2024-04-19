@@ -1,0 +1,8 @@
+{
+    "carpeta": "SCHC",
+    "siglas": "SCHC",
+    "nombre": "Schwab Intl Small-Cap Equity",
+    "link": "https://www.etoro.com/markets/schc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10802",
+    "estado": true
+}

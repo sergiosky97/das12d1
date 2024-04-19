@@ -1,0 +1,8 @@
+{
+    "carpeta": "HEZU",
+    "siglas": "HEZU",
+    "nombre": "Ishares Currency Hedged Msci",
+    "link": "https://www.etoro.com/markets/hezu",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10804",
+    "estado": true
+}

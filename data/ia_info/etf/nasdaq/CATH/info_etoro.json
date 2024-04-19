@@ -1,0 +1,8 @@
+{
+    "carpeta": "CATH",
+    "siglas": "CATH",
+    "nombre": "Global X S&P 500 Ca Val Etf",
+    "link": "https://www.etoro.com/markets/cath",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/11153",
+    "estado": true
+}
