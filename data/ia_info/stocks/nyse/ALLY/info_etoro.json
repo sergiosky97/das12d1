@@ -1,0 +1,8 @@
+{
+    "carpeta": "ALLY",
+    "siglas": "ALLY",
+    "nombre": "Ally Financial Inc",
+    "link": "https://www.etoro.com/markets/ally",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1685",
+    "estado": true
+}

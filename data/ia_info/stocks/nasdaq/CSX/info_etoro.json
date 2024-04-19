@@ -1,0 +1,8 @@
+{
+    "carpeta": "CSX",
+    "siglas": "CSX",
+    "nombre": "CSX Corp",
+    "link": "https://www.etoro.com/markets/csx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1640",
+    "estado": true
+}

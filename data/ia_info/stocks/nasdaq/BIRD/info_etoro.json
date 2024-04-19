@@ -1,0 +1,8 @@
+{
+    "carpeta": "BIRD",
+    "siglas": "BIRD",
+    "nombre": "Allbirds Inc",
+    "link": "https://www.etoro.com/markets/bird",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8591",
+    "estado": true
+}

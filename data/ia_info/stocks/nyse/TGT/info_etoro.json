@@ -1,0 +1,8 @@
+{
+    "carpeta": "TGT",
+    "siglas": "TGT",
+    "nombre": "Target Corp",
+    "link": "https://www.etoro.com/markets/tgt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1490",
+    "estado": true
+}

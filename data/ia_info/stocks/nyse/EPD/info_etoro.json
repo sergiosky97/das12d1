@@ -1,0 +1,8 @@
+{
+    "carpeta": "EPD",
+    "siglas": "EPD",
+    "nombre": "Enterprise Products Partners LP",
+    "link": "https://www.etoro.com/markets/epd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1513",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "AGRO",
+    "siglas": "AGRO",
+    "nombre": "Adecoagro S.A.",
+    "link": "https://www.etoro.com/markets/agro",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4003",
+    "estado": true
+}

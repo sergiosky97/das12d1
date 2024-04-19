@@ -1,0 +1,8 @@
+{
+    "carpeta": "CRM",
+    "siglas": "CRM",
+    "nombre": "Salesforce Inc",
+    "link": "https://www.etoro.com/markets/crm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1839",
+    "estado": true
+}

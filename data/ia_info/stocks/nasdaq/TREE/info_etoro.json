@@ -1,0 +1,8 @@
+{
+    "carpeta": "TREE",
+    "siglas": "TREE",
+    "nombre": "LendingTree Inc",
+    "link": "https://www.etoro.com/markets/tree",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6024",
+    "estado": true
+}

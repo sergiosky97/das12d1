@@ -1,0 +1,8 @@
+{
+    "carpeta": "POOL",
+    "siglas": "POOL",
+    "nombre": "Pool Corp.",
+    "link": "https://www.etoro.com/markets/pool",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5652",
+    "estado": true
+}

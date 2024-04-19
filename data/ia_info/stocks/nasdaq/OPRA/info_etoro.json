@@ -1,0 +1,8 @@
+{
+    "carpeta": "OPRA",
+    "siglas": "OPRA",
+    "nombre": "Opera Limited",
+    "link": "https://www.etoro.com/markets/opra",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9483",
+    "estado": true
+}

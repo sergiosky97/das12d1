@@ -1,0 +1,8 @@
+{
+    "carpeta": "HSBC",
+    "siglas": "HSBC",
+    "nombre": "HSBC-ADR",
+    "link": "https://www.etoro.com/markets/hsbc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1039",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "KR",
+    "siglas": "KR",
+    "nombre": "Kroger Co",
+    "link": "https://www.etoro.com/markets/kr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1500",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "SCHW",
+    "siglas": "SCHW",
+    "nombre": "Charles Schwab Corp",
+    "link": "https://www.etoro.com/markets/schw",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1802",
+    "estado": true
+}

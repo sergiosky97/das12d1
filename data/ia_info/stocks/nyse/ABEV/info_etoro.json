@@ -1,0 +1,8 @@
+{
+    "carpeta": "ABEV",
+    "siglas": "ABEV",
+    "nombre": "Ambev ADR",
+    "link": "https://www.etoro.com/markets/abev",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4249",
+    "estado": true
+}

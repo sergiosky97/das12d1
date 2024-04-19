@@ -1,0 +1,8 @@
+{
+    "carpeta": "BP_US",
+    "siglas": "BP.US",
+    "nombre": "BP plc ADR",
+    "link": "https://www.etoro.com/markets/bp.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8679",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "NOC",
+    "siglas": "NOC",
+    "nombre": "Northrop Grumman Corp",
+    "link": "https://www.etoro.com/markets/noc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1545",
+    "estado": true
+}

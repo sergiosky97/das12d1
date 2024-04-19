@@ -1,0 +1,8 @@
+{
+    "carpeta": "ESTC",
+    "siglas": "ESTC",
+    "nombre": "Elastic NV",
+    "link": "https://www.etoro.com/markets/estc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6692",
+    "estado": true
+}

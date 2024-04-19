@@ -1,0 +1,8 @@
+{
+    "carpeta": "LEN",
+    "siglas": "LEN",
+    "nombre": "Lennar Corp",
+    "link": "https://www.etoro.com/markets/len",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1745",
+    "estado": true
+}

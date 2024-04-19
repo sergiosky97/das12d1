@@ -1,0 +1,8 @@
+{
+    "carpeta": "GOLD_BARRICK",
+    "siglas": "GOLD.BARRICK",
+    "nombre": "Barrick Gold",
+    "link": "https://www.etoro.com/markets/gold.barrick",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4001",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "LAAC",
+    "siglas": "LAAC",
+    "nombre": "Lithium Americas Argentina C",
+    "link": "https://www.etoro.com/markets/laac",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1191",
+    "estado": true
+}

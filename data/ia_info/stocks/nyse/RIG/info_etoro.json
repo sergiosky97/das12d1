@@ -1,0 +1,8 @@
+{
+    "carpeta": "RIG",
+    "siglas": "RIG",
+    "nombre": "Transocean LTD",
+    "link": "https://www.etoro.com/markets/rig",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4136",
+    "estado": true
+}

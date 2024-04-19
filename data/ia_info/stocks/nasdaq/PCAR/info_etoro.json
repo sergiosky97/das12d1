@@ -1,0 +1,8 @@
+{
+    "carpeta": "PCAR",
+    "siglas": "PCAR",
+    "nombre": "Paccar Inc",
+    "link": "https://www.etoro.com/markets/pcar",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1574",
+    "estado": true
+}

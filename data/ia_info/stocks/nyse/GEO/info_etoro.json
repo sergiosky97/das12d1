@@ -1,0 +1,8 @@
+{
+    "carpeta": "GEO",
+    "siglas": "GEO",
+    "nombre": "GEO Group Inc",
+    "link": "https://www.etoro.com/markets/geo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6713",
+    "estado": true
+}

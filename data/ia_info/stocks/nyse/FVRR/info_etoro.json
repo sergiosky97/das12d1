@@ -1,0 +1,8 @@
+{
+    "carpeta": "FVRR",
+    "siglas": "FVRR",
+    "nombre": "Fiverr International",
+    "link": "https://www.etoro.com/markets/fvrr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5503",
+    "estado": true
+}

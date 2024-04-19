@@ -1,0 +1,8 @@
+{
+    "carpeta": "STLA_US",
+    "siglas": "STLA.US",
+    "nombre": "Stellantis NV",
+    "link": "https://www.etoro.com/markets/stla.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8101",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "CLLS",
+    "siglas": "CLLS",
+    "nombre": "Cellectis SA-ADR",
+    "link": "https://www.etoro.com/markets/clls",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1977",
+    "estado": true
+}

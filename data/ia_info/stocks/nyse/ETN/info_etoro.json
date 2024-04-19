@@ -1,0 +1,8 @@
+{
+    "carpeta": "ETN",
+    "siglas": "ETN",
+    "nombre": "Eaton Corp PLC",
+    "link": "https://www.etoro.com/markets/etn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4273",
+    "estado": true
+}

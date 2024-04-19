@@ -1,0 +1,8 @@
+{
+    "carpeta": "TCBI",
+    "siglas": "TCBI",
+    "nombre": "Texas Capital Bancshares Inc.",
+    "link": "https://www.etoro.com/markets/tcbi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9035",
+    "estado": true
+}

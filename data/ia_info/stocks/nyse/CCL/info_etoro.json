@@ -1,0 +1,8 @@
+{
+    "carpeta": "CCL",
+    "siglas": "CCL",
+    "nombre": "Carnival Corp",
+    "link": "https://www.etoro.com/markets/ccl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4272",
+    "estado": true
+}

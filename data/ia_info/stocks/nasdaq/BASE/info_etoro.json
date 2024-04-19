@@ -1,0 +1,8 @@
+{
+    "carpeta": "BASE",
+    "siglas": "BASE",
+    "nombre": "Couchbase Inc.",
+    "link": "https://www.etoro.com/markets/base",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9276",
+    "estado": true
+}

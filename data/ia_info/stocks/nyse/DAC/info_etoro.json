@@ -1,0 +1,8 @@
+{
+    "carpeta": "DAC",
+    "siglas": "DAC",
+    "nombre": "Danaos Corp",
+    "link": "https://www.etoro.com/markets/dac",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9007",
+    "estado": true
+}

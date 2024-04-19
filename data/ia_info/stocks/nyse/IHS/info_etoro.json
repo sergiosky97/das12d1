@@ -1,0 +1,8 @@
+{
+    "carpeta": "IHS",
+    "siglas": "IHS",
+    "nombre": "IHS Holding",
+    "link": "https://www.etoro.com/markets/ihs",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8584",
+    "estado": true
+}

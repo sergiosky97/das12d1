@@ -1,0 +1,8 @@
+{
+    "carpeta": "RIO",
+    "siglas": "RIO",
+    "nombre": "Rio Tinto PLC ADR",
+    "link": "https://www.etoro.com/markets/rio",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4240",
+    "estado": true
+}

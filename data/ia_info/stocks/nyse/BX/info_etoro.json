@@ -1,0 +1,8 @@
+{
+    "carpeta": "BX",
+    "siglas": "BX",
+    "nombre": "BlackStone Group LP",
+    "link": "https://www.etoro.com/markets/bx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1752",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "WISH",
+    "siglas": "WISH",
+    "nombre": "ContextLogic Inc",
+    "link": "https://www.etoro.com/markets/wish",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8049",
+    "estado": true
+}

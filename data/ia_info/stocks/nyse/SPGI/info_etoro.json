@@ -1,0 +1,8 @@
+{
+    "carpeta": "SPGI",
+    "siglas": "SPGI",
+    "nombre": "S&P Global Inc",
+    "link": "https://www.etoro.com/markets/spgi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1855",
+    "estado": true
+}

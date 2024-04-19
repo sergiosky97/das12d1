@@ -1,0 +1,8 @@
+{
+    "carpeta": "BZ",
+    "siglas": "BZ",
+    "nombre": "Kanzhun Limited",
+    "link": "https://www.etoro.com/markets/bz",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9454",
+    "estado": true
+}

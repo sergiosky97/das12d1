@@ -1,0 +1,8 @@
+{
+    "carpeta": "ASTS",
+    "siglas": "ASTS",
+    "nombre": "AST SpaceMobile Inc",
+    "link": "https://www.etoro.com/markets/asts",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10088",
+    "estado": true
+}

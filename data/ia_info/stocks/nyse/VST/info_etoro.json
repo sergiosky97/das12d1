@@ -1,0 +1,8 @@
+{
+    "carpeta": "VST",
+    "siglas": "VST",
+    "nombre": "Vistra Corp",
+    "link": "https://www.etoro.com/markets/vst",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4363",
+    "estado": true
+}

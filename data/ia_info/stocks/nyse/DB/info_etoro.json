@@ -1,0 +1,8 @@
+{
+    "carpeta": "DB",
+    "siglas": "DB",
+    "nombre": "Deutsche-Bank",
+    "link": "https://www.etoro.com/markets/db",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1049",
+    "estado": true
+}

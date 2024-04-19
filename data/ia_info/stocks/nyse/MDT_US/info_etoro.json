@@ -1,0 +1,8 @@
+{
+    "carpeta": "MDT_US",
+    "siglas": "MDT.US",
+    "nombre": "Medtronic PLC",
+    "link": "https://www.etoro.com/markets/mdt.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/9597",
+    "estado": true
+}

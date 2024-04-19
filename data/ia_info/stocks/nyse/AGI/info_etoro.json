@@ -1,0 +1,8 @@
+{
+    "carpeta": "AGI",
+    "siglas": "AGI",
+    "nombre": "Alamos Gold Inc",
+    "link": "https://www.etoro.com/markets/agi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/4136",
+    "estado": true
+}

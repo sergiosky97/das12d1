@@ -1,0 +1,8 @@
+{
+    "carpeta": "V",
+    "siglas": "V",
+    "nombre": "Visa",
+    "link": "https://www.etoro.com/markets/v",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1046",
+    "estado": true
+}

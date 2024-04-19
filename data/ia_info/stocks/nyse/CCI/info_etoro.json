@@ -1,0 +1,8 @@
+{
+    "carpeta": "CCI",
+    "siglas": "CCI",
+    "nombre": "Crown Castle International",
+    "link": "https://www.etoro.com/markets/cci",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4255",
+    "estado": true
+}

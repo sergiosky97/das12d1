@@ -1,0 +1,8 @@
+{
+    "carpeta": "DADA",
+    "siglas": "DADA",
+    "nombre": "Dada Nexus Limited",
+    "link": "https://www.etoro.com/markets/dada",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10059",
+    "estado": true
+}

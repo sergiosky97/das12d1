@@ -1,0 +1,8 @@
+{
+    "carpeta": "ORCL",
+    "siglas": "ORCL",
+    "nombre": "Oracle Corporation",
+    "link": "https://www.etoro.com/markets/orcl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1135",
+    "estado": true
+}

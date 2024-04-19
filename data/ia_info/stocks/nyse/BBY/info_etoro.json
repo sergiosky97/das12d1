@@ -1,0 +1,8 @@
+{
+    "carpeta": "BBY",
+    "siglas": "BBY",
+    "nombre": "Best Buy Co Inc",
+    "link": "https://www.etoro.com/markets/bby",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1520",
+    "estado": true
+}

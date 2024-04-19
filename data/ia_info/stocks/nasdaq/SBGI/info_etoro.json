@@ -1,0 +1,8 @@
+{
+    "carpeta": "SBGI",
+    "siglas": "SBGI",
+    "nombre": "Sinclair Inc",
+    "link": "https://www.etoro.com/markets/sbgi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6527",
+    "estado": true
+}

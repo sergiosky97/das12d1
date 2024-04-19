@@ -1,0 +1,8 @@
+{
+    "carpeta": "FRO",
+    "siglas": "FRO",
+    "nombre": "Frontline PLC",
+    "link": "https://www.etoro.com/markets/fro",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6705",
+    "estado": true
+}

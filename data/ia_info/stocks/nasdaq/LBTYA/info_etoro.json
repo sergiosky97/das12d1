@@ -1,0 +1,8 @@
+{
+    "carpeta": "LBTYA",
+    "siglas": "LBTYA",
+    "nombre": "Liberty Global A",
+    "link": "https://www.etoro.com/markets/lbtya",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4095",
+    "estado": true
+}

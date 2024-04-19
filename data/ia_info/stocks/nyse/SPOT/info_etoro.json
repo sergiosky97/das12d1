@@ -1,0 +1,8 @@
+{
+    "carpeta": "SPOT",
+    "siglas": "SPOT",
+    "nombre": "Spotify Technologies SA",
+    "link": "https://www.etoro.com/markets/spot",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1156",
+    "estado": true
+}

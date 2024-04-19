@@ -1,0 +1,8 @@
+{
+    "carpeta": "LTC_US",
+    "siglas": "LTC.US",
+    "nombre": "LTC Properties Inc.",
+    "link": "https://www.etoro.com/markets/ltc.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5685",
+    "estado": true
+}

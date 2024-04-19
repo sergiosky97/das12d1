@@ -1,0 +1,8 @@
+{
+    "carpeta": "LNG",
+    "siglas": "LNG",
+    "nombre": "Cheniere Energy Inc",
+    "link": "https://www.etoro.com/markets/lng",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4102",
+    "estado": true
+}

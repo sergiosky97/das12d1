@@ -1,0 +1,8 @@
+{
+    "carpeta": "MCD",
+    "siglas": "MCD",
+    "nombre": "McDonald's",
+    "link": "https://www.etoro.com/markets/mcd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/1011",
+    "estado": true
+}

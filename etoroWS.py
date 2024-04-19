@@ -42,11 +42,11 @@ class etoro_ws:
 
         #CONTROL DEL DIRECTORIO data/etoro
         os.makedirs("data",exist_ok=True)
-        path_etoro = os.path.join("data", "etoro")
+        path_etoro = os.path.join("data", "ia_info")
         os.makedirs(path_etoro, exist_ok=True)      
         
         #COMPROBAR SI ES NECESARIO ACTUALIZAR
-        path_update = os.path.join(path_etoro,"update.json")
+        path_update = os.path.join(path_etoro,"update_etoro.json")
         if os.path.exists(path_update):
             with open(path_update, "r") as file:
                 data = json.load(file)
@@ -68,7 +68,7 @@ class etoro_ws:
         #OBTENEMOS TODOS LOS MERCADOS              
         elements_markets = self.browser.get_elements("//a[contains(@href, '/discover/markets/')]", debug=debug) 
         if not elements_markets:
-            print("[ERROR] No se encontraron los mercados en eToro")
+            print("[ERROR] No se encontraron los mercados en ia_info")
             return    
 
         #CREAMOS EL DICCIONARIO DE MERCADOS
@@ -106,10 +106,10 @@ class etoro_ws:
                 path_completo = os.path.join(path_etoro,carpeta_existente)
                 if debug:
                     print(f"[INFO] La carpeta '{carpeta_existente}' no coincide con ningún mercado activo.")               
-                json_path = os.path.join(path_etoro,carpeta_existente,'info.json')
-                #Si la carpeta tiene el archivo info.json
+                json_path = os.path.join(path_etoro,carpeta_existente,'info_etoro.json')
+                #Si la carpeta tiene el archivo info_etoro.json
                 if os.path.exists(json_path):
-                     # Marcar la carpeta como inactiva actualizando el estado en el archivo info.json
+                     # Marcar la carpeta como inactiva actualizando el estado en el archivo info_etoro.json
                     with open(json_path, 'r+') as file:
                         data = json.load(file)
                         data['estado'] = False
@@ -119,9 +119,9 @@ class etoro_ws:
                     if debug:
                         print(f"[INFO] Se ha marcado la carpeta '{path_completo}' como inactiva.")                    
                 else:
-                    # Eliminar la carpeta si no tiene un archivo info.json
+                    # Eliminar la carpeta si no tiene un archivo info_etoro.json
                     if debug:
-                        print(f"[INFO] La carpeta '{path_completo}' no tiene un archivo 'info.json'. Se eliminará la carpeta.")
+                        print(f"[INFO] La carpeta '{path_completo}' no tiene un archivo 'info_etoro.json'. Se eliminará la carpeta.")
                     shutil.rmtree(path_completo)
                     if debug:
                         print(f"[INFO] La carpeta '{path_completo}' ha sido eliminada.")
@@ -131,7 +131,7 @@ class etoro_ws:
             path_completo = os.path.join(path_etoro,market['nombre'])
             os.makedirs(path_completo, exist_ok=True)
             #Escribir los datos json
-            with open(os.path.join(path_completo, "info.json"), "w") as f:
+            with open(os.path.join(path_completo, "info_etoro.json"), "w") as f:
                 json.dump(market, f, indent=4)
             if debug:
                 print(f"[INFO] Carpeta: {path_completo}. Link: {market['link']}. Estado: {market['estado']}")                           
@@ -150,14 +150,14 @@ class etoro_ws:
             print("")
             print(f"[INFO] GET_INFO_MARKETS()")
             
-        ruta_etoro = "data/etoro"
+        ruta_etoro = "data/ia_info"
         carpetas_etoro = [nombre for nombre in os.listdir(ruta_etoro) if os.path.isdir(os.path.join(ruta_etoro, nombre))]
 
         #CARPETAS DENTRO DE LA CARPETA ETORO QUE ESTAN ACTIVAS Y NECESITAN SER ACTUALIZADAS
         carpetas = []
         for carpeta_etoro in carpetas_etoro:
             #COMPROBAR SI ES NECESARIO ACTUALIZAR
-            path_update = os.path.join(ruta_etoro, carpeta_etoro,"update.json")
+            path_update = os.path.join(ruta_etoro, carpeta_etoro,"update_etoro.json")
             if os.path.exists(path_update):
                 with open(path_update, "r") as file:
                     data = json.load(file)
@@ -171,7 +171,7 @@ class etoro_ws:
                     continue
                         
             #LINKS ALMACENADOS EN CARPETAS[] QUE SON NECESARIO ESTUDIA
-            ruta_link_info = os.path.join(ruta_etoro, carpeta_etoro, "info.json")
+            ruta_link_info = os.path.join(ruta_etoro, carpeta_etoro, "info_etoro.json")
             if os.path.exists(ruta_link_info):
                 # Leer los datos del archivo JSON
                 with open(ruta_link_info, "r") as f:
@@ -329,7 +329,7 @@ class etoro_ws:
                     'link':carpeta['link'],
                     'estado':carpeta['estado']
                 }
-                ruta_json = os.path.join(ruta_carpeta,"info.json")
+                ruta_json = os.path.join(ruta_carpeta,"info_etoro.json")
                 with open(ruta_json, 'w') as archivo_json:
                     json.dump(my_json, archivo_json)
                 if debug:
@@ -340,11 +340,11 @@ class etoro_ws:
             for nombre_carpeta in carpetas_etoro_internas:
                 ruta_completa = os.path.join(path_carpeta,nombre_carpeta)
                 if not any(ruta_completa == os.path.join(car_int['carpeta'],car_int['nombre']) for car_int in carpetas_internas):
-                    if os.path.exists(os.path.join(ruta_completa, "info.json")):
+                    if os.path.exists(os.path.join(ruta_completa, "info_etoro.json")):
                         if debug:
                             print(f"[INFO] La carpeta {ruta_completa} se ha marcado como incativa")
                         # Si tiene archivo json, marcarlo con estado = False
-                        with open(os.path.join(ruta_completa, "info.json"), 'r+') as archivo_json:
+                        with open(os.path.join(ruta_completa, "info_etoro.json"), 'r+') as archivo_json:
                             data = json.load(archivo_json)
                             data['estado'] = False
                             archivo_json.seek(0)
@@ -357,7 +357,7 @@ class etoro_ws:
                         shutil.rmtree(ruta_completa)
             
             # GUARDAMOS ACTUALIZACION
-            path_update = os.path.join(path_carpeta,"update.json")
+            path_update = os.path.join(path_carpeta,"update_etoro.json")
             tiempo_actual = datetime.now()
             data = {
                 "ultima_actualizacion": tiempo_actual.strftime("%Y-%m-%d %H:%M:%S")
@@ -372,7 +372,7 @@ class etoro_ws:
             print("")
             print(f"[INFO] GET_INFO_MARKETS_ELEMENTS()")
             
-        ruta_etoro = "data/etoro"
+        ruta_etoro = "data/ia_info"
         carpetas_etoro = [nombre for nombre in os.listdir(ruta_etoro) if os.path.isdir(os.path.join(ruta_etoro, nombre))]
         for carpeta_etoro in carpetas_etoro:
             path_carpeta_etoro = os.path.join(ruta_etoro,carpeta_etoro)
@@ -381,7 +381,7 @@ class etoro_ws:
                 links_analizados = []        
                 ruta_carpeta = os.path.join(path_carpeta_etoro,carpeta_market)
                 #COMPROBAR SI ES NECESARIO ACTUALIZAR
-                path_update = os.path.join(ruta_carpeta,"update.json")
+                path_update = os.path.join(ruta_carpeta,"update_etoro.json")
                 if os.path.exists(path_update):
                     with open(path_update, "r") as file:
                         data = json.load(file)
@@ -394,7 +394,8 @@ class etoro_ws:
                         if any("ERROR" == link_analizado for link_analizado in links_analizados):
                             if debug:
                                 print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizando: Sucedio un error en la anterior actualizacion, {len(links_analizados) } elementos analizados")    
-                            links_analizados = [link for link in links_analizados if link != "ERROR"]
+                            links_analizados = [link.replace("https://www.etoro.com/", "") for link in links_analizados if link != "ERROR"]
+                            links_analizados = set(links_analizados)
                         elif any("FIN" == link_analizado for link_analizado in links_analizados):
                             if debug:
                                 print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizada: {len(links_analizados) - 1} elementos")      
@@ -402,12 +403,14 @@ class etoro_ws:
                         else:
                             if debug:
                                 print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizando: {len(links_analizados) } elementos analizados")      
-                                                 
+                                links_analizados = [link.replace("https://www.etoro.com/", "") for link in links_analizados]
+                                links_analizados = set(links_analizados)               
                     else:
-                        links_analizados = []
-
-                #COMPROBAMOS EL ARCHIVO INFO.JSON
-                path_info_json = os.path.join(ruta_carpeta,"info.json")
+                        links_analizados = {}
+                else:
+                    links_analizados = {}
+                #COMPROBAMOS EL ARCHIVO info_etoro.json
+                path_info_json = os.path.join(ruta_carpeta,"info_etoro.json")
                 if os.path.exists(path_info_json):
                     #INFORMACION DE LA CARPETA
                     nombre = ""
@@ -461,7 +464,7 @@ class etoro_ws:
                             for elemento in elementos_pagina:
                                 try:
                                     link_elemento = elemento.get_attribute("href")
-                                    if not any(link_elemento in link_analizado for link_analizado in links_analizados) and not any(link_elemento in link_mercado for link_mercado in links_mercado):
+                                    if not any(link_elemento in "https://www.etoro.com/" + link_analizado for link_analizado in links_analizados) and not any(link_elemento in link_mercado for link_mercado in links_mercado):
                                         siguiente_pagina = False
                                         if CANTIDAD_PARA_GUARDAR > len(links_mercado):
                                             links_mercado.append(link_elemento)
@@ -549,15 +552,15 @@ class etoro_ws:
                                 for elemento_info in info_mercado_json:
                                     ruta_info_json = os.path.join(ruta_carpeta,elemento_info['carpeta'])
                                     os.makedirs(ruta_info_json,exist_ok=True)
-                                    ruta_info_json = os.path.join(ruta_info_json,"info.json")      
+                                    ruta_info_json = os.path.join(ruta_info_json,"info_etoro.json")      
                                     # Escribir el diccionario en el archivo JSON
                                     try:
                                         with open(ruta_info_json, 'w') as f:
                                             json.dump(elemento_info, f, indent=4)
                                         if debug:   
-                                            print(f" ({contador_json}/{len(info_mercado_json)}) - {elemento_info['carpeta']}/info.json")
+                                            print(f" ({contador_json}/{len(info_mercado_json)}) - {elemento_info['carpeta']}/info_etoro.json")
                                             contador_json += 1    
-                                        links_analizados.append(elemento_info['link'])
+                                        links_analizados.add(elemento_info['link'].replace("https://www.etoro.com/",""))
                                     except Exception as e:
                                         if debug:
                                             print(f"[WARNING] Error autosolucionable {e}")
@@ -565,11 +568,11 @@ class etoro_ws:
                                 
                                 # GUARDAMOS ACTUALIZACION
                                 try:
-                                    path_update = os.path.join(ruta_carpeta,"update.json")
+                                    path_update = os.path.join(ruta_carpeta,"update_etoro.json")
                                     tiempo_actual = datetime.now()
                                     data = {
                                         "ultima_actualizacion": tiempo_actual.strftime("%Y-%m-%d %H:%M:%S"),
-                                        "links_analizados": links_analizados
+                                        "links_analizados": ["https://www.etoro.com/" + link for link in links_analizados]
                                     }
                                     with open(path_update, "w") as file:
                                         json.dump(data, file)    
@@ -629,7 +632,7 @@ class etoro_ws:
                                         except:
                                             autosave_intentos -= 1
                                             if autosave_intentos == 0:
-                                                links_analizados.append("ERROR")  
+                                                links_analizados.add("ERROR")  
                                                 print(f"[ERROR] Next button obtuvo un error fatal")             
                                 
                         #ANALIZO SI HAY ALGUNA QUE NO ESTA ACTIVA
@@ -637,11 +640,11 @@ class etoro_ws:
                         #for nombre_carpeta in carpetas_etoro_internas:
                         #    ruta_completa = os.path.join(ruta_carpeta,nombre_carpeta)
                         #    if not any(ruta_completa == os.path.join(ruta_carpeta,car_int['carpeta']) for car_int in info_mercado_json):
-                        #        if os.path.exists(os.path.join(ruta_completa, "info.json")):
+                        #        if os.path.exists(os.path.join(ruta_completa, "info_etoro.json")):
                         #            if debug:
                         #                print(f"[INFO] La carpeta {ruta_completa} se ha marcado como incativa")
                         #            # Si tiene archivo json, marcarlo con estado = False
-                        #            with open(os.path.join(ruta_completa, "info.json"), 'r+') as archivo_json:
+                        #            with open(os.path.join(ruta_completa, "info_etoro.json"), 'r+') as archivo_json:
                         #                data = json.load(archivo_json)
                         #                data['estado'] = False
                         #                # PARA QUE LA CANTIDAD DE CARPETAS CUADRE CON LOS LINKS AÑADO EL LINK
@@ -660,12 +663,12 @@ class etoro_ws:
                         #            shutil.rmtree(ruta_completa)
                         
                         # GUARDAMOS ACTUALIZACION
-                        path_update = os.path.join(ruta_carpeta,"update.json")
+                        path_update = os.path.join(ruta_carpeta,"update_etoro.json")
                         tiempo_actual = datetime.now()
-                        links_analizados.append("FIN") #SE AÑADE PARA COMPROBAR QUE ESTA FINALIZADO EL PROCESO
+                        links_analizados.add("FIN") #SE AÑADE PARA COMPROBAR QUE ESTA FINALIZADO EL PROCESO
                         data = {
                             "ultima_actualizacion": tiempo_actual.strftime("%Y-%m-%d %H:%M:%S"),
-                            "links_analizados": links_analizados
+                            "links_analizados":  ["https://www.etoro.com/" + link if link not in {"ERROR", "FIN"} else link for link in links_analizados]
                         }
                         with open(path_update, "w") as file:
                             json.dump(data, file)                             
@@ -676,7 +679,7 @@ class etoro_ws:
                 #NO HAY ARCHIVO JSON DENTRO DE LA CARPETA
                 else:
                     if debug:
-                        print(f"[INFO] Carpeta: {ruta_carpeta}. No contiene el archivo info.json")
+                        print(f"[INFO] Carpeta: {ruta_carpeta}. No contiene el archivo info_etoro.json")
             
     #GET MARKETS
     def get_url_for_data(self):

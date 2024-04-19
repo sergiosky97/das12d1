@@ -1,0 +1,8 @@
+{
+    "carpeta": "XOM",
+    "siglas": "XOM",
+    "nombre": "Exxon-Mobil",
+    "link": "https://www.etoro.com/markets/xom",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1036",
+    "estado": true
+}

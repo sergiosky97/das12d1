@@ -1,0 +1,8 @@
+{
+    "carpeta": "ACN",
+    "siglas": "ACN",
+    "nombre": "Accenture PLC",
+    "link": "https://www.etoro.com/markets/acn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1450",
+    "estado": true
+}

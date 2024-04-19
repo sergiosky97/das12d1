@@ -1,0 +1,8 @@
+{
+    "carpeta": "BCS",
+    "siglas": "BCS",
+    "nombre": "Barclays PLC-ADR",
+    "link": "https://www.etoro.com/markets/bcs",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6610",
+    "estado": true
+}

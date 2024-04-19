@@ -1,0 +1,8 @@
+{
+    "carpeta": "USB",
+    "siglas": "USB",
+    "nombre": "US Bancorp",
+    "link": "https://www.etoro.com/markets/usb",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1556",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "TORO",
+    "siglas": "TORO",
+    "nombre": "Toro Corp",
+    "link": "https://www.etoro.com/markets/toro",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2876",
+    "estado": true
+}

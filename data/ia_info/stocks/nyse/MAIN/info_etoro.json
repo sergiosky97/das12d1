@@ -1,0 +1,8 @@
+{
+    "carpeta": "MAIN",
+    "siglas": "MAIN",
+    "nombre": "Main Street Capital Corp.",
+    "link": "https://www.etoro.com/markets/main",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5687",
+    "estado": true
+}

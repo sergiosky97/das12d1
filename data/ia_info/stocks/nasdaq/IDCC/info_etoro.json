@@ -1,0 +1,8 @@
+{
+    "carpeta": "IDCC",
+    "siglas": "IDCC",
+    "nombre": "InterDigital Inc.",
+    "link": "https://www.etoro.com/markets/idcc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5642",
+    "estado": true
+}

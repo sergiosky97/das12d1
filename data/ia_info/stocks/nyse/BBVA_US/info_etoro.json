@@ -1,0 +1,8 @@
+{
+    "carpeta": "BBVA_US",
+    "siglas": "BBVA.US",
+    "nombre": "Banco Bilbao Vizcaya Argentaria SA-ADR",
+    "link": "https://www.etoro.com/markets/bbva.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8677",
+    "estado": true
+}

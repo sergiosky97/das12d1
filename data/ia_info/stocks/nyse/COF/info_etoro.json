@@ -1,0 +1,8 @@
+{
+    "carpeta": "COF",
+    "siglas": "COF",
+    "nombre": "Capital One Financial Corp",
+    "link": "https://www.etoro.com/markets/cof",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1460",
+    "estado": true
+}

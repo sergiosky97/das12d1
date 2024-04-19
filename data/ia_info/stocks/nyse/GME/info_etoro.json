@@ -1,0 +1,8 @@
+{
+    "carpeta": "GME",
+    "siglas": "GME",
+    "nombre": "GameStop Corp.",
+    "link": "https://www.etoro.com/markets/gme",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1699",
+    "estado": true
+}

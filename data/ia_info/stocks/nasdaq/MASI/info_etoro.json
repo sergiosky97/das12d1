@@ -1,0 +1,8 @@
+{
+    "carpeta": "MASI",
+    "siglas": "MASI",
+    "nombre": "Masimo Corp.",
+    "link": "https://www.etoro.com/markets/masi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5648",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "BTDR",
+    "siglas": "BTDR",
+    "nombre": "Bitdeer Technologies Group",
+    "link": "https://www.etoro.com/markets/btdr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10225",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "FIVN",
+    "siglas": "FIVN",
+    "nombre": "Five9 Inc",
+    "link": "https://www.etoro.com/markets/fivn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2455",
+    "estado": true
+}

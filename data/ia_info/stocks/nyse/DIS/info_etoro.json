@@ -1,0 +1,8 @@
+{
+    "carpeta": "DIS",
+    "siglas": "DIS",
+    "nombre": "Walt Disney",
+    "link": "https://www.etoro.com/markets/dis",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1016",
+    "estado": true
+}

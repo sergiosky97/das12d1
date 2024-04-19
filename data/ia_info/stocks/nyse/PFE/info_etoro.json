@@ -1,0 +1,8 @@
+{
+    "carpeta": "PFE",
+    "siglas": "PFE",
+    "nombre": "Pfizer",
+    "link": "https://www.etoro.com/markets/pfe",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1028",
+    "estado": true
+}

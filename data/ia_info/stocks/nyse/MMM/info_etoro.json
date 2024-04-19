@@ -1,0 +1,8 @@
+{
+    "carpeta": "MMM",
+    "siglas": "MMM",
+    "nombre": "3M",
+    "link": "https://www.etoro.com/markets/mmm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1026",
+    "estado": true
+}

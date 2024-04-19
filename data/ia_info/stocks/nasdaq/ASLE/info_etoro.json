@@ -1,0 +1,8 @@
+{
+    "carpeta": "ASLE",
+    "siglas": "ASLE",
+    "nombre": "AerSale Corporation",
+    "link": "https://www.etoro.com/markets/asle",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9865",
+    "estado": true
+}

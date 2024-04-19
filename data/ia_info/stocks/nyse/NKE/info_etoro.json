@@ -1,0 +1,8 @@
+{
+    "carpeta": "NKE",
+    "siglas": "NKE",
+    "nombre": "NIKE",
+    "link": "https://www.etoro.com/markets/nke",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1042",
+    "estado": true
+}

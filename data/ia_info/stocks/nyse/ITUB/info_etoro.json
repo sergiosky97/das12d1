@@ -1,0 +1,8 @@
+{
+    "carpeta": "ITUB",
+    "siglas": "ITUB",
+    "nombre": "Itau Unibanco Holding ADR",
+    "link": "https://www.etoro.com/markets/itub",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4246",
+    "estado": true
+}

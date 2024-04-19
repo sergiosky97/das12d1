@@ -1,0 +1,8 @@
+{
+    "carpeta": "CAT",
+    "siglas": "CAT",
+    "nombre": "Caterpillar",
+    "link": "https://www.etoro.com/markets/cat",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1012",
+    "estado": true
+}

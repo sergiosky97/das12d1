@@ -1,0 +1,8 @@
+{
+    "carpeta": "KMI",
+    "siglas": "KMI",
+    "nombre": "Kinder Morgan Inc",
+    "link": "https://www.etoro.com/markets/kmi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1601",
+    "estado": true
+}

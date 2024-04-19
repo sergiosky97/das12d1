@@ -1,0 +1,8 @@
+{
+    "carpeta": "FMC",
+    "siglas": "FMC",
+    "nombre": "FMC Corp",
+    "link": "https://www.etoro.com/markets/fmc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1506",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "PATH",
+    "siglas": "PATH",
+    "nombre": "UiPath Inc.",
+    "link": "https://www.etoro.com/markets/path",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6921",
+    "estado": true
+}

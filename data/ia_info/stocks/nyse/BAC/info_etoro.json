@@ -1,0 +1,8 @@
+{
+    "carpeta": "BAC",
+    "siglas": "BAC",
+    "nombre": "Bank of America Corp",
+    "link": "https://www.etoro.com/markets/bac",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1011",
+    "estado": true
+}

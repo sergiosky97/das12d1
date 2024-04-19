@@ -1,0 +1,8 @@
+{
+    "carpeta": "NEM",
+    "siglas": "NEM",
+    "nombre": "Newmont Mining Corp",
+    "link": "https://www.etoro.com/markets/nem",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1757",
+    "estado": true
+}

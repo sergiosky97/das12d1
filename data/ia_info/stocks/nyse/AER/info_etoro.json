@@ -1,0 +1,8 @@
+{
+    "carpeta": "AER",
+    "siglas": "AER",
+    "nombre": "AerCap Holdings NV",
+    "link": "https://www.etoro.com/markets/aer",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6583",
+    "estado": true
+}

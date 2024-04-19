@@ -1,0 +1,8 @@
+{
+    "carpeta": "VALE",
+    "siglas": "VALE",
+    "nombre": "Vale SA-ADR",
+    "link": "https://www.etoro.com/markets/vale",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/1025",
+    "estado": true
+}

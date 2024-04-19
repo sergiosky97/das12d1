@@ -1,0 +1,8 @@
+{
+    "carpeta": "LDOS",
+    "siglas": "LDOS",
+    "nombre": "Leidos Holdings Inc",
+    "link": "https://www.etoro.com/markets/ldos",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1859",
+    "estado": true
+}

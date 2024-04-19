@@ -1,0 +1,8 @@
+{
+    "carpeta": "NSIT_US",
+    "siglas": "NSIT.US",
+    "nombre": "Insight Enterprises Inc",
+    "link": "https://www.etoro.com/markets/nsit.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9474",
+    "estado": true
+}

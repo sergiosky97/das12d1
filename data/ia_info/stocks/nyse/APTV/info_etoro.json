@@ -1,0 +1,8 @@
+{
+    "carpeta": "APTV",
+    "siglas": "APTV",
+    "nombre": "Aptiv PLC",
+    "link": "https://www.etoro.com/markets/aptv",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4306",
+    "estado": true
+}

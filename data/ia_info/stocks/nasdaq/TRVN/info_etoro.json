@@ -1,0 +1,8 @@
+{
+    "carpeta": "TRVN",
+    "siglas": "TRVN",
+    "nombre": "Trevena Inc",
+    "link": "https://www.etoro.com/markets/trvn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6288",
+    "estado": true
+}

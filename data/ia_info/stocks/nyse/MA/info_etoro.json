@@ -1,0 +1,8 @@
+{
+    "carpeta": "MA",
+    "siglas": "MA",
+    "nombre": "Mastercard",
+    "link": "https://www.etoro.com/markets/ma",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1041",
+    "estado": true
+}

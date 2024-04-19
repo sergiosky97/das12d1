@@ -1,0 +1,8 @@
+{
+    "carpeta": "EPR",
+    "siglas": "EPR",
+    "nombre": "EPR Properties",
+    "link": "https://www.etoro.com/markets/epr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/4071",
+    "estado": true
+}

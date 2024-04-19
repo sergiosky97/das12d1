@@ -1,0 +1,8 @@
+{
+    "carpeta": "NTRA",
+    "siglas": "NTRA",
+    "nombre": "Natera Inc",
+    "link": "https://www.etoro.com/markets/ntra",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6086",
+    "estado": true
+}

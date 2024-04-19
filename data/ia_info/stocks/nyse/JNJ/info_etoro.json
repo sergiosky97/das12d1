@@ -1,0 +1,8 @@
+{
+    "carpeta": "JNJ",
+    "siglas": "JNJ",
+    "nombre": "Johnson & Johnson",
+    "link": "https://www.etoro.com/markets/jnj",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1022",
+    "estado": true
+}

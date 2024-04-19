@@ -1,0 +1,8 @@
+{
+    "carpeta": "S_US",
+    "siglas": "S.US",
+    "nombre": "SentinelOne Inc.",
+    "link": "https://www.etoro.com/markets/s.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9279",
+    "estado": true
+}

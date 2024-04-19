@@ -1,0 +1,8 @@
+{
+    "carpeta": "AGR_US",
+    "siglas": "AGR.US",
+    "nombre": "Avangrid Inc",
+    "link": "https://www.etoro.com/markets/agr.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8660",
+    "estado": true
+}

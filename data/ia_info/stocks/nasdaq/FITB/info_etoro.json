@@ -1,0 +1,8 @@
+{
+    "carpeta": "FITB",
+    "siglas": "FITB",
+    "nombre": "Fifth Third Bancorp",
+    "link": "https://www.etoro.com/markets/fitb",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1786",
+    "estado": true
+}

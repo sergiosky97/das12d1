@@ -1,0 +1,8 @@
+{
+    "carpeta": "EMR",
+    "siglas": "EMR",
+    "nombre": "Emerson Electric Co",
+    "link": "https://www.etoro.com/markets/emr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1544",
+    "estado": true
+}

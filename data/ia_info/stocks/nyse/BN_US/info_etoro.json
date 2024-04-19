@@ -1,0 +1,8 @@
+{
+    "carpeta": "BN_US",
+    "siglas": "BN.US",
+    "nombre": "Brookfield Corp",
+    "link": "https://www.etoro.com/markets/bn.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6608",
+    "estado": true
+}

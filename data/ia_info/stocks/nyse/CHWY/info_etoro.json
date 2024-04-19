@@ -1,0 +1,8 @@
+{
+    "carpeta": "CHWY",
+    "siglas": "CHWY",
+    "nombre": "Chewy",
+    "link": "https://www.etoro.com/markets/chwy",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5505",
+    "estado": true
+}

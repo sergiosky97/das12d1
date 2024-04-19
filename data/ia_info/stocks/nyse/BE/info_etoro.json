@@ -1,0 +1,8 @@
+{
+    "carpeta": "BE",
+    "siglas": "BE",
+    "nombre": "Bloom Energy Corp",
+    "link": "https://www.etoro.com/markets/be",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6614",
+    "estado": true
+}

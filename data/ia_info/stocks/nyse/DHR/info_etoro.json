@@ -1,0 +1,8 @@
+{
+    "carpeta": "DHR",
+    "siglas": "DHR",
+    "nombre": "Danaher Corp",
+    "link": "https://www.etoro.com/markets/dhr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1563",
+    "estado": true
+}

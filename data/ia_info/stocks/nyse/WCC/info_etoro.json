@@ -1,0 +1,8 @@
+{
+    "carpeta": "WCC",
+    "siglas": "WCC",
+    "nombre": "WESCO International Inc",
+    "link": "https://www.etoro.com/markets/wcc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1742",
+    "estado": true
+}

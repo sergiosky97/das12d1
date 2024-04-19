@@ -1,0 +1,8 @@
+{
+    "carpeta": "UPS",
+    "siglas": "UPS",
+    "nombre": "United Parcel Service Inc",
+    "link": "https://www.etoro.com/markets/ups",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1493",
+    "estado": true
+}

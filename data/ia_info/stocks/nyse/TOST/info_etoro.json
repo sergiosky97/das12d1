@@ -1,0 +1,8 @@
+{
+    "carpeta": "TOST",
+    "siglas": "TOST",
+    "nombre": "Toast Inc.",
+    "link": "https://www.etoro.com/markets/tost",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9294",
+    "estado": true
+}

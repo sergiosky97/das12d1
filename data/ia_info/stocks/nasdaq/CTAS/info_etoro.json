@@ -1,0 +1,8 @@
+{
+    "carpeta": "CTAS",
+    "siglas": "CTAS",
+    "nombre": "Cintas Corp",
+    "link": "https://www.etoro.com/markets/ctas",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1909",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "TX",
+    "siglas": "TX",
+    "nombre": "Ternium SA-ADR",
+    "link": "https://www.etoro.com/markets/tx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1101",
+    "estado": true
+}

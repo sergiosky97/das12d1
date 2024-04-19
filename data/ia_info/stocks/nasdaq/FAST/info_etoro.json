@@ -1,0 +1,8 @@
+{
+    "carpeta": "FAST",
+    "siglas": "FAST",
+    "nombre": "Fastenal Company",
+    "link": "https://www.etoro.com/markets/fast",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4212",
+    "estado": true
+}

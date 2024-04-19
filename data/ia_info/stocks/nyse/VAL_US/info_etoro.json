@@ -1,0 +1,8 @@
+{
+    "carpeta": "VAL_US",
+    "siglas": "VAL.US",
+    "nombre": "Valaris Limited",
+    "link": "https://www.etoro.com/markets/val.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9442",
+    "estado": true
+}

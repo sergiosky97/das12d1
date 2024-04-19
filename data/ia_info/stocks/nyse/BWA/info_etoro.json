@@ -1,0 +1,8 @@
+{
+    "carpeta": "BWA",
+    "siglas": "BWA",
+    "nombre": "BorgWarner Inc",
+    "link": "https://www.etoro.com/markets/bwa",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1730",
+    "estado": true
+}

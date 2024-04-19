@@ -1,0 +1,8 @@
+{
+    "carpeta": "BLK",
+    "siglas": "BLK",
+    "nombre": "BlackRock Inc",
+    "link": "https://www.etoro.com/markets/blk",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1467",
+    "estado": true
+}

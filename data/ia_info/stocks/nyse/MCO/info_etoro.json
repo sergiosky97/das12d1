@@ -1,0 +1,8 @@
+{
+    "carpeta": "MCO",
+    "siglas": "MCO",
+    "nombre": "Moody's Corp.",
+    "link": "https://www.etoro.com/markets/mco",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4106",
+    "estado": true
+}

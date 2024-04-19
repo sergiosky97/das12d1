@@ -1,0 +1,8 @@
+{
+    "carpeta": "IMAB",
+    "siglas": "IMAB",
+    "nombre": "I-Mab-ADR",
+    "link": "https://www.etoro.com/markets/imab",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8942",
+    "estado": true
+}

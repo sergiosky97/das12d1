@@ -1,0 +1,8 @@
+{
+    "carpeta": "MKTX",
+    "siglas": "MKTX",
+    "nombre": "MarketAxess Holdings Inc",
+    "link": "https://www.etoro.com/markets/mktx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5963",
+    "estado": true
+}

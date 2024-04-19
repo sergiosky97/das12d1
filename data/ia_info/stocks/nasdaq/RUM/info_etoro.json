@@ -1,0 +1,8 @@
+{
+    "carpeta": "RUM",
+    "siglas": "RUM",
+    "nombre": "Rumble Inc",
+    "link": "https://www.etoro.com/markets/rum",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9739",
+    "estado": true
+}

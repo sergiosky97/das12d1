@@ -1,0 +1,8 @@
+{
+    "carpeta": "KO",
+    "siglas": "KO",
+    "nombre": "Coca-Cola",
+    "link": "https://www.etoro.com/markets/ko",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1024",
+    "estado": true
+}

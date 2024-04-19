@@ -1,0 +1,8 @@
+{
+    "carpeta": "GSAT",
+    "siglas": "GSAT",
+    "nombre": "Globalstar",
+    "link": "https://www.etoro.com/markets/gsat",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4067",
+    "estado": true
+}

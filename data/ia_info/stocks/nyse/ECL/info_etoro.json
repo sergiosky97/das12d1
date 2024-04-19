@@ -1,0 +1,8 @@
+{
+    "carpeta": "ECL",
+    "siglas": "ECL",
+    "nombre": "Ecolab Inc",
+    "link": "https://www.etoro.com/markets/ecl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1616",
+    "estado": true
+}

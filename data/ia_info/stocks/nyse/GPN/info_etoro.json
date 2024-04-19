@@ -1,0 +1,8 @@
+{
+    "carpeta": "GPN",
+    "siglas": "GPN",
+    "nombre": "Global Payments Inc",
+    "link": "https://www.etoro.com/markets/gpn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/1739",
+    "estado": true
+}

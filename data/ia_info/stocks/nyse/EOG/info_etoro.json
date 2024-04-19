@@ -1,0 +1,8 @@
+{
+    "carpeta": "EOG",
+    "siglas": "EOG",
+    "nombre": "EOG Resources Inc",
+    "link": "https://www.etoro.com/markets/eog",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1581",
+    "estado": true
+}

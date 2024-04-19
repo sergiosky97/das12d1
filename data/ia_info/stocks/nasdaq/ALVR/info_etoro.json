@@ -1,0 +1,8 @@
+{
+    "carpeta": "ALVR",
+    "siglas": "ALVR",
+    "nombre": "Allovir Inc",
+    "link": "https://www.etoro.com/markets/alvr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8002",
+    "estado": true
+}

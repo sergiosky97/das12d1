@@ -1,0 +1,8 @@
+{
+    "carpeta": "BABA",
+    "siglas": "BABA",
+    "nombre": "Alibaba-ADR",
+    "link": "https://www.etoro.com/markets/baba",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1155",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "HSY",
+    "siglas": "HSY",
+    "nombre": "Hershey Co",
+    "link": "https://www.etoro.com/markets/hsy",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4072",
+    "estado": true
+}

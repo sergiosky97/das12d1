@@ -1,0 +1,8 @@
+{
+    "carpeta": "WAB",
+    "siglas": "WAB",
+    "nombre": "Wabtec Corp",
+    "link": "https://www.etoro.com/markets/wab",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4369",
+    "estado": true
+}

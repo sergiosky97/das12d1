@@ -1,0 +1,8 @@
+{
+    "carpeta": "JOE",
+    "siglas": "JOE",
+    "nombre": "The St. Joe Company",
+    "link": "https://www.etoro.com/markets/joe",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6755",
+    "estado": true
+}

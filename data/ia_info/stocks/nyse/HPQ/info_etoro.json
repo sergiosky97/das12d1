@@ -1,0 +1,8 @@
+{
+    "carpeta": "HPQ",
+    "siglas": "HPQ",
+    "nombre": "Hewlett Packard",
+    "link": "https://www.etoro.com/markets/hpq",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1019",
+    "estado": true
+}

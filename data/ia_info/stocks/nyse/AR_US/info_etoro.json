@@ -1,0 +1,8 @@
+{
+    "carpeta": "AR_US",
+    "siglas": "AR.US",
+    "nombre": "Antero Resources Corp",
+    "link": "https://www.etoro.com/markets/ar.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6600",
+    "estado": true
+}

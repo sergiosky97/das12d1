@@ -1,0 +1,8 @@
+{
+    "carpeta": "CTRM",
+    "siglas": "CTRM",
+    "nombre": "Castor Maritime Inc",
+    "link": "https://www.etoro.com/markets/ctrm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6210",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "BYON",
+    "siglas": "BYON",
+    "nombre": "Beyond Inc",
+    "link": "https://www.etoro.com/markets/byon",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1181",
+    "estado": true
+}

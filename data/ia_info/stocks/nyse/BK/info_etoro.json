@@ -1,0 +1,8 @@
+{
+    "carpeta": "BK",
+    "siglas": "BK",
+    "nombre": "Bank of New York Mellon Corp",
+    "link": "https://www.etoro.com/markets/bk",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1598",
+    "estado": true
+}

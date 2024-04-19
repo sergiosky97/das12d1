@@ -1,0 +1,8 @@
+{
+    "carpeta": "NWSA",
+    "siglas": "NWSA",
+    "nombre": "News Corp",
+    "link": "https://www.etoro.com/markets/nwsa",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1717",
+    "estado": true
+}

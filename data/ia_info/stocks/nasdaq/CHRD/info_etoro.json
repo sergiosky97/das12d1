@@ -1,0 +1,8 @@
+{
+    "carpeta": "CHRD",
+    "siglas": "CHRD",
+    "nombre": "Chord Energy Corporation",
+    "link": "https://www.etoro.com/markets/chrd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8782",
+    "estado": true
+}

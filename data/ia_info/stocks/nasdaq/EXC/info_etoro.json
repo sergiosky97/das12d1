@@ -1,0 +1,8 @@
+{
+    "carpeta": "EXC",
+    "siglas": "EXC",
+    "nombre": "Exelon Corp",
+    "link": "https://www.etoro.com/markets/exc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1538",
+    "estado": true
+}

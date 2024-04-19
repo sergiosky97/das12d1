@@ -1,6 +1,8 @@
 from etoroWS import etoro_ws
 import sys
 
+import os
+
 
 def esperar_presionar_x():
     while True:

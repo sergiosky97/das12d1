@@ -1,0 +1,8 @@
+{
+    "carpeta": "EQIX",
+    "siglas": "EQIX",
+    "nombre": "Equinix Inc",
+    "link": "https://www.etoro.com/markets/eqix",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4268",
+    "estado": true
+}

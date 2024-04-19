@@ -1,0 +1,8 @@
+{
+    "carpeta": "TFC",
+    "siglas": "TFC",
+    "nombre": "Truist Financial Corp",
+    "link": "https://www.etoro.com/markets/tfc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1683",
+    "estado": true
+}

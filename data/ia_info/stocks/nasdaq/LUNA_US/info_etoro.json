@@ -1,0 +1,8 @@
+{
+    "carpeta": "LUNA_US",
+    "siglas": "LUNA.US",
+    "nombre": "Luna Innovations Inc",
+    "link": "https://www.etoro.com/markets/luna.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6243",
+    "estado": true
+}

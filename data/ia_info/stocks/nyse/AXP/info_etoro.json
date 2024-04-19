@@ -1,0 +1,8 @@
+{
+    "carpeta": "AXP",
+    "siglas": "AXP",
+    "nombre": "American Express CO",
+    "link": "https://www.etoro.com/markets/axp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1009",
+    "estado": true
+}

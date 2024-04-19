@@ -1,0 +1,8 @@
+{
+    "carpeta": "NDAQ",
+    "siglas": "NDAQ",
+    "nombre": "Nasdaq Inc.",
+    "link": "https://www.etoro.com/markets/ndaq",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8836",
+    "estado": true
+}

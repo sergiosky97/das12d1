@@ -1,0 +1,8 @@
+{
+    "carpeta": "AON",
+    "siglas": "AON",
+    "nombre": "Aon plc",
+    "link": "https://www.etoro.com/markets/aon",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4205",
+    "estado": true
+}

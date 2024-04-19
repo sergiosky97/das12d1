@@ -1,0 +1,8 @@
+{
+    "carpeta": "CIG",
+    "siglas": "CIG",
+    "nombre": "Companhia Energetica de Minas Gerais-ADR",
+    "link": "https://www.etoro.com/markets/cig",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/5675",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "BTG_US",
+    "siglas": "BTG.US",
+    "nombre": "B2Gold Corp",
+    "link": "https://www.etoro.com/markets/btg.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/6919",
+    "estado": true
+}

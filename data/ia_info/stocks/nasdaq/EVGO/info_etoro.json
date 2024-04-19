@@ -1,0 +1,8 @@
+{
+    "carpeta": "EVGO",
+    "siglas": "EVGO",
+    "nombre": "EVgo Inc",
+    "link": "https://www.etoro.com/markets/evgo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8647",
+    "estado": true
+}

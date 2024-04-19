@@ -1,0 +1,8 @@
+{
+    "carpeta": "NVS",
+    "siglas": "NVS",
+    "nombre": "Novartis ADR",
+    "link": "https://www.etoro.com/markets/nvs",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/4232",
+    "estado": true
+}

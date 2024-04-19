@@ -1,0 +1,8 @@
+{
+    "carpeta": "FTCHF",
+    "siglas": "FTCHF",
+    "nombre": "Farfetch",
+    "link": "https://www.etoro.com/markets/ftchf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/2/1737",
+    "estado": true
+}

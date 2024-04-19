@@ -1,0 +1,8 @@
+{
+    "carpeta": "FIS",
+    "siglas": "FIS",
+    "nombre": "Fidelity National Information Services Inc",
+    "link": "https://www.etoro.com/markets/fis",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1792",
+    "estado": true
+}
