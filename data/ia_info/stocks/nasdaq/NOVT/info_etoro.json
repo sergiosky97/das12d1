@@ -1,0 +1,8 @@
+{
+    "carpeta": "NOVT",
+    "siglas": "NOVT",
+    "nombre": "Novanta Inc",
+    "link": "https://www.etoro.com/markets/novt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1064",
+    "estado": true
+}

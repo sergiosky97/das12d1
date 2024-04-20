@@ -1,0 +1,8 @@
+{
+    "carpeta": "PLXS",
+    "siglas": "PLXS",
+    "nombre": "Plexus Corp",
+    "link": "https://www.etoro.com/markets/plxs",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9745",
+    "estado": true
+}

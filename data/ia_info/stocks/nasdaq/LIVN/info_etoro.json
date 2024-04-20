@@ -1,0 +1,8 @@
+{
+    "carpeta": "LIVN",
+    "siglas": "LIVN",
+    "nombre": "LivaNova PLC",
+    "link": "https://www.etoro.com/markets/livn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8961",
+    "estado": true
+}

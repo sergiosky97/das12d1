@@ -1,0 +1,8 @@
+{
+    "carpeta": "VECO",
+    "siglas": "VECO",
+    "nombre": "Veeco Instruments Inc",
+    "link": "https://www.etoro.com/markets/veco",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9668",
+    "estado": true
+}

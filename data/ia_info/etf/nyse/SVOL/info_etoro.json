@@ -1,0 +1,8 @@
+{
+    "carpeta": "SVOL",
+    "siglas": "SVOL",
+    "nombre": "Simplify Volatility Premium",
+    "link": "https://www.etoro.com/markets/svol",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10783",
+    "estado": true
+}

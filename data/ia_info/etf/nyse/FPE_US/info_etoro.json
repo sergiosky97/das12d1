@@ -1,0 +1,8 @@
+{
+    "carpeta": "FPE_US",
+    "siglas": "FPE.US",
+    "nombre": "Ft-Preferred Secur & Inc Etf",
+    "link": "https://www.etoro.com/markets/fpe.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10765",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "FRME",
+    "siglas": "FRME",
+    "nombre": "First Merchants Corporation",
+    "link": "https://www.etoro.com/markets/frme",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9935",
+    "estado": true
+}

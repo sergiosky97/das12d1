@@ -1,0 +1,8 @@
+{
+    "carpeta": "ATRC",
+    "siglas": "ATRC",
+    "nombre": "Atricure Inc",
+    "link": "https://www.etoro.com/markets/atrc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9621",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "VTRU",
+    "siglas": "VTRU",
+    "nombre": "Vitru Ltd",
+    "link": "https://www.etoro.com/markets/vtru",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/7995",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "EPI",
+    "siglas": "EPI",
+    "nombre": "Wisdomtree India Earnings",
+    "link": "https://www.etoro.com/markets/epi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10815",
+    "estado": true
+}

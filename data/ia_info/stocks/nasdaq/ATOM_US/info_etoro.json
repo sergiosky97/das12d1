@@ -1,0 +1,8 @@
+{
+    "carpeta": "ATOM_US",
+    "siglas": "ATOM.US",
+    "nombre": "Atomera Incorporated",
+    "link": "https://www.etoro.com/markets/atom.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10334",
+    "estado": true
+}

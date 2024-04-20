@@ -1,0 +1,8 @@
+{
+    "carpeta": "SLRC",
+    "siglas": "SLRC",
+    "nombre": "SLR Investment Corp",
+    "link": "https://www.etoro.com/markets/slrc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10078",
+    "estado": true
+}

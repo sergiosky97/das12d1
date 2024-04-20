@@ -1,0 +1,8 @@
+{
+    "carpeta": "VSEC",
+    "siglas": "VSEC",
+    "nombre": "VSE Corporation",
+    "link": "https://www.etoro.com/markets/vsec",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/7971",
+    "estado": true
+}

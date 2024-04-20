@@ -1,0 +1,8 @@
+{
+    "carpeta": "OSPN",
+    "siglas": "OSPN",
+    "nombre": "OneSpan Inc",
+    "link": "https://www.etoro.com/markets/ospn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10243",
+    "estado": true
+}

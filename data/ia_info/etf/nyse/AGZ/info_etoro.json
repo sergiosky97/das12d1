@@ -1,0 +1,8 @@
+{
+    "carpeta": "AGZ",
+    "siglas": "AGZ",
+    "nombre": "Ishares Agency Bond Etf",
+    "link": "https://www.etoro.com/markets/agz",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10874",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "EWC",
+    "siglas": "EWC",
+    "nombre": "Ishares Msci Canada Etf",
+    "link": "https://www.etoro.com/markets/ewc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10806",
+    "estado": true
+}

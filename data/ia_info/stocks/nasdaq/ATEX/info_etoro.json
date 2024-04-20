@@ -1,0 +1,8 @@
+{
+    "carpeta": "ATEX",
+    "siglas": "ATEX",
+    "nombre": "Anterix Inc",
+    "link": "https://www.etoro.com/markets/atex",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9981",
+    "estado": true
+}

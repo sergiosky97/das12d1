@@ -1,0 +1,8 @@
+{
+    "carpeta": "SILC",
+    "siglas": "SILC",
+    "nombre": "Silicom Ltd",
+    "link": "https://www.etoro.com/markets/silc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10370",
+    "estado": true
+}

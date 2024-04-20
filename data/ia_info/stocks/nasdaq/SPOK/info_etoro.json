@@ -1,0 +1,8 @@
+{
+    "carpeta": "SPOK",
+    "siglas": "SPOK",
+    "nombre": "Spok Holdings Inc",
+    "link": "https://www.etoro.com/markets/spok",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10250",
+    "estado": true
+}

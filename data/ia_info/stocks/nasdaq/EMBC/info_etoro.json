@@ -1,0 +1,8 @@
+{
+    "carpeta": "EMBC",
+    "siglas": "EMBC",
+    "nombre": "Embecta Corp",
+    "link": "https://www.etoro.com/markets/embc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9652",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "FNDA",
+    "siglas": "FNDA",
+    "nombre": "Schwab Fundamental Small Cap",
+    "link": "https://www.etoro.com/markets/fnda",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10840",
+    "estado": true
+}

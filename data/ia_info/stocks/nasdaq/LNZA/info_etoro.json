@@ -1,0 +1,8 @@
+{
+    "carpeta": "LNZA",
+    "siglas": "LNZA",
+    "nombre": "LanzaTech Global Inc",
+    "link": "https://www.etoro.com/markets/lnza",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10074",
+    "estado": true
+}

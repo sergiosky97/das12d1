@@ -1,0 +1,8 @@
+{
+    "carpeta": "COIN_EXT",
+    "siglas": "COIN.EXT",
+    "nombre": "Coinbase Global Inc",
+    "link": "https://www.etoro.com/markets/coin.ext",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9401",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "ATNI",
+    "siglas": "ATNI",
+    "nombre": "ATN International Inc",
+    "link": "https://www.etoro.com/markets/atni",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10159",
+    "estado": true
+}

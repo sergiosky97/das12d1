@@ -1,0 +1,8 @@
+{
+    "carpeta": "ACTG",
+    "siglas": "ACTG",
+    "nombre": "Acacia Research Corporation",
+    "link": "https://www.etoro.com/markets/actg",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10227",
+    "estado": true
+}

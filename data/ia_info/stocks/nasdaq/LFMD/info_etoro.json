@@ -1,0 +1,8 @@
+{
+    "carpeta": "LFMD",
+    "siglas": "LFMD",
+    "nombre": "LifeMD Inc",
+    "link": "https://www.etoro.com/markets/lfmd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10292",
+    "estado": true
+}

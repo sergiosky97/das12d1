@@ -1,0 +1,8 @@
+{
+    "carpeta": "NVMI",
+    "siglas": "NVMI",
+    "nombre": "Nova Ltd.",
+    "link": "https://www.etoro.com/markets/nvmi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8984",
+    "estado": true
+}

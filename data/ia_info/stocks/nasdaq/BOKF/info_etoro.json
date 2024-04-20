@@ -1,0 +1,8 @@
+{
+    "carpeta": "BOKF",
+    "siglas": "BOKF",
+    "nombre": "BOK Financial Corp",
+    "link": "https://www.etoro.com/markets/bokf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2294",
+    "estado": true
+}

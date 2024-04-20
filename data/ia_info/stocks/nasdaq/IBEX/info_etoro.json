@@ -1,0 +1,8 @@
+{
+    "carpeta": "IBEX",
+    "siglas": "IBEX",
+    "nombre": "IBEX Limited",
+    "link": "https://www.etoro.com/markets/ibex",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10252",
+    "estado": true
+}

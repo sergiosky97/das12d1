@@ -1,0 +1,8 @@
+{
+    "carpeta": "FWRD",
+    "siglas": "FWRD",
+    "nombre": "Forward Air Corporation",
+    "link": "https://www.etoro.com/markets/fwrd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9470",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "VNOM",
+    "siglas": "VNOM",
+    "nombre": "Viper Energy Inc",
+    "link": "https://www.etoro.com/markets/vnom",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9749",
+    "estado": true
+}

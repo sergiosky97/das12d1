@@ -1,0 +1,8 @@
+{
+    "carpeta": "FLCO",
+    "siglas": "FLCO",
+    "nombre": "Franklin Investment Grade Co",
+    "link": "https://www.etoro.com/markets/flco",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10776",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "BANR",
+    "siglas": "BANR",
+    "nombre": "Banner Corporation",
+    "link": "https://www.etoro.com/markets/banr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9777",
+    "estado": true
+}

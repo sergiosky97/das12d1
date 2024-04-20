@@ -1,0 +1,8 @@
+{
+    "carpeta": "HMST",
+    "siglas": "HMST",
+    "nombre": "Homestreet Inc",
+    "link": "https://www.etoro.com/markets/hmst",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/7954",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "RYLD",
+    "siglas": "RYLD",
+    "nombre": "Global X Russell 2000 Cov Cl",
+    "link": "https://www.etoro.com/markets/ryld",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10766",
+    "estado": true
+}

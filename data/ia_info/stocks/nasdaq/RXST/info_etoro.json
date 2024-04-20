@@ -1,0 +1,8 @@
+{
+    "carpeta": "RXST",
+    "siglas": "RXST",
+    "nombre": "Rxsight Inc",
+    "link": "https://www.etoro.com/markets/rxst",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9645",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "KSA",
+    "siglas": "KSA",
+    "nombre": "Ishrs Msci Saudi Arabia Etf",
+    "link": "https://www.etoro.com/markets/ksa",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10816",
+    "estado": true
+}

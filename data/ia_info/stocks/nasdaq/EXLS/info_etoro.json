@@ -1,0 +1,8 @@
+{
+    "carpeta": "EXLS",
+    "siglas": "EXLS",
+    "nombre": "ExlService Holdings Inc.",
+    "link": "https://www.etoro.com/markets/exls",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9110",
+    "estado": true
+}

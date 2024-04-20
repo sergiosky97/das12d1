@@ -1,0 +1,8 @@
+{
+    "carpeta": "IREN",
+    "siglas": "IREN",
+    "nombre": "Iris Energy Ltd",
+    "link": "https://www.etoro.com/markets/iren",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10736",
+    "estado": true
+}

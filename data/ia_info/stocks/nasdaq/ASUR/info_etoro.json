@@ -1,0 +1,8 @@
+{
+    "carpeta": "ASUR",
+    "siglas": "ASUR",
+    "nombre": "Asure Software Inc",
+    "link": "https://www.etoro.com/markets/asur",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10313",
+    "estado": true
+}

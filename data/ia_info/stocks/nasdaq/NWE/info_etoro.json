@@ -1,0 +1,8 @@
+{
+    "carpeta": "NWE",
+    "siglas": "NWE",
+    "nombre": "NorthWestern Corporation",
+    "link": "https://www.etoro.com/markets/nwe",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9040",
+    "estado": true
+}

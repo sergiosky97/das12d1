@@ -1,0 +1,8 @@
+{
+    "carpeta": "SBID_IL",
+    "siglas": "SBID.IL",
+    "nombre": "State Bank of India",
+    "link": "https://www.etoro.com/markets/sbid.il",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1446",
+    "estado": true
+}

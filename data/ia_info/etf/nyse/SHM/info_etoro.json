@@ -1,0 +1,8 @@
+{
+    "carpeta": "SHM",
+    "siglas": "SHM",
+    "nombre": "Spdr Nuveen Bloomberg Short",
+    "link": "https://www.etoro.com/markets/shm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10830",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "SVRA",
+    "siglas": "SVRA",
+    "nombre": "Savara Inc",
+    "link": "https://www.etoro.com/markets/svra",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10161",
+    "estado": true
+}

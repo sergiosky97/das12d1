@@ -1,0 +1,8 @@
+{
+    "carpeta": "QTRX",
+    "siglas": "QTRX",
+    "nombre": "Quanterix Corporation",
+    "link": "https://www.etoro.com/markets/qtrx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9835",
+    "estado": true
+}

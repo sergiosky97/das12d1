@@ -1,0 +1,8 @@
+{
+    "carpeta": "RELY",
+    "siglas": "RELY",
+    "nombre": "Remit Global Inc",
+    "link": "https://www.etoro.com/markets/rely",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9514",
+    "estado": true
+}

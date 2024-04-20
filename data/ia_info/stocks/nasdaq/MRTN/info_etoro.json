@@ -1,0 +1,8 @@
+{
+    "carpeta": "MRTN",
+    "siglas": "MRTN",
+    "nombre": "Marten Transport Ltd",
+    "link": "https://www.etoro.com/markets/mrtn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9925",
+    "estado": true
+}

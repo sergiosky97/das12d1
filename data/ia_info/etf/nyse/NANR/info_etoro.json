@@ -1,0 +1,8 @@
+{
+    "carpeta": "NANR",
+    "siglas": "NANR",
+    "nombre": "Spdr S&P North American Natu",
+    "link": "https://www.etoro.com/markets/nanr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/11150",
+    "estado": true
+}

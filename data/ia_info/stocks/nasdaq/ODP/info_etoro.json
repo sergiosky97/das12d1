@@ -1,0 +1,8 @@
+{
+    "carpeta": "ODP",
+    "siglas": "ODP",
+    "nombre": "The ODP Corporation",
+    "link": "https://www.etoro.com/markets/odp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/1602",
+    "estado": true
+}

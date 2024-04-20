@@ -1,0 +1,8 @@
+{
+    "carpeta": "HWKN",
+    "siglas": "HWKN",
+    "nombre": "Hawkins Inc",
+    "link": "https://www.etoro.com/markets/hwkn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/7982",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "RSPT",
+    "siglas": "RSPT",
+    "nombre": "Invesco S&P 500 Equal Weight Technology ETF",
+    "link": "https://www.etoro.com/markets/rspt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3424",
+    "estado": true
+}

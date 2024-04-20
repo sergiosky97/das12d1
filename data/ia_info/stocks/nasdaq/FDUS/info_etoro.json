@@ -1,0 +1,8 @@
+{
+    "carpeta": "FDUS",
+    "siglas": "FDUS",
+    "nombre": "Fidus Investment Corporation",
+    "link": "https://www.etoro.com/markets/fdus",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10171",
+    "estado": true
+}

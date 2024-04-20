@@ -1,0 +1,8 @@
+{
+    "carpeta": "BLKB",
+    "siglas": "BLKB",
+    "nombre": "Blackbaud Inc",
+    "link": "https://www.etoro.com/markets/blkb",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9700",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "FISI",
+    "siglas": "FISI",
+    "nombre": "Financial Institutions Inc",
+    "link": "https://www.etoro.com/markets/fisi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10284",
+    "estado": true
+}

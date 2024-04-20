@@ -1,0 +1,8 @@
+{
+    "carpeta": "COHU",
+    "siglas": "COHU",
+    "nombre": "Cohu Inc",
+    "link": "https://www.etoro.com/markets/cohu",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9712",
+    "estado": true
+}

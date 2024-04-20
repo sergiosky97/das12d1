@@ -1,0 +1,8 @@
+{
+    "carpeta": "CHCO",
+    "siglas": "CHCO",
+    "nombre": "City Holding Company",
+    "link": "https://www.etoro.com/markets/chco",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9992",
+    "estado": true
+}

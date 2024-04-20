@@ -1,0 +1,8 @@
+{
+    "carpeta": "EXO_NV",
+    "siglas": "EXO.NV",
+    "nombre": "Exor NV",
+    "link": "https://www.etoro.com/markets/exo.nv",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/3055",
+    "estado": true
+}

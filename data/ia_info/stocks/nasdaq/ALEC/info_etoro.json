@@ -1,0 +1,8 @@
+{
+    "carpeta": "ALEC",
+    "siglas": "ALEC",
+    "nombre": "Alector Inc",
+    "link": "https://www.etoro.com/markets/alec",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10182",
+    "estado": true
+}

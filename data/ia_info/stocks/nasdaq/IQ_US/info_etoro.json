@@ -1,0 +1,8 @@
+{
+    "carpeta": "IQ_US",
+    "siglas": "IQ.US",
+    "nombre": "iQIYI Inc",
+    "link": "https://www.etoro.com/markets/iq.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10030",
+    "estado": true
+}

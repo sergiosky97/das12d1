@@ -1,0 +1,8 @@
+{
+    "carpeta": "XSLV",
+    "siglas": "XSLV",
+    "nombre": "Invesco S&P Smallcap Low Vol",
+    "link": "https://www.etoro.com/markets/xslv",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/11147",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "SIBN",
+    "siglas": "SIBN",
+    "nombre": "SI-BONE Inc",
+    "link": "https://www.etoro.com/markets/sibn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9782",
+    "estado": true
+}

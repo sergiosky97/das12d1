@@ -1,0 +1,8 @@
+{
+    "carpeta": "LUNG",
+    "siglas": "LUNG",
+    "nombre": "Pulmonx Corporation",
+    "link": "https://www.etoro.com/markets/lung",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10246",
+    "estado": true
+}

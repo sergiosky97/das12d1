@@ -1,0 +1,8 @@
+{
+    "carpeta": "SCHB",
+    "siglas": "SCHB",
+    "nombre": "Schwab Us Broad Market Etf",
+    "link": "https://www.etoro.com/markets/schb",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10843",
+    "estado": true
+}

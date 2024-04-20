@@ -1,0 +1,8 @@
+{
+    "carpeta": "WLDN",
+    "siglas": "WLDN",
+    "nombre": "Willdan Group Inc",
+    "link": "https://www.etoro.com/markets/wldn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10285",
+    "estado": true
+}

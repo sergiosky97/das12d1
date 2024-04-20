@@ -1,0 +1,8 @@
+{
+    "carpeta": "GNLX",
+    "siglas": "GNLX",
+    "nombre": "Genelux Corporation",
+    "link": "https://www.etoro.com/markets/gnlx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10181",
+    "estado": true
+}

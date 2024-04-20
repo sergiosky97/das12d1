@@ -1,0 +1,8 @@
+{
+    "carpeta": "ALVO",
+    "siglas": "ALVO",
+    "nombre": "Alvotech",
+    "link": "https://www.etoro.com/markets/alvo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10035",
+    "estado": true
+}

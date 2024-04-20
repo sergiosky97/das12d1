@@ -1,0 +1,8 @@
+{
+    "carpeta": "AIP",
+    "siglas": "AIP",
+    "nombre": "Arteris Inc",
+    "link": "https://www.etoro.com/markets/aip",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10317",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "ANGO",
+    "siglas": "ANGO",
+    "nombre": "AngioDynamics Inc",
+    "link": "https://www.etoro.com/markets/ango",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/7980",
+    "estado": true
+}

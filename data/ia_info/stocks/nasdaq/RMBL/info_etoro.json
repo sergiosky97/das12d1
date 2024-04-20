@@ -1,0 +1,8 @@
+{
+    "carpeta": "RMBL",
+    "siglas": "RMBL",
+    "nombre": "RumbleON Inc",
+    "link": "https://www.etoro.com/markets/rmbl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10367",
+    "estado": true
+}

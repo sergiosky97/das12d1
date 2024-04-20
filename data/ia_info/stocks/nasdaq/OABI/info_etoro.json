@@ -1,0 +1,8 @@
+{
+    "carpeta": "OABI",
+    "siglas": "OABI",
+    "nombre": "OmniAb Inc",
+    "link": "https://www.etoro.com/markets/oabi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10130",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "LPRO",
+    "siglas": "LPRO",
+    "nombre": "Open Lending Corporation",
+    "link": "https://www.etoro.com/markets/lpro",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9127",
+    "estado": true
+}

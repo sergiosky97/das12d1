@@ -1,0 +1,8 @@
+{
+    "carpeta": "WINA",
+    "siglas": "WINA",
+    "nombre": "Winmark Corporation",
+    "link": "https://www.etoro.com/markets/wina",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9955",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "CELC",
+    "siglas": "CELC",
+    "nombre": "Celcuity Inc",
+    "link": "https://www.etoro.com/markets/celc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10294",
+    "estado": true
+}

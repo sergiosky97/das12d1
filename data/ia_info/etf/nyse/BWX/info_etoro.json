@@ -1,0 +1,8 @@
+{
+    "carpeta": "BWX",
+    "siglas": "BWX",
+    "nombre": "Spdr Bloomberg Int Treasury",
+    "link": "https://www.etoro.com/markets/bwx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10781",
+    "estado": true
+}

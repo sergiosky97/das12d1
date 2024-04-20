@@ -1,0 +1,8 @@
+{
+    "carpeta": "BPOP",
+    "siglas": "BPOP",
+    "nombre": "Popular Inc",
+    "link": "https://www.etoro.com/markets/bpop",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8658",
+    "estado": true
+}

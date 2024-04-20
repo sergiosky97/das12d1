@@ -1,0 +1,8 @@
+{
+    "carpeta": "BBSI",
+    "siglas": "BBSI",
+    "nombre": "Barrett Business Services Inc",
+    "link": "https://www.etoro.com/markets/bbsi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10110",
+    "estado": true
+}

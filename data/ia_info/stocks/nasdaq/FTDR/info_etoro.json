@@ -1,0 +1,8 @@
+{
+    "carpeta": "FTDR",
+    "siglas": "FTDR",
+    "nombre": "Frontdoor Inc.",
+    "link": "https://www.etoro.com/markets/ftdr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9130",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "CERT",
+    "siglas": "CERT",
+    "nombre": "Certara Inc.",
+    "link": "https://www.etoro.com/markets/cert",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8926",
+    "estado": true
+}

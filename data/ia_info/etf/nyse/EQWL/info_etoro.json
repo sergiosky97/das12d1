@@ -1,0 +1,8 @@
+{
+    "carpeta": "EQWL",
+    "siglas": "EQWL",
+    "nombre": "Invesco S&P 100 Equal Weight",
+    "link": "https://www.etoro.com/markets/eqwl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10866",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "IMTX",
+    "siglas": "IMTX",
+    "nombre": "Immatics NV",
+    "link": "https://www.etoro.com/markets/imtx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/7950",
+    "estado": true
+}

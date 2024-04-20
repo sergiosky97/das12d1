@@ -1,0 +1,8 @@
+{
+    "carpeta": "CTLP",
+    "siglas": "CTLP",
+    "nombre": "Cantaloupe Inc",
+    "link": "https://www.etoro.com/markets/ctlp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10164",
+    "estado": true
+}

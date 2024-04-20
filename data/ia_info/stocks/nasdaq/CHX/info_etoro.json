@@ -1,0 +1,8 @@
+{
+    "carpeta": "CHX",
+    "siglas": "CHX",
+    "nombre": "ChampionX Corporation",
+    "link": "https://www.etoro.com/markets/chx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8955",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "WABC",
+    "siglas": "WABC",
+    "nombre": "Westamerica Bancorporation",
+    "link": "https://www.etoro.com/markets/wabc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9986",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "EXPO",
+    "siglas": "EXPO",
+    "nombre": "Exponent Inc.",
+    "link": "https://www.etoro.com/markets/expo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8908",
+    "estado": true
+}

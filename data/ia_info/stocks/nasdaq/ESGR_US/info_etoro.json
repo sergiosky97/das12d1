@@ -1,0 +1,8 @@
+{
+    "carpeta": "ESGR_US",
+    "siglas": "ESGR.US",
+    "nombre": "Enstar Group Limited",
+    "link": "https://www.etoro.com/markets/esgr.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9776",
+    "estado": true
+}

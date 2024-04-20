@@ -1,0 +1,8 @@
+{
+    "carpeta": "PMTS",
+    "siglas": "PMTS",
+    "nombre": "CPI Card Group Inc",
+    "link": "https://www.etoro.com/markets/pmts",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10316",
+    "estado": true
+}

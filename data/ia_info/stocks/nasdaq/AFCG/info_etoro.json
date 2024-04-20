@@ -1,0 +1,8 @@
+{
+    "carpeta": "AFCG",
+    "siglas": "AFCG",
+    "nombre": "AFC Gamma Inc",
+    "link": "https://www.etoro.com/markets/afcg",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10302",
+    "estado": true
+}

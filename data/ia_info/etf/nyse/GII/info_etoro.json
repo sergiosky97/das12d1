@@ -1,0 +1,8 @@
+{
+    "carpeta": "GII",
+    "siglas": "GII",
+    "nombre": "Spdr S&P Global Infrastructu",
+    "link": "https://www.etoro.com/markets/gii",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10844",
+    "estado": true
+}

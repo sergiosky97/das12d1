@@ -1,0 +1,8 @@
+{
+    "carpeta": "UMBF",
+    "siglas": "UMBF",
+    "nombre": "UMB Financial Corp",
+    "link": "https://www.etoro.com/markets/umbf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2201",
+    "estado": true
+}

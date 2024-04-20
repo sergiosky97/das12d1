@@ -1,0 +1,8 @@
+{
+    "carpeta": "TIGR",
+    "siglas": "TIGR",
+    "nombre": "UP Fintech Holding Limited",
+    "link": "https://www.etoro.com/markets/tigr",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9952",
+    "estado": true
+}

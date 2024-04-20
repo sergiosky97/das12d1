@@ -1,0 +1,8 @@
+{
+    "carpeta": "NUVL",
+    "siglas": "NUVL",
+    "nombre": "Nuvalent Inc",
+    "link": "https://www.etoro.com/markets/nuvl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9660",
+    "estado": true
+}

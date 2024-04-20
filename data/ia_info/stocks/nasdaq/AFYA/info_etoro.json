@@ -1,0 +1,8 @@
+{
+    "carpeta": "AFYA",
+    "siglas": "AFYA",
+    "nombre": "Afya Limited",
+    "link": "https://www.etoro.com/markets/afya",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10039",
+    "estado": true
+}

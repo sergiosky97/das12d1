@@ -1,0 +1,8 @@
+{
+    "carpeta": "USEA",
+    "siglas": "USEA",
+    "nombre": "United Maritime Corp",
+    "link": "https://www.etoro.com/markets/usea",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/8781",
+    "estado": true
+}

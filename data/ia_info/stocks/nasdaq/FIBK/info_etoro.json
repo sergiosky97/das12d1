@@ -1,0 +1,8 @@
+{
+    "carpeta": "FIBK",
+    "siglas": "FIBK",
+    "nombre": "First Interstate BancSystem Inc",
+    "link": "https://www.etoro.com/markets/fibk",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2197",
+    "estado": true
+}

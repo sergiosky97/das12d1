@@ -457,6 +457,10 @@ class etoro_ws:
                             if maximo_intentos == 0:
                                 print(f"[ERROR] No se pudo obtener elementos")
                                 autosave_intentos -= 1
+                                url_actual = self.browser.current_url()
+                                self.browser.close()
+                                self.browser = Browser()
+                                self.browser.url(url_actual)
                                 break                                 
                             
                             
@@ -496,7 +500,9 @@ class etoro_ws:
                                 contador_info = 1
                                 if debug:
                                     print(" --------------------- [INFO] EXTRAYENDO API ---------------------")
+                                
                                 processed_links = []
+                                
                                 for link_mercado in links_mercado:                                
                                     try:
                                         #SI NO LO ES LA ACTUALIZAMOS
@@ -508,6 +514,7 @@ class etoro_ws:
                                         efullnombre = elemento_full_nombre.text
                                         enombre = enombre.replace(efullnombre,"").replace("\n","").strip()
                                         efullnombre = efullnombre.replace("Future","").replace("Before","").strip()
+                                        
                                         if enombre == "":
                                             enombre = efullnombre
                                         
@@ -531,7 +538,10 @@ class etoro_ws:
                                             
                                         info_mercado_json.append(elemento)    
                                         processed_links.append(link_mercado)
+                                    
                                     except Exception as e:
+                                        self.browser.close()
+                                        self.browser = Browser()
                                         print(f"[WARNING] Error autosolucionable: {e}")
                                 
                                 #Lo hago para liberar memoria cada 10 guardados:

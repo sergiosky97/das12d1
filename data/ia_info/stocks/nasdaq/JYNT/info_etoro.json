@@ -1,0 +1,8 @@
+{
+    "carpeta": "JYNT",
+    "siglas": "JYNT",
+    "nombre": "The Joint Corp",
+    "link": "https://www.etoro.com/markets/jynt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10365",
+    "estado": true
+}
