@@ -1,0 +1,8 @@
+{
+    "carpeta": "HBT",
+    "siglas": "HBT",
+    "nombre": "Hbt Financial Inc/De",
+    "link": "https://www.etoro.com/markets/hbt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/11118",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "MNY",
+    "siglas": "MNY",
+    "nombre": "Moneyhero Ltd-A",
+    "link": "https://www.etoro.com/markets/mny",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10696",
+    "estado": true
+}

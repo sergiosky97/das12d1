@@ -1,0 +1,8 @@
+{
+    "carpeta": "QSI",
+    "siglas": "QSI",
+    "nombre": "Quantum-Si Inc",
+    "link": "https://www.etoro.com/markets/qsi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10901",
+    "estado": true
+}

@@ -770,12 +770,18 @@ class etoro_ws:
                 lgFilters.KeysMatch.CONTAINS,
                 lgFilters.KeysSensitive.NO,
                 "candle.etoro.com/candles/asc.json/O"])
+
             for evento in eventos:
                 url = evento[lgFilters.LogKeys.REQUEST_URL]
                 if url and url.startswith("https:"):
                     parts = url.split("?")
                     if len(parts) > 1:
                         return parts[0]
+                
+                if maximo_intentos == 5:
+                    url_aux = self.browser.current_url()
+                    self.browser.url(url_aux)
+                    
             maximo_intentos -= 1
             self.browser.esperar(1)    
         return ""

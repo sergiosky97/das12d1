@@ -1,0 +1,8 @@
+{
+    "carpeta": "IBCP",
+    "siglas": "IBCP",
+    "nombre": "Independent Bank Corporation",
+    "link": "https://www.etoro.com/markets/ibcp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10205",
+    "estado": true
+}

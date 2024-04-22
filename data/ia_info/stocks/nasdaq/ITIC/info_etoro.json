@@ -1,0 +1,8 @@
+{
+    "carpeta": "ITIC",
+    "siglas": "ITIC",
+    "nombre": "Investors Title Co",
+    "link": "https://www.etoro.com/markets/itic",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/11162",
+    "estado": true
+}

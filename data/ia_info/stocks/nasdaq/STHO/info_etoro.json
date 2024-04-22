@@ -1,0 +1,8 @@
+{
+    "carpeta": "STHO",
+    "siglas": "STHO",
+    "nombre": "Star Holdings",
+    "link": "https://www.etoro.com/markets/stho",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10347",
+    "estado": true
+}

@@ -658,7 +658,7 @@ class Browser:
             try:
                 logs = self.driver.get_log('performance') 
             except:
-                logs = None
+                return []
                 
             eventos_filtro = []
                         

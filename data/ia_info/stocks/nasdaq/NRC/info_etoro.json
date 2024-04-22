@@ -1,0 +1,8 @@
+{
+    "carpeta": "NRC",
+    "siglas": "NRC",
+    "nombre": "National Research Corporation",
+    "link": "https://www.etoro.com/markets/nrc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10061",
+    "estado": true
+}

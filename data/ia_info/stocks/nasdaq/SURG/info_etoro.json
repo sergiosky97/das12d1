@@ -1,0 +1,8 @@
+{
+    "carpeta": "SURG",
+    "siglas": "SURG",
+    "nombre": "Surgepays Inc",
+    "link": "https://www.etoro.com/markets/surg",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/11021",
+    "estado": true
+}

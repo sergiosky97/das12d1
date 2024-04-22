@@ -1,0 +1,8 @@
+{
+    "carpeta": "MLGO",
+    "siglas": "MLGO",
+    "nombre": "Microalgo Inc",
+    "link": "https://www.etoro.com/markets/mlgo",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10678",
+    "estado": true
+}

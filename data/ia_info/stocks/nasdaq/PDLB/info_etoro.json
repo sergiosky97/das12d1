@@ -1,0 +1,8 @@
+{
+    "carpeta": "PDLB",
+    "siglas": "PDLB",
+    "nombre": "Ponce Financial Group Inc",
+    "link": "https://www.etoro.com/markets/pdlb",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10320",
+    "estado": true
+}

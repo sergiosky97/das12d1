@@ -1,0 +1,8 @@
+{
+    "carpeta": "INBK",
+    "siglas": "INBK",
+    "nombre": "First Internet Bancorp",
+    "link": "https://www.etoro.com/markets/inbk",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10354",
+    "estado": true
+}

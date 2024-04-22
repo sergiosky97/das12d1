@@ -1,0 +1,8 @@
+{
+    "carpeta": "IVCB",
+    "siglas": "IVCB",
+    "nombre": "Investcorp Europe Acquisi-A",
+    "link": "https://www.etoro.com/markets/ivcb",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10756",
+    "estado": true
+}

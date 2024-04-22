@@ -1,0 +1,8 @@
+{
+    "carpeta": "NWPX_US",
+    "siglas": "NWPX.US",
+    "nombre": "Northwest Pipe Company",
+    "link": "https://www.etoro.com/markets/nwpx.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10259",
+    "estado": true
+}

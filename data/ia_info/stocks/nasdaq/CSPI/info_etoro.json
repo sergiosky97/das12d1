@@ -1,0 +1,8 @@
+{
+    "carpeta": "CSPI",
+    "siglas": "CSPI",
+    "nombre": "Csp Inc",
+    "link": "https://www.etoro.com/markets/cspi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/11124",
+    "estado": true
+}

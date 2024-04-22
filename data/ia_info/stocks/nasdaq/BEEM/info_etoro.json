@@ -1,0 +1,8 @@
+{
+    "carpeta": "BEEM",
+    "siglas": "BEEM",
+    "nombre": "Beam Global",
+    "link": "https://www.etoro.com/markets/beem",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/11017",
+    "estado": true
+}

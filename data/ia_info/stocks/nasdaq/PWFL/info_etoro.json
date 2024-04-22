@@ -1,0 +1,8 @@
+{
+    "carpeta": "PWFL",
+    "siglas": "PWFL",
+    "nombre": "Powerfleet Inc",
+    "link": "https://www.etoro.com/markets/pwfl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10933",
+    "estado": true
+}

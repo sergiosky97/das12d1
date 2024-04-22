@@ -1,0 +1,8 @@
+{
+    "carpeta": "BCML",
+    "siglas": "BCML",
+    "nombre": "Baycom Corp",
+    "link": "https://www.etoro.com/markets/bcml",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/11122",
+    "estado": true
+}

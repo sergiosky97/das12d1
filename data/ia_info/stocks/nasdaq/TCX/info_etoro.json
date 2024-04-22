@@ -1,0 +1,8 @@
+{
+    "carpeta": "TCX",
+    "siglas": "TCX",
+    "nombre": "Tucows Inc",
+    "link": "https://www.etoro.com/markets/tcx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10322",
+    "estado": true
+}

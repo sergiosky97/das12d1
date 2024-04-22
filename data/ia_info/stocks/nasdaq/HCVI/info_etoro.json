@@ -1,0 +1,8 @@
+{
+    "carpeta": "HCVI",
+    "siglas": "HCVI",
+    "nombre": "Hennessy Capital Investment Corp VI",
+    "link": "https://www.etoro.com/markets/hcvi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10211",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "ELTK",
+    "siglas": "ELTK",
+    "nombre": "Eltek Ltd",
+    "link": "https://www.etoro.com/markets/eltk",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/11100",
+    "estado": true
+}
