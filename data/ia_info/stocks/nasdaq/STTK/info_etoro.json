@@ -1,0 +1,8 @@
+{
+    "carpeta": "STTK",
+    "siglas": "STTK",
+    "nombre": "Shattuck Labs In",
+    "link": "https://www.etoro.com/markets/sttk",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10731",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "HSTM",
+    "siglas": "HSTM",
+    "nombre": "HealthStream Inc",
+    "link": "https://www.etoro.com/markets/hstm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10079",
+    "estado": true
+}

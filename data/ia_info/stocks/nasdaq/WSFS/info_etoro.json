@@ -1,0 +1,8 @@
+{
+    "carpeta": "WSFS",
+    "siglas": "WSFS",
+    "nombre": "WSFS Financial Corporation",
+    "link": "https://www.etoro.com/markets/wsfs",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9811",
+    "estado": true
+}

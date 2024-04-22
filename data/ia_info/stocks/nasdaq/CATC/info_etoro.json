@@ -1,0 +1,8 @@
+{
+    "carpeta": "CATC",
+    "siglas": "CATC",
+    "nombre": "Cambridge Bancorp",
+    "link": "https://www.etoro.com/markets/catc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10179",
+    "estado": true
+}

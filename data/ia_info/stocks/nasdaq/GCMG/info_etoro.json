@@ -1,0 +1,8 @@
+{
+    "carpeta": "GCMG",
+    "siglas": "GCMG",
+    "nombre": "Grosvenor Capital Management LP",
+    "link": "https://www.etoro.com/markets/gcmg",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10041",
+    "estado": true
+}

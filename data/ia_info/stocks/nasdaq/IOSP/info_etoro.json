@@ -1,0 +1,8 @@
+{
+    "carpeta": "IOSP",
+    "siglas": "IOSP",
+    "nombre": "Innospec Inc",
+    "link": "https://www.etoro.com/markets/iosp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9845",
+    "estado": true
+}

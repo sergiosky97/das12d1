@@ -1,0 +1,8 @@
+{
+    "carpeta": "TCBK",
+    "siglas": "TCBK",
+    "nombre": "TriCo Bancshares",
+    "link": "https://www.etoro.com/markets/tcbk",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10056",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "CNOB",
+    "siglas": "CNOB",
+    "nombre": "ConnectOne Bancorp Inc",
+    "link": "https://www.etoro.com/markets/cnob",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10098",
+    "estado": true
+}

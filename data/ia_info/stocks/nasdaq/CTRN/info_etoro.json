@@ -1,0 +1,8 @@
+{
+    "carpeta": "CTRN",
+    "siglas": "CTRN",
+    "nombre": "Citi Trends Inc",
+    "link": "https://www.etoro.com/markets/ctrn",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10315",
+    "estado": true
+}

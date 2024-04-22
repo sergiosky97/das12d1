@@ -593,12 +593,17 @@ class etoro_ws:
                                 }    
                                                              
                                 elemento['linkWS'] = self.get_url_for_data().replace("OneDay","OneMinute")                      
-                                if debug:   
-                                    print(f"            - ({contador_info}/{len(links_mercado)}) - {elemento['carpeta']}: {elemento['siglas']} ({elemento['nombre']}). Estado {elemento['estado']} LinkWS: {elemento['linkWS']}")
+                                
+                                
+                                if elemento['linkWS'] == "":
+                                    autosave_intentos -= 1
+                                    print(f"            - [WARNING] {elemento['carpeta']}: {elemento['siglas']} ({elemento['nombre']}). Estado {elemento['estado']} LinkWS: No se pudo extraer")
+                                else:        
+                                    if debug:   
+                                        print(f"            - ({contador_info}/{len(links_mercado)}) - {elemento['carpeta']}: {elemento['siglas']} ({elemento['nombre']}). Estado {elemento['estado']} LinkWS: {elemento['linkWS']}")
                                     contador_info+=1
-                                            
-                                info_mercado_json.add(tuple(elemento.items()))    
-                                procesed_links.add(link_mercado)
+                                    info_mercado_json.add(tuple(elemento.items()))    
+                                    procesed_links.add(link_mercado)
                                                                     
                             except Exception as e:
                                 autosave_intentos -= 1

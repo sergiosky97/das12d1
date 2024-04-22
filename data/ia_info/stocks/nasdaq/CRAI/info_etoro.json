@@ -1,0 +1,8 @@
+{
+    "carpeta": "CRAI",
+    "siglas": "CRAI",
+    "nombre": "CRA International Inc",
+    "link": "https://www.etoro.com/markets/crai",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10092",
+    "estado": true
+}

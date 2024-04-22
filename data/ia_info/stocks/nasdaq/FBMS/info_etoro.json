@@ -1,0 +1,8 @@
+{
+    "carpeta": "FBMS",
+    "siglas": "FBMS",
+    "nombre": "The First Bancshares Inc",
+    "link": "https://www.etoro.com/markets/fbms",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10081",
+    "estado": true
+}

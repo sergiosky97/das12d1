@@ -1,0 +1,8 @@
+{
+    "carpeta": "BMRC",
+    "siglas": "BMRC",
+    "nombre": "Bank of Marin Bancorp",
+    "link": "https://www.etoro.com/markets/bmrc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10262",
+    "estado": true
+}

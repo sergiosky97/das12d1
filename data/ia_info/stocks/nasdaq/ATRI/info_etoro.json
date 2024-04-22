@@ -1,0 +1,8 @@
+{
+    "carpeta": "ATRI",
+    "siglas": "ATRI",
+    "nombre": "Atrion Corporation",
+    "link": "https://www.etoro.com/markets/atri",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10116",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "AMAL",
+    "siglas": "AMAL",
+    "nombre": "Amalgamated Financial Corp",
+    "link": "https://www.etoro.com/markets/amal",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10148",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "GRTS",
+    "siglas": "GRTS",
+    "nombre": "Gritstone Bio Inc",
+    "link": "https://www.etoro.com/markets/grts",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10667",
+    "estado": true
+}

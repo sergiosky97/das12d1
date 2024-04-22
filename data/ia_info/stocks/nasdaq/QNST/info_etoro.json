@@ -1,0 +1,8 @@
+{
+    "carpeta": "QNST",
+    "siglas": "QNST",
+    "nombre": "QuinStreet Inc",
+    "link": "https://www.etoro.com/markets/qnst",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10119",
+    "estado": true
+}

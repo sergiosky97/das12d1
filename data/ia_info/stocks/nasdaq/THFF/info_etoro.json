@@ -1,0 +1,8 @@
+{
+    "carpeta": "THFF",
+    "siglas": "THFF",
+    "nombre": "First Financial Corporation",
+    "link": "https://www.etoro.com/markets/thff",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10201",
+    "estado": true
+}

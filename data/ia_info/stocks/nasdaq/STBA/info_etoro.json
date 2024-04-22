@@ -1,0 +1,8 @@
+{
+    "carpeta": "STBA",
+    "siglas": "STBA",
+    "nombre": "S&T Bancorp Inc",
+    "link": "https://www.etoro.com/markets/stba",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10062",
+    "estado": true
+}

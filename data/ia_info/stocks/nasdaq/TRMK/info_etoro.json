@@ -1,0 +1,8 @@
+{
+    "carpeta": "TRMK",
+    "siglas": "TRMK",
+    "nombre": "Trustmark Corporation",
+    "link": "https://www.etoro.com/markets/trmk",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9938",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "MBIN",
+    "siglas": "MBIN",
+    "nombre": "Merchants Bancorp",
+    "link": "https://www.etoro.com/markets/mbin",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10051",
+    "estado": true
+}

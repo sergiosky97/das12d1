@@ -1,0 +1,8 @@
+{
+    "carpeta": "TIPT",
+    "siglas": "TIPT",
+    "nombre": "Tiptree Inc",
+    "link": "https://www.etoro.com/markets/tipt",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10118",
+    "estado": true
+}

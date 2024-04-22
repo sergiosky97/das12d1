@@ -655,7 +655,11 @@ class Browser:
     #EJEMPLO ARGS, [[LogKeys.URL, LogKeysMatch.CONTAINS, LogKeysSensitive.NO, "valor_a_probar"],[LogKeys.URL, LogKeysMatch.CONTAINS, LogKeysSensitive.NO, "valor_a_probar"]]        
     def get_log(self, ignore_body=True, lgFilterMode=lgFilters.Mode.AND, filters=None):
         if self.driver is not None:
-            logs = self.driver.get_log('performance') 
+            try:
+                logs = self.driver.get_log('performance') 
+            except:
+                logs = None
+                
             eventos_filtro = []
                         
             for log in logs:

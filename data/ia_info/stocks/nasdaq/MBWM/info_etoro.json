@@ -1,0 +1,8 @@
+{
+    "carpeta": "MBWM",
+    "siglas": "MBWM",
+    "nombre": "Mercantile Bank Corporation",
+    "link": "https://www.etoro.com/markets/mbwm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10128",
+    "estado": true
+}

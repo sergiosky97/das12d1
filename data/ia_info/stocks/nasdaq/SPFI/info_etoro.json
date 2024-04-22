@@ -1,0 +1,8 @@
+{
+    "carpeta": "SPFI",
+    "siglas": "SPFI",
+    "nombre": "South Plains Financial Inc",
+    "link": "https://www.etoro.com/markets/spfi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10184",
+    "estado": true
+}

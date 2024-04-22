@@ -1,0 +1,8 @@
+{
+    "carpeta": "ECPG",
+    "siglas": "ECPG",
+    "nombre": "Encore Capital Group Inc",
+    "link": "https://www.etoro.com/markets/ecpg",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9882",
+    "estado": true
+}

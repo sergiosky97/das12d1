@@ -1,0 +1,8 @@
+{
+    "carpeta": "NRIM",
+    "siglas": "NRIM",
+    "nombre": "Northrim BanCorp Inc",
+    "link": "https://www.etoro.com/markets/nrim",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10300",
+    "estado": true
+}

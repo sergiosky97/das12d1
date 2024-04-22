@@ -1,0 +1,8 @@
+{
+    "carpeta": "IBOC",
+    "siglas": "IBOC",
+    "nombre": "International Bancshares Corporation",
+    "link": "https://www.etoro.com/markets/iboc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9758",
+    "estado": true
+}

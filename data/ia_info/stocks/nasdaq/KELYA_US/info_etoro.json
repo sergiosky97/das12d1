@@ -1,0 +1,8 @@
+{
+    "carpeta": "KELYA_US",
+    "siglas": "KELYA.US",
+    "nombre": "Kelly Services Inc",
+    "link": "https://www.etoro.com/markets/kelya.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10100",
+    "estado": true
+}

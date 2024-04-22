@@ -1,0 +1,8 @@
+{
+    "carpeta": "NKTX",
+    "siglas": "NKTX",
+    "nombre": "Nkarta Inc",
+    "link": "https://www.etoro.com/markets/nktx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10695",
+    "estado": true
+}

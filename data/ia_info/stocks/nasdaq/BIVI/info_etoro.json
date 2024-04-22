@@ -1,0 +1,8 @@
+{
+    "carpeta": "BIVI",
+    "siglas": "BIVI",
+    "nombre": "Biovie Inc",
+    "link": "https://www.etoro.com/markets/bivi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10675",
+    "estado": true
+}

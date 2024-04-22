@@ -1,0 +1,8 @@
+{
+    "carpeta": "AROW",
+    "siglas": "AROW",
+    "nombre": "Arrow Financial Corporation",
+    "link": "https://www.etoro.com/markets/arow",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10229",
+    "estado": true
+}
