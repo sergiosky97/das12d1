@@ -1,0 +1,8 @@
+{
+    "carpeta": "ATRO",
+    "siglas": "ATRO",
+    "nombre": "Astronics Corporation",
+    "link": "https://www.etoro.com/markets/atro",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10151",
+    "estado": true
+}

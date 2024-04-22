@@ -1,0 +1,8 @@
+{
+    "carpeta": "PFC",
+    "siglas": "PFC",
+    "nombre": "Premier Financial Corp",
+    "link": "https://www.etoro.com/markets/pfc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10104",
+    "estado": true
+}

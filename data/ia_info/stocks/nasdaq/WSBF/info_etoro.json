@@ -1,0 +1,8 @@
+{
+    "carpeta": "WSBF",
+    "siglas": "WSBF",
+    "nombre": "Waterstone Financial Inc",
+    "link": "https://www.etoro.com/markets/wsbf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10306",
+    "estado": true
+}

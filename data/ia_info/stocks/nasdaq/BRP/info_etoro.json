@@ -1,0 +1,8 @@
+{
+    "carpeta": "BRP",
+    "siglas": "BRP",
+    "nombre": "BRP Group Inc",
+    "link": "https://www.etoro.com/markets/brp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9774",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "TRDA",
+    "siglas": "TRDA",
+    "nombre": "Entrada Therapeutics Inc",
+    "link": "https://www.etoro.com/markets/trda",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10165",
+    "estado": true
+}

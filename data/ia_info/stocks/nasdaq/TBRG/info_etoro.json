@@ -1,0 +1,8 @@
+{
+    "carpeta": "TBRG",
+    "siglas": "TBRG",
+    "nombre": "TruBridge Inc",
+    "link": "https://www.etoro.com/markets/tbrg",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10310",
+    "estado": true
+}

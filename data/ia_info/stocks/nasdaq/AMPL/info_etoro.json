@@ -1,0 +1,8 @@
+{
+    "carpeta": "AMPL",
+    "siglas": "AMPL",
+    "nombre": "Amplitude Inc",
+    "link": "https://www.etoro.com/markets/ampl",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9996",
+    "estado": true
+}

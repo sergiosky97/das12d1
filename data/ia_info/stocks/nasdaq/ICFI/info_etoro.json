@@ -1,0 +1,8 @@
+{
+    "carpeta": "ICFI",
+    "siglas": "ICFI",
+    "nombre": "ICF International Inc",
+    "link": "https://www.etoro.com/markets/icfi",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9713",
+    "estado": true
+}

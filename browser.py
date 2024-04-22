@@ -494,8 +494,10 @@ class Browser:
     #FUNCIONES LOG/DEVTOOLS
     def reset_log(self):
         if self.driver != None:
-            self.driver.get_log('performance')           
+            self.driver.get_log('performance')   
+                    
     def process_log_entry(self,entry):
+        
         nivel = entry['level']
         hora = entry['timestamp']
         mensaje = json.loads(entry['message'])['message']
@@ -508,106 +510,108 @@ class Browser:
         if "method" in mensaje:
             metodo = mensaje["method"]
         
-        if metodo.startswith("Network."):
-            if metodo == "Network.requestWillBeSent":
-                if "params" in mensaje:
-                    if "documentURL" in mensaje["params"]:
-                        url= mensaje["params"]["documentURL"]
-                    if "request" in mensaje["params"]:
-                        if "url" in mensaje["params"]["request"]:
-                            request_url = mensaje["params"]["request"]["url"]
-                    if "type" in mensaje["params"]:
-                        tipo= mensaje["params"]["type"]
-                    if "requestId" in mensaje["params"]:
-                        id=mensaje["params"]["requestId"]
+        try:
+            if metodo.startswith("Network."):
+                if metodo == "Network.requestWillBeSent":
+                    if "params" in mensaje:
+                        if "documentURL" in mensaje["params"]:
+                            url= mensaje["params"]["documentURL"]
+                        if "request" in mensaje["params"]:
+                            if "url" in mensaje["params"]["request"]:
+                                request_url = mensaje["params"]["request"]["url"]
+                        if "type" in mensaje["params"]:
+                            tipo= mensaje["params"]["type"]
+                        if "requestId" in mensaje["params"]:
+                            id=mensaje["params"]["requestId"]
 
-            if metodo == "Network.requestWillBeSentExtraInfo":
-                if "params" in mensaje:
-                    if "requestId" in mensaje["params"]:
-                        id=mensaje["params"]["requestId"]
-                    if "associatedCookies" in mensaje["params"]:
-                        associated_cookies = mensaje["params"].get("associatedCookies", [])
-                        if len(associated_cookies) > 0 and "cookie" in associated_cookies[0]:
-                            body = []
-                            for cookie in associated_cookies:
-                                name = "missing_data"
-                                if "name" in cookie["cookie"]:
-                                    name = cookie["cookie"]["name"]
-                                domain = "missing_data"
-                                if "domain" in  cookie["cookie"]:
-                                    domain = cookie["cookie"]["domain"]
-                                value = "missing_data"
-                                if "value" in  cookie["cookie"]:
-                                    value = cookie["cookie"]["value"]
+                if metodo == "Network.requestWillBeSentExtraInfo":
+                    if "params" in mensaje:
+                        if "requestId" in mensaje["params"]:
+                            id=mensaje["params"]["requestId"]
+                        if "associatedCookies" in mensaje["params"]:
+                            associated_cookies = mensaje["params"].get("associatedCookies", [])
+                            if len(associated_cookies) > 0 and "cookie" in associated_cookies[0]:
+                                body = []
+                                for cookie in associated_cookies:
+                                    name = "missing_data"
+                                    if "name" in cookie["cookie"]:
+                                        name = cookie["cookie"]["name"]
+                                    domain = "missing_data"
+                                    if "domain" in  cookie["cookie"]:
+                                        domain = cookie["cookie"]["domain"]
+                                    value = "missing_data"
+                                    if "value" in  cookie["cookie"]:
+                                        value = cookie["cookie"]["value"]
+                                    
+                                    aux_cookie = {
+                                        'status': "OK",
+                                        'body': "cookie",
+                                        'nombre':name,
+                                        'domain':domain,
+                                        'value':value
+                                    }
+                                    body.append(aux_cookie)
+                        if "headers" in mensaje["params"]:
+                            headers = mensaje["params"]["headers"]
+                            if "Connection" in headers:
+                                if "Connection" in  headers:
+                                    tipo = headers["Connection"]
+                                if "Host" in headers:
+                                    request_url = headers["Host"]
+                                if "Origin" in headers:
+                                    url = headers["Origin"]
+                            else: 
+                                if ":authority" in headers:
+                                    url = headers[":authority"]
+                                if ":path" in headers:
+                                    request_url =  headers[":path"]
+                                if ":method" in headers:
+                                    tipo = headers[":method"]
+                                    
+                if metodo == "Network.responseReceived":
+                    if "params" in mensaje:
+                        if "requestId" in mensaje["params"]:
+                            id=mensaje["params"]["requestId"]
+                        if "response" in mensaje["params"]:
+                            response = mensaje["params"]["response"]
+                            if "mimeType" in response:
+                                if "mimeType" in  response:
+                                    tipo = response["mimeType"]
+                                if "remoteIPAddress" in response:
+                                    request_url = str(response["remoteIPAddress"])
+                                    if "remotePort" in response:
+                                        request_url += ":" + str(response["remotePort"])
+                                if "url" in response:
+                                    url = response["url"]
+
+
+                if metodo.startswith("Network.responseReceivedExtraInfo"):
+                    if "params" in mensaje:
+                        if "requestId" in mensaje["params"]:
+                            id=mensaje["params"]["requestId"]
+                        if "cookiePartitionKey" in mensaje["params"]:
+                            url=mensaje["params"]["cookiePartitionKey"]
+                        if "headers" in mensaje["params"]:
+                            headers = mensaje["params"]["headers"]
+                            if "content-type"in headers:
+                                tipo = headers["content-type"]
+                            if "server" in headers:
+                                request_url = headers["server"]
+                            else:
+                                request_url = "localdata"
+                            if "set-cookie" in headers:
+                                body = [{
+                                    "status": "OK",
+                                    "body" : "set-cookie",
+                                    "value": headers["set-cookie"]
+                                }]
                                 
-                                aux_cookie = {
-                                    'status': "OK",
-                                    'body': "cookie",
-                                    'nombre':name,
-                                    'domain':domain,
-                                    'value':value
-                                }
-                                body.append(aux_cookie)
-                    if "headers" in mensaje["params"]:
-                        headers = mensaje["params"]["headers"]
-                        if "Connection" in headers:
-                            if "Connection" in  headers:
-                                tipo = headers["Connection"]
-                            if "Host" in headers:
-                                request_url = headers["Host"]
-                            if "Origin" in headers:
-                                url = headers["Origin"]
-                        else: 
-                            if ":authority" in headers:
-                                url = headers[":authority"]
-                            if ":path" in headers:
-                                request_url =  headers[":path"]
-                            if ":method" in headers:
-                                tipo = headers[":method"]
-                                
-            if metodo == "Network.responseReceived":
-                if "params" in mensaje:
-                    if "requestId" in mensaje["params"]:
-                        id=mensaje["params"]["requestId"]
-                    if "response" in mensaje["params"]:
-                        response = mensaje["params"]["response"]
-                        if "mimeType" in response:
-                            if "mimeType" in  response:
-                                tipo = response["mimeType"]
-                            if "remoteIPAddress" in response:
-                                request_url = str(response["remoteIPAddress"])
-                                if "remotePort" in response:
-                                    request_url += ":" + str(response["remotePort"])
-                            if "url" in response:
-                                url = response["url"]
-
-
-            if metodo.startswith("Network.responseReceivedExtraInfo"):
-                if "params" in mensaje:
-                    if "requestId" in mensaje["params"]:
-                        id=mensaje["params"]["requestId"]
-                    if "cookiePartitionKey" in mensaje["params"]:
-                        url=mensaje["params"]["cookiePartitionKey"]
-                    if "headers" in mensaje["params"]:
-                        headers = mensaje["params"]["headers"]
-                        if "content-type"in headers:
-                            tipo = headers["content-type"]
-                        if "server" in headers:
-                            request_url = headers["server"]
-                        else:
-                            request_url = "localdata"
-                        if "set-cookie" in headers:
-                            body = [{
-                                "status": "OK",
-                                "body" : "set-cookie",
-                                "value": headers["set-cookie"]
-                            }]
-                            
-            if metodo == "Network.dataReceived" or metodo == "Network.loadingFinished":
-                if "params" in mensaje:
-                    if "requestId" in mensaje["params"]:
-                        id=mensaje["params"]["requestId"]
-            
+                if metodo == "Network.dataReceived" or metodo == "Network.loadingFinished":
+                    if "params" in mensaje:
+                        if "requestId" in mensaje["params"]:
+                            id=mensaje["params"]["requestId"]
+        except:
+            pass    
         return {
             lgFilters.LogKeys.NIVEL:nivel,
             lgFilters.LogKeys.HORA:hora,

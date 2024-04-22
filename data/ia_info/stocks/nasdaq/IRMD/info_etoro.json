@@ -1,0 +1,8 @@
+{
+    "carpeta": "IRMD",
+    "siglas": "IRMD",
+    "nombre": "IRadimed Corporation",
+    "link": "https://www.etoro.com/markets/irmd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10143",
+    "estado": true
+}

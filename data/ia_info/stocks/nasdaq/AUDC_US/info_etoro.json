@@ -1,0 +1,8 @@
+{
+    "carpeta": "AUDC_US",
+    "siglas": "AUDC.US",
+    "nombre": "AudioCodes Ltd",
+    "link": "https://www.etoro.com/markets/audc.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10297",
+    "estado": true
+}

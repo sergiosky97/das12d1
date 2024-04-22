@@ -1,0 +1,8 @@
+{
+    "carpeta": "TFIN",
+    "siglas": "TFIN",
+    "nombre": "Triumph Financial Inc",
+    "link": "https://www.etoro.com/markets/tfin",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/2291",
+    "estado": true
+}

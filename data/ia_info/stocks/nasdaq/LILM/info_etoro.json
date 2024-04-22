@@ -1,0 +1,8 @@
+{
+    "carpeta": "LILM",
+    "siglas": "LILM",
+    "nombre": "Lilium Nv",
+    "link": "https://www.etoro.com/markets/lilm",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10661",
+    "estado": true
+}

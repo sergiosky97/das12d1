@@ -1,0 +1,8 @@
+{
+    "carpeta": "INBX",
+    "siglas": "INBX",
+    "nombre": "Inhibrx Inc",
+    "link": "https://www.etoro.com/markets/inbx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9816",
+    "estado": true
+}

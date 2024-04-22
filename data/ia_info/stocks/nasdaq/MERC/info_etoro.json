@@ -1,0 +1,8 @@
+{
+    "carpeta": "MERC",
+    "siglas": "MERC",
+    "nombre": "Mercer International Inc",
+    "link": "https://www.etoro.com/markets/merc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9998",
+    "estado": true
+}

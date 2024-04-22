@@ -1,0 +1,8 @@
+{
+    "carpeta": "EFSC",
+    "siglas": "EFSC",
+    "nombre": "Enterprise Financial Services Corp",
+    "link": "https://www.etoro.com/markets/efsc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9886",
+    "estado": true
+}

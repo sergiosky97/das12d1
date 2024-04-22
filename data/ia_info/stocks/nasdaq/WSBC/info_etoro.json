@@ -1,0 +1,8 @@
+{
+    "carpeta": "WSBC",
+    "siglas": "WSBC",
+    "nombre": "Wesbanco Inc",
+    "link": "https://www.etoro.com/markets/wsbc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/7910",
+    "estado": true
+}

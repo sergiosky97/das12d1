@@ -1,0 +1,8 @@
+{
+    "carpeta": "SRDX",
+    "siglas": "SRDX",
+    "nombre": "Surmodics Inc",
+    "link": "https://www.etoro.com/markets/srdx",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10202",
+    "estado": true
+}

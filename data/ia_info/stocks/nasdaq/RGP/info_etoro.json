@@ -1,0 +1,8 @@
+{
+    "carpeta": "RGP",
+    "siglas": "RGP",
+    "nombre": "Resources Connection Inc",
+    "link": "https://www.etoro.com/markets/rgp",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10170",
+    "estado": true
+}

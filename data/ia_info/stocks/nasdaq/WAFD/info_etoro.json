@@ -1,0 +1,8 @@
+{
+    "carpeta": "WAFD",
+    "siglas": "WAFD",
+    "nombre": "WaFd Inc",
+    "link": "https://www.etoro.com/markets/wafd",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9705",
+    "estado": true
+}

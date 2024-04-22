@@ -1,0 +1,8 @@
+{
+    "carpeta": "MGRC",
+    "siglas": "MGRC",
+    "nombre": "Mcgrath Rentcorp",
+    "link": "https://www.etoro.com/markets/mgrc",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9805",
+    "estado": true
+}

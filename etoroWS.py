@@ -6,6 +6,8 @@ import shutil
 import re
 import os
 import json
+import random
+import string
 
 class etoro_ws: 
     def __init__(self,login=False,debug=True):
@@ -149,10 +151,9 @@ class etoro_ws:
         if debug:
             print("")
             print(f"[INFO] GET_INFO_MARKETS()")
-            
+        
         ruta_etoro = "data/ia_info"
         carpetas_etoro = [nombre for nombre in os.listdir(ruta_etoro) if os.path.isdir(os.path.join(ruta_etoro, nombre))]
-
         #CARPETAS DENTRO DE LA CARPETA ETORO QUE ESTAN ACTIVAS Y NECESITAN SER ACTUALIZADAS
         carpetas = []
         for carpeta_etoro in carpetas_etoro:
@@ -364,325 +365,394 @@ class etoro_ws:
             }
             with open(path_update, "w") as file:
                 json.dump(data, file)                
-                   
-    def get_info_markets_elements(self,debug, tiempo_actualizacion = 0):   
-        num_guardados = 0
-        num_guardados_reset = 5   
+    
+    def get_info_markets_elements(self,debug,tiempo_actualizacion = 0):
+        #VARIABLES DE REINICIO DE BROWSER (Para no saturar la memoria)
+        num_guardados = 0 #Contador de veces que he guardado
+        num_guardados_reset = 5 #Cada cuantas veces se resetea el navegador
+        
         if debug:
             print("")
             print(f"[INFO] GET_INFO_MARKETS_ELEMENTS()")
-            
+    
+        #RUTA DE LOS ELEMENTOS
         ruta_etoro = "data/ia_info"
         carpetas_etoro = [nombre for nombre in os.listdir(ruta_etoro) if os.path.isdir(os.path.join(ruta_etoro, nombre))]
         for carpeta_etoro in carpetas_etoro:
             path_carpeta_etoro = os.path.join(ruta_etoro,carpeta_etoro)
             carpetas_market = [nombre for nombre in os.listdir(path_carpeta_etoro) if os.path.isdir(os.path.join(path_carpeta_etoro, nombre))]    
             for carpeta_market in carpetas_market:
-                links_analizados = []        
-                ruta_carpeta = os.path.join(path_carpeta_etoro,carpeta_market)
-                #COMPROBAR SI ES NECESARIO ACTUALIZAR
+                ruta_carpeta = os.path.join(path_carpeta_etoro,carpeta_market)      
+                cantidad_elementos = "" #Variable global que dice los elementos que deben haber en el market             
+                
+                #INFORMACION DE LA CARPETA
+                link_market = ""
+                nombre_market = ""
+                estado_market = True
+                
+                path_info_etoro = os.path.join(ruta_carpeta,"info_etoro.json")
+                if os.path.exists(path_info_etoro):
+                    with open(path_info_etoro, "r") as file:
+                        data = json.load(file)
+                        link_market = data.get("link","")
+                        nombre_market = data.get("nombre","")
+                        estado_market = data.get("estado",False)    
+
+                if link_market == "":
+                    print(f"[ERROR] La carpeta {path_info_etoro} no contiene el link del mercado.")
+                    continue
+                
+                #COMPROBAR SI ES NECESARIO ACTUALIZAR     
+                siguiente_actualizacion = None #Fecha de la siguiente actualizacion
+                estado = False #Si existe estado se pondre True, al no ser que un link interno se haya desactivado
+                links_analizados = set() #Lista de links extraidos
+                
                 path_update = os.path.join(ruta_carpeta,"update_etoro.json")
                 if os.path.exists(path_update):
                     with open(path_update, "r") as file:
                         data = json.load(file)
-                        ultima_actualizacion_str = data.get("ultima_actualizacion")
-                        links_analizados = data.get("links_analizados", [])
-                    ultima_actualizacion = datetime.strptime(ultima_actualizacion_str, "%Y-%m-%d %H:%M:%S")
-                    tiempo_actual = datetime.now()
-                    nueva_actualizacion = ultima_actualizacion + timedelta(seconds=tiempo_actualizacion)     
-                    if nueva_actualizacion > tiempo_actual:
-                        if any("ERROR" == link_analizado for link_analizado in links_analizados):
-                            if debug:
-                                print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizando: Sucedio un error en la anterior actualizacion, {len(links_analizados) } elementos analizados")    
-                            links_analizados = [link.replace("https://www.etoro.com/", "") for link in links_analizados if link != "ERROR"]
-                            links_analizados = set(links_analizados)
-                        elif any("FIN" == link_analizado for link_analizado in links_analizados):
-                            if debug:
-                                print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizada: {len(links_analizados) - 1} elementos")      
-                            continue 
-                        else:
-                            if debug:
-                                print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizando: {len(links_analizados) } elementos analizados")      
-                                links_analizados = [link.replace("https://www.etoro.com/", "") for link in links_analizados]
-                                links_analizados = set(links_analizados)               
-                    else:
-                        links_analizados = {}
-                else:
-                    links_analizados = {}
-                #COMPROBAMOS EL ARCHIVO info_etoro.json
-                path_info_json = os.path.join(ruta_carpeta,"info_etoro.json")
-                if os.path.exists(path_info_json):
-                    #INFORMACION DE LA CARPETA
-                    nombre = ""
-                    link = ""
-                    estado = False
-                    #ruta_carpeta
-                    
-                    #ASIGNACION DE VALORES
-                    with open(path_info_json, 'r') as archivo_json:
-                        datos_json = json.load(archivo_json)
-                        nombre = datos_json['nombre']
-                        link = datos_json['link']
-                        estado = datos_json['estado']                    
-                    
-                    #CARPETA QUE ESTA ACTIVA Y NECESITA SER ACTUALIZADA
-                    if estado:
-                        if debug:
-                            print(f"[INFO] Carpeta: {ruta_carpeta}. Link: {link}")
-                    
-                        #ELEMENTOS HACE REFERENCIA A TODOS LOS MERCADOS QUE HAY                  
-                        self.browser.url(link)
-                        
-                        if debug:
-                            print(f"[INFO] Extrayendo elementos de {nombre}: {link}")
+                        ultima_actualizacion = data.get("ultima_actualizacion")
+                        links_analizados = set(data.get("links_analizados", [])) #Lo guardamos como array pero por tema de memoria lo manejamos como {}
+                        estado = data.get("estado",True) #Si no existe estado lo manejamos como si existiera, esto se debe a que es un nuevo mercado o lo estamos actualizando en las primeras versiones                   
+                        #Formateo de las fechas
+                        ultima_actualizacion = datetime.strptime(ultima_actualizacion, "%Y-%m-%d %H:%M:%S")
+                        siguiente_actualizacion = ultima_actualizacion + timedelta(seconds=tiempo_actualizacion)  
 
-                        #AUTOSAVE V2
-                        CANTIDAD_PARA_GUARDAR = 120
-                        aux_guardar = False
-                        links_mercado = []
-                        autosave_intentos = 100
-                        xpath_link = "//et-instrument-trading-row//et-card-avatar//a"
-                        contador_id = 1
-                        bool_links = True
-                        while autosave_intentos > 0 or aux_guardar:
-                            #Obtenemos los elementos de la pagina
-                            elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)     
-                            maximo_intentos = 20
-                            while maximo_intentos > 0:
-                                if not elementos_pagina:
-                                    elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)       
-                                    maximo_intentos -= 1 
+                self.browser.url(link_market) #Vamos a la pagina web del mercado
+                
+                if not estado: #Quiere decir que update_etoro no existe o hay un link que no esta correcto
+                    if debug:
+                        print(f"         - Carpeta: {ruta_carpeta}. Actualizando...")
+                    links_analizados = set()
+                else:
+                    tiempo_actual = datetime.now()
+                    #OBTENEMOS LA CANTIDAD DE ELEMENTOS
+                    try:          
+                        elemento_number = self.browser.get_element(xpath="//span[contains(@automation-id,'discover-market-results-num')]",maximo_intentos=10,debug=False)
+                        cantidad_elementos = elemento_number.text.replace(" ","") 
+                    except:
+                        pass
+                    
+                    #NO HEMOS SOBREPASADO EL TIEMPO PARA LA ACTUALIZACION OBLIGATORIA
+                    if siguiente_actualizacion > tiempo_actual:                        
+                        #COMPROBAMOS SI HAY ALGUN ERROR EN LA ULTIMA ACTUALIZACION
+                        if any("ERROR" == link_analizado for link_analizado in links_analizados):
+                            links_analizados = {link.replace("https://www.etoro.com/", "") for link in links_analizados if link != "ERROR" and link != "FIN"}
+                            if debug:
+                                print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizando: Sucedio un error en la anterior actualizacion, {len(links_analizados)}/{cantidad_elementos} elementos analizados")    
+                        #SI NO HAY ERROR, COMPROBAMOS SI YA HEMOS LLEGADO AL FINAL
+                        elif any("FIN" == link_analizado for link_analizado in links_analizados):
+                            links_analizados = {link.replace("https://www.etoro.com/", "") for link in links_analizados if link != "ERROR" and link != "FIN"}
+                            if cantidad_elementos != str(len(links_analizados)): #Si no es la misma cantidad no esta actualizada
+                                if debug:
+                                    print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. No actualizada: {len(links_analizados)}/{cantidad_elementos} elementos")                
+                            else: #Si es la misma cantidad esta actualizada
+                                if debug:
+                                    print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizada: {len(links_analizados)}/{cantidad_elementos} elementos")      
+                                continue 
+                        #NO HAY ERRORES NI FIN, SEGUIMOS ACTUALIZANDO
+                        else:
+                            links_analizados = {link.replace("https://www.etoro.com/", "") for link in links_analizados if link != "ERROR" and link != "FIN"}  
+                            if debug:
+                                print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizando: {len(links_analizados)}/{cantidad_elementos} elementos analizados")              
+                    #ACTUALIZACION OBLIGATORIA
+                    else:
+                        links_analizados = {link.replace("https://www.etoro.com/", "") for link in links_analizados if link != "ERROR" and link != "FIN"}  
+                        if debug:
+                            print(f"         - Carpeta: {os.path.join(path_carpeta_etoro,carpeta_market)}. Actualizando: Buscando nuevos elementos: {len(links_analizados)} elementos analizados.")    
+
+
+                #ANALIZAMOS LA CARPETA SI ESTA ACTIVA
+                if not estado_market:
+                    if debug:
+                        print(f"            - [INFO] NO ESTA ACTIVA LA CARPETA: {ruta_carpeta}. LINK: {link_market}.")    
+                    continue
+                
+                if debug:
+                        print(f"            - [INFO] Extrayendo elementos de {nombre_market}: {link_market}")
+
+
+                #PARAMETROS AUTOSAVE
+                CANTIDAD_PARA_GUARDAR = 120 #Cantidad de elementos que almacena antes de guardar
+                links_mercado = set() #Links para guardar
+                aux_guardar = False #Auxiliar que indica que hemos llegado al final y guarda
+                autosave_intentos = 50 #Limita el bucle para posibles fallos
+                xpath_link = "//et-instrument-trading-row//et-card-avatar//a" #XPath para obtener los links
+                contador_id = 1 #Sirve para que el debug sea mas visual
+                bool_links = True #Sirve para mostrar el mensaje EXTRAYENDO LINKS y que sea mas visual el debug
+                first_save = True #Sirve para hacer el primer guardado aunque no haya elementos nuevos (Esto es para cuando ha pasado el tiempo de actualziacion)
+               
+                #AUTOSAVE v3
+                while autosave_intentos > 0 or aux_guardar:
+                    #OBTENEMOS LOS ELEMENTOS QUE NOS DAN LINKS
+                    elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)     
+                    maximo_intentos = 20
+                    while maximo_intentos > 0:
+                        if not elementos_pagina:
+                            elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)       
+                            maximo_intentos -= 1 
+                        else:
+                            break
+                    if maximo_intentos == 0:
+                        autosave_intentos -= 1
+                        if autosave_intentos == 0:
+                            print(f"            - [ERROR] No se pudo obtener elementos_pagina")
+                        url_actual = self.browser.current_url()
+                        self.browser.close()
+                        self.browser = Browser()
+                        self.browser.url(url_actual)
+                        break    
+                    
+                    #CONTROLAMOS SI ES NECESARIO PULSAR EL BOTON SIGUIENTE (si existe)
+                    siguiente_pagina = True
+                    
+                    for elemento in elementos_pagina:
+                        try:
+                            link_elemento = elemento.get_attribute("href")
+                            #SI NO ESTA EN LINKS MERCADOS NI LINKS ANALIZADOS SE TRATA DE UN NUEVO ELEMENTOS
+                            if not any(link_elemento in "https://www.etoro.com/" + link_analizado for link_analizado in links_analizados) and not any(link_elemento in link_mercado for link_mercado in links_mercado):
+                                if bool_links and debug:
+                                    print("              -------------------- [INFO] EXTRAYENDO LINKS --------------------")
+                                    bool_links = False
+                                    
+                                #AÑADIMOS AL MERCADO SIEMPRE QUE NO SUPERE LA CANTIDAD A GUARDAD
+                                if CANTIDAD_PARA_GUARDAR > len(links_mercado):
+                                    links_mercado.add(link_elemento)
+                                    if debug:
+                                        print(f"            - ({contador_id}) - Link: {link_elemento}")  
+                                        contador_id += 1 
+                                #HEMOS LLEGADO AL LIMITE, NO DAMOS A LA SIGUIENTE PAGINA
                                 else:
-                                    break
-                            if maximo_intentos == 0:
-                                print(f"[ERROR] No se pudo obtener elementos")
+                                    siguiente_pagina = False
+                        except:
+                            contador_id = -1                            
+                            break
+                    
+                    #CONTROL DE ERRORES PARA BOTON SIGUIENTE
+                    if contador_id == -1:
+                        autosave_intentos -= 1
+                        continue
+                            
+
+                    #GUARDAMOS LA INFORMACION (limite alcanzado, o fin con aux_guardar)
+                    if CANTIDAD_PARA_GUARDAR <= len(links_mercado) or aux_guardar:
+                        if debug and len(links_mercado) > 0:
+                            print("              --------------------- [INFO] EXTRAYENDO API ---------------------")  
+                        bool_links = True #Sirve para volver luego a mostrar EXTRAYENDO LINKS en el debug
+                        
+                        #PARAMETROS DE LA API
+                        info_mercado_json = set()
+                        procesed_links = set()
+                        contador_info = 1                      
+                        
+                        #ANALIZAMOS CADA ELEMENTO DE LA API
+                        for link_mercado in links_mercado:
+                            #NOS DIRIGIMO A LA GRAFICA DEL MERCADO
+                            try:
+                                self.browser.url(link_mercado + "/chart")
+                            except:
+                                try:
+                                    self.browser.url(link_mercado)
+                                    elemento_grafica = self.browser.get_element(xpath="//a[contains(@automation-id,'et-tab-chart')]",maximo_intentos=10,debug=False)
+                                    if not elemento_grafica and not self.browser.click(element=elemento_grafica,debug=debug,name="elemento_grafica"):
+                                        autosave_intentos -= 1
+                                        if autosave_intentos == 0:
+                                            print(f"[ERROR] No se pudo extraer la grafica de {link_mercado}")
+                                            break
+                                    else:
+                                        self.browser.url(elemento_grafica.get_attribute("href"))
+                                except:
+                                    autosave_intentos -= 1
+                                    if autosave_intentos <= 0:
+                                        print(f"[ERROR] No se pudo extraer la grafica de {link_mercado}")
+                                        break                                
+                            
+                            #INFORMACION DE LA API
+                            try:
+                                elemento_nombre = self.browser.get_element(xpath="//h1[contains(@automation-id,'header-instrument-name')]",maximo_intentos=10,debug=False)
+                                elemento_full_nombre = self.browser.get_element(xpath="//h1[contains(@automation-id,'header-instrument-name')]//span",maximo_intentos=10,debug=False)
+                                enombre = elemento_nombre.text
+                                efullnombre = elemento_full_nombre.text
+                                enombre = enombre.replace(efullnombre,"").replace("\n","").strip()
+                                efullnombre = efullnombre.replace("Future","").replace("Before","").strip()
+                                    
+                                if efullnombre == "" and enombre == "":
+                                    efullnombre = '_'.join(random.choices(string.ascii_letters + string.digits, k=5))
+                                elif efullnombre == "":
+                                    efullnombre = enombre
+                                elif enombre == "":
+                                    enombre = efullnombre   
+                                    
+                                elemento = {
+                                    'carpeta':re.sub(r'[^a-zA-Z0-9]', '_', enombre),
+                                    'siglas':enombre,
+                                    'nombre':efullnombre,
+                                    'link':link_mercado,
+                                    'linkWS':"",
+                                    'estado':True,
+                                }    
+                                                             
+                                elemento['linkWS'] = self.get_url_for_data().replace("OneDay","OneMinute")                      
+                                if debug:   
+                                    print(f"            - ({contador_info}/{len(links_mercado)}) - {elemento['carpeta']}: {elemento['siglas']} ({elemento['nombre']}). Estado {elemento['estado']} LinkWS: {elemento['linkWS']}")
+                                    contador_info+=1
+                                            
+                                info_mercado_json.add(tuple(elemento.items()))    
+                                procesed_links.add(link_mercado)
+                                                                    
+                            except Exception as e:
                                 autosave_intentos -= 1
-                                url_actual = self.browser.current_url()
                                 self.browser.close()
                                 self.browser = Browser()
-                                self.browser.url(url_actual)
-                                break                                 
-                            
-                            
-                            #Controlamos si es necesario pulsar al boton siguiente (si existe)
-                            siguiente_pagina = True
-                            for elemento in elementos_pagina:
-                                try:
-                                    link_elemento = elemento.get_attribute("href")
-                                    if not any(link_elemento in "https://www.etoro.com/" + link_analizado for link_analizado in links_analizados) and not any(link_elemento in link_mercado for link_mercado in links_mercado):
-                                        if bool_links and debug:
-                                            print(" -------------------- [INFO] EXTRAYENDO LINKS --------------------")
-                                            bool_links = False
-                                        siguiente_pagina = False
-                                        if CANTIDAD_PARA_GUARDAR > len(links_mercado):
-                                            links_mercado.append(link_elemento)
-                                            if debug:
-                                                print(f" ({contador_id}) - Link: {link_elemento}")  
-                                        else: #No hemos sobrepasado el limite
-                                            siguiente_pagina = True
-                                        contador_id += 1    
-                                except:
-                                    contador_id = -1
-                                    break
+                                print(f"            - [WARNING] Error autosolucionable: {e}")
+                                                            
+                        #LIBERACION DE RECURSOS
+                        if num_guardados >= num_guardados_reset:
+                            self.browser.close()
+                            self.browser = Browser()
+                            num_guardados = 0
+                        else:
+                            num_guardados += 1
+                        
+                        for link in procesed_links:
+                            if link in links_mercado:
+                                links_mercado.remove(link)
                                 
-                            if contador_id == -1:
-                                autosave_intentos -= 1
-                                continue
-                            
-                            #Hemos llegado al limite del autosave
-                            if CANTIDAD_PARA_GUARDAR == len(links_mercado) or aux_guardar:
-                                bool_links = True
-                                #Guardamos la url porque vamos a analizar uno a uno
-                                url_actual = self.browser.current_url()
-                                contador_id = 1
-                                #ANALIZAMOS CADA LINK DEL MERCADO
-                                info_mercado_json = []
-                                contador_info = 1
-                                if debug:
-                                    print(" --------------------- [INFO] EXTRAYENDO API ---------------------")
+                        #Volvemos a la pagina antes de guardar
+                        self.browser.url(link_market)
                                 
-                                processed_links = []
-                                
-                                for link_mercado in links_mercado:                                
-                                    try:
-                                        #SI NO LO ES LA ACTUALIZAMOS
-                                        self.browser.url(link_mercado + "/chart")
-                                        
-                                        elemento_nombre = self.browser.get_element(xpath="//h1[contains(@automation-id,'header-instrument-name')]",maximo_intentos=10,debug=False)
-                                        elemento_full_nombre = self.browser.get_element(xpath="//h1[contains(@automation-id,'header-instrument-name')]//span",maximo_intentos=10,debug=False)
-                                        enombre = elemento_nombre.text
-                                        efullnombre = elemento_full_nombre.text
-                                        enombre = enombre.replace(efullnombre,"").replace("\n","").strip()
-                                        efullnombre = efullnombre.replace("Future","").replace("Before","").strip()
-                                        
-                                        if enombre == "":
-                                            enombre = efullnombre
-                                        
-                                        elemento = {
-                                            'carpeta':re.sub(r'[^a-zA-Z0-9]', '_', enombre),
-                                            'siglas':enombre,
-                                            'nombre':efullnombre,
-                                            'link':link_mercado,
-                                            'linkWS':"",
-                                            'estado':True,
-                                        }
-                                        #elemento_grafica = self.browser.get_element(xpath="//a[contains(@automation-id,'et-tab-chart')]",maximo_intentos=10,debug=False)
-                                        #if not elemento_grafica and not self.browser.click(element=elemento_grafica,debug=debug,name="elemento_grafica"):
-                                        #    elemento['estado'] = False
-                                        #else:
-                                        #    self.browser.url(elemento_grafica.get_attribute("href"))
-                                        elemento['linkWS'] = self.get_url_for_data().replace("OneDay","OneMinute")                      
-                                        if debug:   
-                                            print(f" ({contador_info}/{len(links_mercado)}) - {elemento['carpeta']}: {elemento['siglas']} ({elemento['nombre']}). Estado {elemento['estado']} LinkWS: {elemento['linkWS']}")
-                                            contador_info+=1
-                                            
-                                        info_mercado_json.append(elemento)    
-                                        processed_links.append(link_mercado)
-                                    
-                                    except Exception as e:
-                                        self.browser.close()
-                                        self.browser = Browser()
-                                        print(f"[WARNING] Error autosolucionable: {e}")
-                                
-                                #Lo hago para liberar memoria cada 10 guardados:
-                                if num_guardados >= num_guardados_reset:
-                                    self.browser.close()
-                                    self.browser = Browser()
-                                    num_guardados = 0
-                                else:
-                                    num_guardados += 1
-                                
-                                #Volvemos a la pagina antes de guardar
-                                self.browser.url(url=url_actual)
-                                
-                                # Eliminar los enlaces procesados de la lista principal
-                                for link in processed_links:
-                                    links_mercado.remove(link)
-                                
-                                if debug:
-                                    print(" -------------------- [INFO] GUARDANDO PROGRESO -------------------")
+                             
+                        #GUARDANDO PROGRESO   
+                        if debug and len(info_mercado_json) > 0:
+                            print("              -------------------- [INFO] GUARDANDO PROGRESO -------------------")
             
-                                #GUARDAMOS EL JSON 
-                                contador_json = 1
-                                for elemento_info in info_mercado_json:
-                                    ruta_info_json = os.path.join(ruta_carpeta,elemento_info['carpeta'])
-                                    os.makedirs(ruta_info_json,exist_ok=True)
-                                    ruta_info_json = os.path.join(ruta_info_json,"info_etoro.json")      
-                                    # Escribir el diccionario en el archivo JSON
-                                    try:
-                                        with open(ruta_info_json, 'w') as f:
-                                            json.dump(elemento_info, f, indent=4)
-                                        if debug:   
-                                            print(f" ({contador_json}/{len(info_mercado_json)}) - {elemento_info['carpeta']}/info_etoro.json")
-                                            contador_json += 1    
-                                        links_analizados.add(elemento_info['link'].replace("https://www.etoro.com/",""))
-                                    except Exception as e:
-                                        if debug:
-                                            print(f"[WARNING] Error autosolucionable {e}")
-                                        links_mercado.append(elemento_info['link'])                        
-                                
-                                # GUARDAMOS ACTUALIZACION
-                                try:
-                                    path_update = os.path.join(ruta_carpeta,"update_etoro.json")
-                                    tiempo_actual = datetime.now()
-                                    data = {
-                                        "ultima_actualizacion": tiempo_actual.strftime("%Y-%m-%d %H:%M:%S"),
-                                        "links_analizados": ["https://www.etoro.com/" + link for link in links_analizados]
-                                    }
-                                    with open(path_update, "w") as file:
-                                        json.dump(data, file)    
-                                except:
-                                    pass  
-                                
-                                #Limpiamos la lista mercado
-                                info_mercado_json.clear()
-                   
-                            #Pulsamos el boton siguiente
-                            if siguiente_pagina:
-                                maximo_intentos_next = 2
-                                xpath_next_button = "//*[contains(@class,'menu-button-hp discover-page')]//*[contains(@automation-id,'next-button')]"
-                                next_button = self.browser.get_element(xpath=xpath_next_button,maximo_intentos=3,debug=False)
-                                while maximo_intentos_next > 0:
-                                    if not next_button:
-                                        next_button = self.browser.get_element(xpath=xpath_next_button,maximo_intentos=3,debug=False)
-                                        if not next_button:
-                                            maximo_intentos_next -= 1
-                                    else:
-                                        break
-                                    
-                                #NO HAY NEXT BUTTON GUARDAMOS Y FINALIZAMOS
-                                if not next_button:
-                                    autosave_intentos = 0
-                                    if len(links_mercado) > 0:
-                                        aux_guardar = True
-                                    else:
-                                        aux_guardar = False
-                                    if debug:
-                                        if aux_guardar == False and debug:    
-                                            print(f"[INFO] Extraccion completada, no existe next_button")
-                                else:
-                                    if "disabled" in next_button.get_attribute("class"):
-                                        autosave_intentos = 0
-                                        if len(links_mercado) > 0:
-                                            aux_guardar = True
-                                        else:
-                                            aux_guardar = False
-                                        if debug:
-                                            print(f"[INFO] Extraccion completada, no hay mas elementos")
-                                    else:
-                                        aux_guardar = False
-                                        try:
-                                            link_anterior = elementos_pagina[0].get_attribute("href")
-                                            if self.browser.click(next_button,debug=False,name="next_button"):
-                                                #Obtenemos los elementos de la pagina
-                                                elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)     
-                                                maximo_intentos = 20
-                                                while maximo_intentos > 0:
-                                                    if not elementos_pagina:
-                                                        elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)    
-                                                        maximo_intentos -= 1    
-                                                    else:
-                                                        if elementos_pagina[0].get_attribute("href") != link_anterior:
-                                                            break
-                                        except:
-                                            autosave_intentos -= 1
-                                            if autosave_intentos == 0:
-                                                links_analizados.add("ERROR")  
-                                                print(f"[ERROR] Next button obtuvo un error fatal")             
-                      
-                        # GUARDAMOS ACTUALIZACION
+                        #PARAMETROS
+                        contador_json = 1
+                        
+                        #FUNCION DE GUARDADO INFO_ETORO.JSON
+                        for info_mercado in info_mercado_json:
+                            elemento_info = dict(info_mercado)
+                            #Ruta del info_etoro.json del elemento
+                            ruta_info_json = os.path.join(ruta_carpeta,elemento_info['carpeta'])
+                            os.makedirs(ruta_info_json,exist_ok=True) #Creamos directorio si no existe
+                            ruta_info_json = os.path.join(ruta_info_json,"info_etoro.json")  
+                            #GUARDAMOS INFO_ETORO.JSON
+                            try:
+                                with open(ruta_info_json, 'w') as f:
+                                    json.dump(elemento_info, f, indent=4)
+                                if debug:   
+                                    print(f"            - ({contador_json}/{len(info_mercado_json)}) - {elemento_info['carpeta']}/info_etoro.json")
+                                contador_json += 1    
+                                links_analizados.add(elemento_info['link'].replace("https://www.etoro.com/",""))
+
+                            except Exception as e:
+                                autosave_intentos -= 1
+                                if debug:
+                                    print(f"            - [WARNING] Error autosolucionable info_etoro.json: {e}")
+                                if autosave_intentos <= 0:
+                                    print(f"            - [ERROR] FIN")
+                                    break
+                                links_mercado.add(elemento_info['link'])    #Se vuelve a añadir para volver a estudiarlo                     
+                        info_mercado_json.clear()
+                        #FUNCION DE GUARDADO UPDATE_ETORO.JSON
                         try:
-                            elemento_number = self.browser.get_element(xpath="//span[contains(@automation-id,'discover-market-results-num')]",maximo_intentos=10,debug=False)
-                            if str(len(links_analizados)) == elemento_number.text.replace(" ","") and not any("ERROR" == link_analizado for link_analizado in links_analizados):
-                                if debug:
-                                    print(f"[FIN] {len(links_analizados)} elementos en la carpeta")
-                                links_analizados.add("FIN")
-                                
-                            else:
-                                if debug:
-                                    print("[WARNING] No se extrajeron todos los elementos correctamente")
-                                links_analizados.add("ERROR")
+                            path_update = os.path.join(ruta_carpeta,"update_etoro.json")
+                            tiempo_actual = datetime.now()
+                            data = {
+                                "ultima_actualizacion": tiempo_actual.strftime("%Y-%m-%d %H:%M:%S"),
+                                "estado": True,
+                                "links_analizados": ["https://www.etoro.com/" + link for link in links_analizados]
+                            }
+                            with open(path_update, "w") as file:
+                                json.dump(data, file)    
                         except Exception as e:
+                            autosave_intentos -= 1
                             if debug:
-                                print(f"[WARNING] Error obteniendo cantidad elmentos: {e}")
-                            links_analizados.add("FIN")
-                            
-                        path_update = os.path.join(ruta_carpeta,"update_etoro.json")
-                        tiempo_actual = datetime.now()
-                        data = {
-                            "ultima_actualizacion": tiempo_actual.strftime("%Y-%m-%d %H:%M:%S"),
-                            "links_analizados":  ["https://www.etoro.com/" + link if link not in {"ERROR", "FIN"} else link for link in links_analizados]
-                        }
-                        with open(path_update, "w") as file:
-                            json.dump(data, file)                             
-                    #LA CARPETA SE ENCUENTRA CON EL ESTADO EN FALSE
-                    else:
-                        if debug:
-                            print(f"[INFO] Carpeta: {ruta_carpeta}. Estado: {estado}")
-                #NO HAY ARCHIVO JSON DENTRO DE LA CARPETA
+                                print(f"            - [WARNING] Error autosolucionable update_etoro.json: {e}")
+                            if autosave_intentos <= 0:
+                                print(f"            - [ERROR] FIN")
+                                break 
+                                            
+                    #PULSAMOS BOTON SIGUIENTE
+                    if siguiente_pagina:
+                        #ENCONTRAMOS EL BUTTON
+                        maximo_intentos_next = 2
+                        xpath_next_button = "//*[contains(@class,'menu-button-hp discover-page')]//*[contains(@automation-id,'next-button')]"
+                        next_button = self.browser.get_element(xpath=xpath_next_button,maximo_intentos=3,debug=False)
+                        while maximo_intentos_next > 0:
+                            if not next_button:
+                                next_button = self.browser.get_element(xpath=xpath_next_button,maximo_intentos=3,debug=False)
+                                if not next_button:
+                                    maximo_intentos_next -= 1
+                                else:
+                                    break
+                            else:
+                                break
+                        #NO HAY NEXT BUTTON GUARDAMOS Y FINALIZAMOS
+                        if not next_button:
+                            autosave_intentos = 0
+                            if first_save:
+                                aux_guardar = True
+                                first_save = False
+                            else:
+                                aux_guardar = False
+                                first_save = True #Reseteamos el primer guardado
+                                if debug:
+                                    if aux_guardar == False and debug:    
+                                        print(f"            - [INFO] Extraccion completada, no existe next_button")
+                        else:
+                            if "disabled" in next_button.get_attribute("class"):
+                                autosave_intentos = 0
+                                if first_save:
+                                    aux_guardar = True
+                                    first_save = False
+                                else:
+                                    aux_guardar = False
+                                    first_save = True
+                                    if debug:
+                                        print(f"            - [INFO] Extraccion completada, no hay mas elementos")
+                            else:
+                                aux_guardar = False
+                                try:
+                                    #Obtenemos el link anterior para ver que al dar siguiente obtenemos otro link
+                                    link_anterior = elementos_pagina[0].get_attribute("href")
+                                    if self.browser.click(next_button,debug=False,name="next_button"):
+                                        #Obtenemos los elementos de la pagina
+                                        elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)     
+                                        maximo_intentos = 5
+                                        while maximo_intentos > 0:
+                                            if not elementos_pagina:
+                                                elementos_pagina = self.browser.get_elements(xpath=xpath_link,maximo_intentos=10,debug=False)    
+                                                maximo_intentos -= 1   
+                                            else:
+                                                if elementos_pagina[0].get_attribute("href") != link_anterior:
+                                                    break
+                                except:
+                                    autosave_intentos -= 1
+                                    if autosave_intentos == 0:
+                                        links_analizados.add("ERROR")  
+                                        print(f"            - [ERROR] Next button obtuvo un error fatal")             
+                      
+                # GUARDAMOS ACTUALIZACION
+                if str(len(links_analizados)) == cantidad_elementos and not any("ERROR" == link_analizado for link_analizado in links_analizados):
+                    if debug:
+                        print(f"            - [FIN] {len(links_analizados)} elementos en la carpeta")
+                    links_analizados.add("FIN")                
                 else:
                     if debug:
-                        print(f"[INFO] Carpeta: {ruta_carpeta}. No contiene el archivo info_etoro.json")
+                        print(f"            - [WARNING] No se encontraron todos los elementos ({len(links_analizados)}/{cantidad_elementos}).")
+                    links_analizados.add("ERROR")
+    
+                path_update = os.path.join(ruta_carpeta,"update_etoro.json")
+                tiempo_actual = datetime.now()
+                data = {
+                    "ultima_actualizacion": tiempo_actual.strftime("%Y-%m-%d %H:%M:%S"),
+                    "estado": True,
+                    "links_analizados":  ["https://www.etoro.com/" + link if link not in {"ERROR", "FIN"} else link for link in links_analizados],
+                }
+                with open(path_update, "w") as file:
+                    json.dump(data, file)                             
+    
             
     #GET MARKETS
     def get_url_for_data(self):

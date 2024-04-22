@@ -1,0 +1,8 @@
+{
+    "carpeta": "HTLF",
+    "siglas": "HTLF",
+    "nombre": "Heartland Financial USA Inc",
+    "link": "https://www.etoro.com/markets/htlf",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/7881",
+    "estado": true
+}

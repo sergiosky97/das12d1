@@ -1,0 +1,8 @@
+{
+    "carpeta": "PLUS",
+    "siglas": "PLUS",
+    "nombre": "ePlus Inc",
+    "link": "https://www.etoro.com/markets/plus",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/9924",
+    "estado": true
+}

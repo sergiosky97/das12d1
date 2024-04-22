@@ -1,0 +1,8 @@
+{
+    "carpeta": "LMNR_US",
+    "siglas": "LMNR.US",
+    "nombre": "Limoneira Company",
+    "link": "https://www.etoro.com/markets/lmnr.us",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/10274",
+    "estado": true
+}

@@ -1,0 +1,8 @@
+{
+    "carpeta": "NGMS",
+    "siglas": "NGMS",
+    "nombre": "NeoGames SA",
+    "link": "https://www.etoro.com/markets/ngms",
+    "linkWS": "https://candle.etoro.com/candles/asc.json/OneMinute/1000/7984",
+    "estado": true
+}
