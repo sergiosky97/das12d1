@@ -779,8 +779,7 @@ class etoro_ws:
                         return parts[0]
                 
                 if maximo_intentos == 5:
-                    url_aux = self.browser.current_url()
-                    self.browser.url(url_aux)
+                    self.browser.url(self.browser.current_url())
                     
             maximo_intentos -= 1
             self.browser.esperar(1)    
